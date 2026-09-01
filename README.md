@@ -63,6 +63,8 @@ For `MrPrepper-Mods`:
 
 The renderer uses a compact shadcn-style visual design adapted from ShieldCN's MIT-licensed design tokens. The generated SVGs support light and dark system color schemes through CSS media queries.
 
+See [`PREVIEW.md`](PREVIEW.md) for the visual playground and [`docs/BADGES.md`](docs/BADGES.md) for the supported styling options, upstream ShieldCN reference features, and stable embed examples.
+
 ## Traffic charts
 
 A traffic chart is generated from `chart-data.json` for every tracked repository:
