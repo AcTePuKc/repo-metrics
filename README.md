@@ -1,6 +1,6 @@
 # repo-metrics
 
-![CI](https://shieldcn.dev/github/ci/AcTePuKc/repo-metrics.svg?workflow=collect.yml) <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2Frepo-metrics%2Fsummary.json&query=%24.clones&label=clones&variant=secondary&mode=dark"><img alt="clones" src="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2Frepo-metrics%2Fsummary.json&query=%24.clones&label=clones&variant=secondary&mode=light"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2Frepo-metrics%2Fsummary.json&query=%24.views&label=views&variant=secondary&mode=dark"><img alt="views" src="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2Frepo-metrics%2Fsummary.json&query=%24.views&label=views&variant=secondary&mode=light"></picture>
+![Collect repository traffic](https://github.com/AcTePuKc/repo-metrics/actions/workflows/collect.yml/badge.svg) ![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/repo-metrics/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/repo-metrics/views.svg)
 
 Persistent GitHub repository traffic history for my public repositories.
 
@@ -30,7 +30,7 @@ Release download counts are intentionally not stored here because GitHub already
 
 ## How it works
 
-A scheduled GitHub Actions workflow runs once per day, discovers the public repositories owned by `AcTePuKc`, queries the GitHub API, and stores the current data under `data/<repo>/`.
+A scheduled GitHub Actions workflow runs once per day, discovers the public repositories owned by `AcTePuKc`, queries the GitHub API, stores the data under `data/<repo>/`, and locally renders the SVG presentation assets.
 
 Each repository can contain:
 
@@ -41,27 +41,37 @@ Each repository can contain:
 - `referrers-history.json` - daily snapshots of GitHub's popular referrers response
 - `popular-paths-history.json` - daily snapshots of GitHub's popular paths response
 
+Generated SVG assets:
+
+- `badges/<repo>/clones.svg`
+- `badges/<repo>/views.svg`
+- `charts/<repo>/traffic.svg`
+
 `data/all-repositories.json` contains aggregate totals and per-repository summaries.
 
 Private repositories are not discovered or published. If a previously tracked public repository stops being public, its generated public metric files are removed on the next successful collection.
 
-## ShieldCN badges
+## Local badges
 
-`summary.json` is public, so ShieldCN Dynamic JSON badges can render persistent clones and views without this repository needing to maintain a presentation layer.
+The badges are generated locally by the GitHub Actions workflow and served directly from this repository. There is no runtime dependency on ShieldCN, Shields.io, Vercel, a database, or another badge service.
 
 For `MrPrepper-Mods`:
 
-```html
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2FMrPrepper-Mods%2Fsummary.json&query=%24.clones&label=clones&variant=secondary&mode=dark"><img alt="clones" src="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2FMrPrepper-Mods%2Fsummary.json&query=%24.clones&label=clones&variant=secondary&mode=light"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2FMrPrepper-Mods%2Fsummary.json&query=%24.views&label=views&variant=secondary&mode=dark"><img alt="views" src="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FAcTePuKc%2Frepo-metrics%2Fmain%2Fdata%2FMrPrepper-Mods%2Fsummary.json&query=%24.views&label=views&variant=secondary&mode=light"></picture> ![downloads](https://shieldcn.dev/github/downloads/AcTePuKc/MrPrepper-Mods.svg)
+```md
+![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/views.svg)
 ```
 
-ShieldCN can also read nested values. For example, a 7-day clone badge can query:
+The renderer uses a compact shadcn-style visual design adapted from ShieldCN's MIT-licensed design tokens. The generated SVGs support light and dark system color schemes through CSS media queries.
 
-```text
-$.last_7_days.clones
+## Traffic charts
+
+A traffic chart is generated from `chart-data.json` for every tracked repository:
+
+```md
+![Repository Traffic](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/charts/MrPrepper-Mods/traffic.svg)
 ```
 
-The generated JSON remains provider-independent, so other badge or chart renderers can be used later without changing the collector.
+The chart currently plots daily clones and views. The underlying `chart-data.json` remains generic, so other renderers can consume it later without changing the collector.
 
 ## Chart data
 
@@ -78,12 +88,6 @@ The generated JSON remains provider-independent, so other badge or chart rendere
   "unique_visitors": [2, 1]
 }
 ```
-
-This can be consumed directly by Chart.js, QuickChart, a GitHub Pages dashboard, or another JSON-to-chart renderer without transforming the historical data first.
-
-## Legacy badges
-
-The repository still generates `badges/<repo>/clones.svg` and `views.svg` for backward compatibility with existing README links. New integrations should prefer the ShieldCN Dynamic JSON badges above.
 
 ## Configuration
 
@@ -109,6 +113,10 @@ The collector runs every day at `04:23 UTC` and can also be started manually wit
 - Unique cloners and unique visitors are summed across days. They are daily-unique totals, not guaranteed lifetime-unique people across the entire tracking period.
 - Referrers and popular paths are saved as dated snapshots. GitHub does not attach individual dates to the entries in those responses, so snapshots should not be added together as lifetime totals.
 - Repository stars, forks, watchers and open issues are point-in-time daily snapshots, not cumulative event logs.
+
+## Third-party attribution
+
+See `THIRD_PARTY_NOTICES.md` for the ShieldCN MIT attribution covering the adapted visual design tokens.
 
 ## License
 
