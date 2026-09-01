@@ -4,7 +4,7 @@
   <style>
     .bg { fill: #27272a; stroke: #3f3f46; }
     .border { stroke: #3f3f46; }
-    .label { fill: #a1a1aa; }
+    .label { fill: #a1a1aa; fill-opacity: 0.7; }
     .value { fill: #fafafa; }
     .icon { color: #fafafa; }
     @media (prefers-color-scheme: light) {
@@ -16,6 +16,7 @@
     }
   </style>
   <rect class="bg" x="0.5" y="0.5" width="68" height="23" rx="6" stroke-width="1"/>
+  
   
   
   

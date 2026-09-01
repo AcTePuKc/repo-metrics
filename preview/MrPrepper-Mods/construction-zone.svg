@@ -4,7 +4,7 @@
   <style>
     .bg { fill: url(#badge-gradient); stroke: #3f3f46; }
     .border { stroke: #3f3f46; }
-    .label { fill: #18181b; }
+    .label { fill: #18181b; fill-opacity: 0.7; }
     .value { fill: #fafafa; }
     .icon { color: #18181b; }
     @media (prefers-color-scheme: light) {
@@ -18,7 +18,8 @@
   <rect class="bg" x="0.5" y="0.5" width="155" height="23" rx="6" stroke-width="1"/>
   
   
-  <g class="icon" transform="translate(8 6) scale(0.5)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V8M20 20V8M2 20h20M3 8h18"/><path d="m5 8 4 4 4-4 4 4 4-4"/></g>
+  <svg class="icon" x="8" y="6" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14v7"/><path d="M7 14v7"/><path d="M17 3v3"/><path d="M7 3v3"/><path d="M10 14 2.3 6.3"/><path d="m14 6 7.7 7.7"/><path d="m8 6 8 8"/></svg>
+  
   <text class="label" x="30" y="16" font-family="Geist,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="500">Construction Zone</text>
   
 </svg>
