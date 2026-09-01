@@ -11,6 +11,7 @@ on:
       - ".github/workflows/collect.yml"
       - "src/**"
       - "repositories.json"
+      - "preview_badges.json"
 
 permissions:
   contents: write
