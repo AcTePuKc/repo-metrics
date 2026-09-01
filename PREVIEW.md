@@ -24,6 +24,14 @@ For the full supported/upstream feature matrix and stable embed syntax, see [`do
 
 The destructive version is intentionally excessive. It is here to test the design system, not because repository views are an emergency.
 
+## Split badge experiments
+
+These demonstrate the two-part layout: the left side is the label and the right side is the value/message.
+
+![AI assisted split badge](preview/MrPrepper-Mods/ai-assisted-split.svg) ![Built with AI assistance split badge](preview/MrPrepper-Mods/built-with-ai-split.svg)
+
+The first is close to the ShieldCN builder example using a warm `#ffee8c` value section and pink `#ec4899` robot icon. The second deliberately uses different text and colors to make the label/value split obvious.
+
 ## Traffic chart
 
 ### Full
@@ -38,6 +46,7 @@ The destructive version is intentionally excessive. It is here to test the desig
 
 - The clone icon is a generic branching/clone symbol drawn locally in the renderer.
 - The views icon is a generic eye symbol drawn locally in the renderer.
+- The robot previews are static experiments for the planned split/icon-color feature.
 - No external icon, badge, chart, CDN or rendering service is required at display time.
-- Preview assets are generated from the same tracked JSON as the production assets.
+- Preview assets are generated from the same tracked JSON as the production assets unless explicitly described as static design experiments.
 - Once a style is chosen, it can replace the production badge renderer without changing existing README URLs.
