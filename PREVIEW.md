@@ -6,19 +6,19 @@ The examples use `MrPrepper-Mods` because it has enough traffic data to make the
 
 ## Current production badges
 
-![Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/clones.svg) ![Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/views.svg)
+![Clones](badges/MrPrepper-Mods/clones.svg) ![Views](badges/MrPrepper-Mods/views.svg)
 
 ## Icon badges - secondary
 
-![Clones icon secondary](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/clones-icon-secondary.svg) ![Views icon secondary](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/views-icon-secondary.svg)
+![Clones icon secondary](preview/MrPrepper-Mods/clones-icon-secondary.svg) ![Views icon secondary](preview/MrPrepper-Mods/views-icon-secondary.svg)
 
 ## Icon badges - outline
 
-![Clones icon outline](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/clones-icon-outline.svg) ![Views icon outline](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/views-icon-outline.svg)
+![Clones icon outline](preview/MrPrepper-Mods/clones-icon-outline.svg) ![Views icon outline](preview/MrPrepper-Mods/views-icon-outline.svg)
 
 ## Larger / louder variants
 
-![Clones default](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/clones-icon-default.svg) ![Views destructive](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/views-icon-destructive.svg)
+![Clones default](preview/MrPrepper-Mods/clones-icon-default.svg) ![Views destructive](preview/MrPrepper-Mods/views-icon-destructive.svg)
 
 The destructive version is intentionally excessive. It is here to test the design system, not because repository views are an emergency.
 
@@ -26,11 +26,11 @@ The destructive version is intentionally excessive. It is here to test the desig
 
 ### Full
 
-![Traffic chart](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/charts/MrPrepper-Mods/traffic.svg)
+![Traffic chart](charts/MrPrepper-Mods/traffic.svg)
 
 ### Compact
 
-![Compact traffic chart](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/preview/MrPrepper-Mods/traffic-compact.svg)
+![Compact traffic chart](preview/MrPrepper-Mods/traffic-compact.svg)
 
 ## Notes
 
