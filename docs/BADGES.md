@@ -8,14 +8,16 @@ The visual system is inspired by ShieldCN's MIT-licensed shadcn/ui badge rendere
 
 - [`PREVIEW.md`](../PREVIEW.md) - visual playground with generated examples.
 - [`preview_badges.json`](../preview_badges.json) - human-readable experimental badge recipes.
-- `src/render_assets.py` - local SVG renderer and `BadgeConfig` implementation.
+- `src/badge_renderer.py` - generic `BadgeConfig` + SVG renderer.
+- `src/resolve_icons.mjs` - build-time Simple Icons / React Icons / Lucide resolver.
+- `src/render_assets.py` - metrics/chart orchestration.
 - `badges/<repo>/` - production badge output.
 - `charts/<repo>/` - production chart output.
 - `preview/<repo>/` - experimental output used only by the preview page.
 
 ## How local badge recipes work
 
-The local renderer now has a generic `BadgeConfig` layer. Preview recipes can be written as JSON instead of adding one-off SVG code.
+The local renderer has a generic `BadgeConfig` layer. Preview recipes are written as JSON instead of adding one-off SVG code.
 
 Example:
 
@@ -26,7 +28,7 @@ Example:
   "value": "",
   "size": "xs",
   "font": "geist",
-  "icon": "construction",
+  "icon": "lu:Construction",
   "icon_color": "18181b",
   "gradient": ["FFEA61", "FFD400", "FFDD3C", "FFEA61"],
   "gap": 10,
@@ -34,9 +36,38 @@ Example:
 }
 ```
 
-The workflow runs `src/render_assets.py`, which loads `preview_badges.json`, converts each object to `BadgeConfig`, renders SVG, and writes it under `preview/MrPrepper-Mods/`.
+The workflow first runs `src/resolve_icons.mjs`, which resolves only the external icons requested by the recipes and writes a temporary `.cache/icon-cache.json`. Python then loads the cache, converts each recipe to `BadgeConfig`, renders the SVG, and writes it under `preview/MrPrepper-Mods/`.
 
 This is intentionally a build-time recipe system, not an HTTP badge service. There is no `/badge/...` endpoint and no runtime server.
+
+## Icon resolution
+
+We do **not** maintain a giant brand table manually.
+
+Supported identifiers:
+
+```text
+claude              Simple Icons slug/title lookup
+anthropic           Simple Icons slug/title lookup
+react               Simple Icons slug/title lookup
+lu:Construction     Lucide shorthand via react-icons/lu
+lu:Check             Lucide shorthand via react-icons/lu
+ri:FaRobot           React Icons component name
+ri:MdHome            React Icons component name
+```
+
+The `ri:` resolver determines the React Icons pack from the component prefix, matching ShieldCN's approach. For example `FaRobot` loads the Font Awesome pack and `MdHome` loads the Material pack. `lu:` automatically normalizes a Lucide name to its `Lu...` component.
+
+Small repo-specific aliases such as `clone` and `eye` remain built into the Python renderer because they are trivial and do not require a package lookup.
+
+External packages are build-time only:
+
+- `simple-icons`
+- `react-icons`
+- `react`
+- `react-dom`
+
+The resulting SVG contains the resolved paths inline, so README display has no dependency on npm, a CDN or another badge service.
 
 ## Production assets
 
@@ -57,15 +88,24 @@ The public URLs remain stable even if the visual style changes later.
 | Light/dark mode | Automatic through SVG `prefers-color-scheme` | Supported |
 | Badge variants | `default`, `secondary`, `outline`, `ghost`, `destructive`, `branded` | Supported |
 | Size | `xs`, `sm`, `default`, `lg` | Supported |
-| Font family hint | `inter`, `geist`, `geist-mono`, `jetbrains-mono` with system fallbacks | Supported |
-| Local SVG icons | clone, eye, pulse, robot, construction | Supported |
-| Icon color | Per recipe | Supported |
+| Font family hint | Inter, Geist, Geist Mono, JetBrains Mono, Fira Code, Roboto, Space Grotesk | Supported with system fallbacks |
+| Simple Icons | Slug/title lookup at build time | Supported |
+| React Icons | `ri:ComponentName` | Supported |
+| Lucide shorthand | `lu:Name` | Supported |
+| Local SVG aliases | clone, eye, pulse, robot, construction | Supported |
+| Icon color | Per recipe or library brand default | Supported |
 | Main/background color | Per recipe | Supported |
 | Label/value colors | Per recipe | Supported |
 | Gradient | One or more horizontal color stops | Supported |
 | Split layout | Independent left/right segment colors | Supported |
-| Gap | Per recipe, clamped to a safe range | Supported |
+| Gap / label gap | Per recipe, clamped to safe ranges | Supported |
 | Radius | Per recipe | Supported |
+| Custom height | `height` | Supported |
+| Custom font size | `font_size` or ShieldCN-style `fontSize` | Supported |
+| Custom padding | `pad_x` or `padX` | Supported |
+| Custom icon size | `icon_size` or `iconSize` | Supported |
+| Label opacity | `label_opacity` or `labelOpacity` | Supported |
+| Status dot | `status_dot` or `statusDot` | Supported |
 | Compact numbers | `1.2k`, `3.4M`, etc. | Supported for metric badges |
 | Traffic chart | Clones + views line chart | Supported |
 | Compact traffic chart | Smaller preview version | Supported |
@@ -73,26 +113,7 @@ The public URLs remain stable even if the visual style changes later.
 
 ### Font note
 
-The local renderer does not currently embed font files. A recipe such as `font: "geist"` writes a Geist-first CSS font stack into the SVG and falls back to Inter/system fonts when Geist is not available on the viewer's machine. This keeps the renderer dependency-free.
-
-## ShieldCN upstream design options
-
-ShieldCN still exposes a larger design surface. These are useful as a reference for features we may choose to copy into the local renderer; listing a feature here does **not** imply exact pixel-for-pixel compatibility.
-
-| Area | ShieldCN options | Local status |
-| --- | --- | --- |
-| Variant | `default`, `secondary`, `outline`, `ghost`, `destructive`, `branded` | Supported |
-| Size | `xs`, `sm`, `default`, `lg` | Supported |
-| Mode | `dark`, `light` | Automatic rather than URL-selectable |
-| Font | Inter, Geist, Geist Mono, JetBrains Mono, Fira Code, Roboto, Space Grotesk | Partial |
-| Colors | Main, label, value, label text, opacity overrides | Mostly supported |
-| Gradient | Custom gradient backgrounds | Supported |
-| Logo/icon | Simple Icons, React Icons, custom SVG, icon color | Small local registry only |
-| Layout | Custom label, split, status dot | Split supported; status dot not generic yet |
-| Dimensions | Height, font size, radius, padding, icon size, gaps | Presets + gap/radius currently exposed |
-| Animation | Pulse, glow, shimmer | Not implemented |
-| PNG output | Raster output | Not implemented; SVG only |
-| Static arbitrary badge | User-defined label/value/color | Supported through build-time JSON recipes |
+The local renderer does not embed font files. A recipe such as `font: "geist"` writes a Geist-first CSS font stack into the SVG and falls back to Inter/system fonts when Geist is not available on the viewer's machine.
 
 ## Translating a ShieldCN builder recipe
 
@@ -102,35 +123,29 @@ A ShieldCN-style URL such as:
 /badge/Construction%20Zone-abcde3.svg?size=xs&font=geist&logo=lu%3AConstruction&gradient=FFEA61%2CFFD400%2CFFDD3C%2CFFEA61&gap=10
 ```
 
-maps conceptually to our local recipe as:
+maps conceptually to:
 
 ```text
 Construction%20Zone        -> label: "Construction Zone"
 size=xs                    -> size: "xs"
 font=geist                 -> font: "geist"
-logo=lu:Construction       -> icon: "construction"
+logo=lu:Construction       -> icon: "lu:Construction"
 gradient=A,B,C,D           -> gradient: [A, B, C, D]
 gap=10                     -> gap: 10
 ```
 
-Icon names are not downloaded from React Icons or Lucide at build time. We add only the local SVG symbols we actually need to the icon registry.
+The icon identifier can now remain essentially unchanged instead of being translated into a hand-written local alias.
 
-## AI-assisted split recipe
+## AI-assisted / brand recipes
 
-The ShieldCN-style idea:
-
-```text
-/badge/assisted-ffee8c.svg?size=xs&split=true&logo=ri%3AFaRobot&logoColor=ec4899
-```
-
-can be represented locally with:
+React Icons example:
 
 ```json
 {
   "label": "AI",
   "value": "assisted",
   "size": "xs",
-  "icon": "robot",
+  "icon": "ri:FaRobot",
   "icon_color": "ec4899",
   "split": true,
   "left_color": "27272a",
@@ -138,20 +153,52 @@ can be represented locally with:
 }
 ```
 
-See `PREVIEW.md` for rendered examples.
+Simple Icons brand example:
 
-## Recommended scope
+```json
+{
+  "label": "Built with",
+  "value": "Claude",
+  "brand": "claude",
+  "variant": "secondary"
+}
+```
 
-The goal is not to re-create the complete ShieldCN service. `repo-metrics` only needs a small presentation layer for repository traffic data and a convenient local playground for reusable badge styles.
+No `claude -> SVG path` mapping is stored in this repository. The build resolver finds the brand in Simple Icons.
 
-Good candidates for future additions are:
+## Builder compatibility test
 
-1. More useful local icons such as download, star, GitHub and release.
-2. Optional embedded/open font assets only if font consistency becomes important.
-3. Generic status-dot support.
-4. A tiny CLI that converts a ShieldCN-like recipe string to our JSON format.
+`preview_badges.json` also contains an intentionally excessive `builder-kitchen-sink.svg` recipe. It exercises the same concepts as a builder URL containing:
 
-Features such as remote providers, databases, counters, HTTP endpoints, PNG rendering and provider auto-detection remain outside the scope of this repository.
+```text
+variant=destructive
+size=xs
+split=true
+labelOpacity=1
+gradient=3b82f6,3b82f6
+brand=claude
+height=33
+fontSize=13
+padX=7
+iconSize=17
+gap=5
+labelGap=4
+statusDot=true
+```
+
+This gives us one place to catch regressions as the local renderer grows.
+
+## Scope
+
+The goal is still not to re-create the complete ShieldCN hosted service. `repo-metrics` needs a reusable local presentation layer, not providers, databases or an HTTP server.
+
+Potential future additions:
+
+1. A tiny CLI that converts a ShieldCN-like recipe URL directly to our JSON format.
+2. Optional embedded/open fonts if pixel-consistent typography becomes important.
+3. Animation only if a real README use case appears.
+
+Remote providers, databases, counters, HTTP endpoints and provider auto-detection remain outside the scope of this repository.
 
 ## README usage
 
