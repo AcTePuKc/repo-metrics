@@ -41,7 +41,7 @@ jobs:
       - name: Commit updated metrics
         shell: bash
         run: |
-          if git diff --quiet -- data badges; then
+          if [ -z "$(git status --porcelain -- data badges)" ]; then
             echo "No metric changes to commit."
             exit 0
           fi
