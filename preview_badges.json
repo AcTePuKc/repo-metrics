@@ -1,0 +1,49 @@
+[
+  {
+    "filename": "construction-zone.svg",
+    "label": "Construction Zone",
+    "value": "",
+    "size": "xs",
+    "font": "geist",
+    "icon": "construction",
+    "icon_color": "18181b",
+    "gradient": [
+      "FFEA61",
+      "FFD400",
+      "FFDD3C",
+      "FFEA61"
+    ],
+    "gap": 10,
+    "label_color": "18181b"
+  },
+  {
+    "filename": "ai-assisted-split.svg",
+    "label": "AI",
+    "value": "assisted",
+    "size": "xs",
+    "font": "inter",
+    "icon": "robot",
+    "icon_color": "ec4899",
+    "split": true,
+    "left_color": "27272a",
+    "right_color": "ffee8c",
+    "label_color": "fafafa",
+    "value_color": "18181b",
+    "gap": 5
+  },
+  {
+    "filename": "built-with-ai-split.svg",
+    "label": "Built with",
+    "value": "AI assistance",
+    "size": "xs",
+    "font": "inter",
+    "icon": "robot",
+    "icon_color": "60a5fa",
+    "split": true,
+    "left_color": "18181b",
+    "right_color": "dbeafe",
+    "label_color": "fafafa",
+    "value_color": "18181b",
+    "gap": 5
+  }
+]
