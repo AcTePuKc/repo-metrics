@@ -57,17 +57,41 @@ ShieldCN exposes a much larger design surface. These are useful as a reference f
 | PNG output | Raster output | Not implemented; SVG only |
 | Static arbitrary badge | User-defined label/value/color | Not exposed as a general generator |
 
+## Candidate badge recipes
+
+These are concrete ShieldCN-style recipes worth reproducing locally if they prove useful. They are references, not currently supported URL parameters in `repo-metrics`.
+
+### AI-assisted
+
+Upstream-style reference:
+
+```text
+/badge/assisted-ffee8c.svg?size=xs&split=true&logo=ri%3AFaRobot&logoColor=ec4899
+```
+
+Desired local equivalent:
+
+- label/value: `assisted`
+- compact `xs` sizing
+- split layout
+- robot icon inspired by React Icons `FaRobot`
+- independently configurable icon color
+- example accent colors: `#ffee8c` for the badge and `#ec4899` for the icon
+
+The colors are intentionally configurable; this recipe is mainly useful as an `AI-assisted` disclosure badge for projects that want one.
+
 ## Recommended scope
 
-The goal is not to re-create the complete ShieldCN service. `repo-metrics` only needs a small presentation layer for repository traffic data.
+The goal is not to re-create the complete ShieldCN service. `repo-metrics` only needs a small presentation layer for repository traffic data and a few reusable project badges.
 
 Good candidates to add locally if they prove useful in the preview:
 
 1. `ghost` and `branded` variants.
 2. A real `size` setting shared by production and preview badges.
 3. Optional `split` layout.
-4. A small local icon registry for GitHub/clone/view/download/star-style symbols.
-5. Optional chart dimensions and compact/full presets.
+4. A small local icon registry for GitHub/clone/view/download/star/robot-style symbols.
+5. Independent icon color support.
+6. Optional chart dimensions and compact/full presets.
 
 Features such as remote providers, databases, counters, HTTP endpoints, PNG rendering and provider auto-detection are intentionally outside the scope of this repository.
 
