@@ -47,7 +47,7 @@ jobs:
       - name: Commit updated metrics
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- data badges charts)" ]; then
+          if [ -z "$(git status --porcelain -- data badges charts preview)" ]; then
             echo "No metric changes to commit."
             exit 0
           fi
@@ -56,22 +56,24 @@ jobs:
           cp -a data "$snapshot_dir/data"
           cp -a badges "$snapshot_dir/badges"
           cp -a charts "$snapshot_dir/charts"
+          cp -a preview "$snapshot_dir/preview"
 
           git fetch origin main
           git reset --hard origin/main
 
-          rm -rf data badges charts
+          rm -rf data badges charts preview
           cp -a "$snapshot_dir/data" data
           cp -a "$snapshot_dir/badges" badges
           cp -a "$snapshot_dir/charts" charts
+          cp -a "$snapshot_dir/preview" preview
 
-          if [ -z "$(git status --porcelain -- data badges charts)" ]; then
+          if [ -z "$(git status --porcelain -- data badges charts preview)" ]; then
             echo "Remote already contains these metric changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data badges charts
+          git add data badges charts preview
           git commit -m "Update repository traffic metrics"
           git push origin HEAD:main
