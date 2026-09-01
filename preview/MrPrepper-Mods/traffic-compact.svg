@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="170" viewBox="0 0 520 170" role="img" aria-label="Traffic history for AcTePuKc/MrPrepper-Mods">
+  <title>Traffic history for AcTePuKc/MrPrepper-Mods</title>
+  <style>
+    .panel { fill: #18181b; stroke: #3f3f46; }
+    .title { fill: #fafafa; }
+    .axis { fill: #a1a1aa; font: 10px Inter,ui-sans-serif,system-ui,sans-serif; }
+    .grid { stroke: #3f3f46; stroke-width: 1; opacity: .65; }
+    @media (prefers-color-scheme: light) {
+      .panel { fill: #ffffff; stroke: #d4d4d8; }
+      .title { fill: #18181b; }
+      .axis { fill: #71717a; }
+      .grid { stroke: #d4d4d8; }
+    }
+  </style>
+  <rect class="panel" x="0.5" y="0.5" width="519" height="169" rx="10" stroke-width="1"/>
+  <text class="title" x="16" y="24" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="13" font-weight="600">AcTePuKc/MrPrepper-Mods traffic</text>
+  <circle cx="366" cy="20" r="3" fill="#22c55e"/><text class="axis" x="374" y="23">clones</text>
+  <circle cx="434" cy="20" r="3" fill="#60a5fa"/><text class="axis" x="442" y="23">views</text>
+  <line class="grid" x1="36" y1="38.00" x2="506" y2="38.00"/><text class="axis" x="29" y="42.00" text-anchor="end">72</text><line class="grid" x1="36" y1="73.33" x2="506" y2="73.33"/><text class="axis" x="29" y="77.33" text-anchor="end">48</text><line class="grid" x1="36" y1="108.67" x2="506" y2="108.67"/><text class="axis" x="29" y="112.67" text-anchor="end">24</text><line class="grid" x1="36" y1="144.00" x2="506" y2="144.00"/><text class="axis" x="29" y="148.00" text-anchor="end">0</text>
+  <polyline points="36.00,135.17 72.15,86.58 108.31,38.00 144.46,141.06 180.62,135.17 216.77,93.94 252.92,138.11 289.08,142.53 325.23,139.58 361.38,141.06 397.54,142.53 433.69,142.53 469.85,144.00 506.00,141.06" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="36.00,144.00 72.15,144.00 108.31,144.00 144.46,144.00 180.62,144.00 216.77,144.00 252.92,144.00 289.08,144.00 325.23,144.00 361.38,141.06 397.54,144.00 433.69,139.58 469.85,141.06 506.00,144.00" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="axis" x="36" y="162">2026-08-18</text><text class="axis" x="506" y="162" text-anchor="end">2026-08-31</text>
+</svg>
