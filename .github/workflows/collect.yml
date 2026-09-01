@@ -41,10 +41,13 @@ jobs:
       - name: Generate chart data
         run: python src/generate_chart_data.py
 
+      - name: Render local SVG assets
+        run: python src/render_assets.py
+
       - name: Commit updated metrics
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- data badges)" ]; then
+          if [ -z "$(git status --porcelain -- data badges charts)" ]; then
             echo "No metric changes to commit."
             exit 0
           fi
@@ -52,21 +55,23 @@ jobs:
           snapshot_dir="$(mktemp -d)"
           cp -a data "$snapshot_dir/data"
           cp -a badges "$snapshot_dir/badges"
+          cp -a charts "$snapshot_dir/charts"
 
           git fetch origin main
           git reset --hard origin/main
 
-          rm -rf data badges
+          rm -rf data badges charts
           cp -a "$snapshot_dir/data" data
           cp -a "$snapshot_dir/badges" badges
+          cp -a "$snapshot_dir/charts" charts
 
-          if [ -z "$(git status --porcelain -- data badges)" ]; then
+          if [ -z "$(git status --porcelain -- data badges charts)" ]; then
             echo "Remote already contains these metric changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data badges
+          git add data badges charts
           git commit -m "Update repository traffic metrics"
           git push origin HEAD:main
