@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import json
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -11,6 +12,7 @@ BADGE_ROOT = ROOT / "badges"
 CHART_ROOT = ROOT / "charts"
 PREVIEW_ROOT = ROOT / "preview"
 PREVIEW_REPOSITORY = "MrPrepper-Mods"
+PREVIEW_RECIPES = ROOT / "preview_badges.json"
 
 # Visual tokens adapted from ShieldCN's MIT-licensed shadcn/ui badge renderer.
 # Upstream: https://github.com/jal-co/shieldcn
@@ -26,10 +28,35 @@ ACCENT_CLONES = "#22c55e"
 ACCENT_VIEWS = "#60a5fa"
 ACCENT_DANGER = "#dc2626"
 
+SIZE_PRESETS = {
+    "xs": (24, 12, 8, 12, 4),
+    "sm": (32, 14, 12, 16, 6),
+    "default": (36, 14, 16, 16, 8),
+    "lg": (40, 14, 24, 16, 8),
+}
+
+FONT_STACKS = {
+    "inter": "Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+    "geist": "Geist,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+    "geist-mono": "Geist Mono,ui-monospace,SFMono-Regular,Menlo,Consolas,monospace",
+    "jetbrains-mono": "JetBrains Mono,ui-monospace,SFMono-Regular,Menlo,Consolas,monospace",
+}
+
 
 def load_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def normalize_color(value: str | None, fallback: str | None = None) -> str | None:
+    if value is None:
+        return fallback
+    value = value.strip()
+    if not value:
+        return fallback
+    if value == "transparent" or value.startswith("url("):
+        return value
+    return value if value.startswith("#") else f"#{value}"
 
 
 def compact_number(value: int) -> str:
@@ -45,8 +72,37 @@ def compact_number(value: int) -> str:
 
 
 def text_width(text: str, font_size: int = 12) -> int:
-    # Dependency-free approximation suitable for compact README badges.
     return max(1, round(len(text) * font_size * 0.58))
+
+
+@dataclass(slots=True)
+class BadgeConfig:
+    label: str
+    value: str = ""
+    variant: str = "secondary"
+    size: str = "xs"
+    font: str = "inter"
+    icon: str | None = None
+    icon_color: str | None = None
+    color: str | None = None
+    left_color: str | None = None
+    right_color: str | None = None
+    label_color: str | None = None
+    value_color: str | None = None
+    border_color: str | None = None
+    gradient: list[str] = field(default_factory=list)
+    gap: int | None = None
+    split: bool = False
+    radius: int = 6
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "BadgeConfig":
+        allowed = {
+            "label", "value", "variant", "size", "font", "icon", "icon_color",
+            "color", "left_color", "right_color", "label_color", "value_color",
+            "border_color", "gradient", "gap", "split", "radius",
+        }
+        return cls(**{key: value for key, value in data.items() if key in allowed})
 
 
 def icon_markup(kind: str, x: float, y: float, size: float) -> str:
@@ -65,6 +121,17 @@ def icon_markup(kind: str, x: float, y: float, size: float) -> str:
         )
     elif kind == "pulse":
         body = '<path d="M3 12h4l2.2-6 4.1 12 2.2-6H21"/>'
+    elif kind == "robot":
+        body = (
+            '<rect x="5" y="7" width="14" height="11" rx="2"/>'
+            '<path d="M12 3v4M8 12h.01M16 12h.01M9 16h6M3 11v4M21 11v4"/>'
+            '<circle cx="12" cy="3" r="1"/>'
+        )
+    elif kind == "construction":
+        body = (
+            '<path d="M4 20V8M20 20V8M2 20h20M3 8h18"/>'
+            '<path d="m5 8 4 4 4-4 4 4 4-4"/>'
+        )
     else:
         body = '<circle cx="12" cy="12" r="4"/>'
     return (
@@ -74,103 +141,166 @@ def icon_markup(kind: str, x: float, y: float, size: float) -> str:
     )
 
 
-def badge_svg(label: str, value: int, accent: str) -> str:
-    message = compact_number(value)
-    height = 24
-    radius = 6
-    font_size = 12
-    pad_x = 8
-    gap = 6
-    label_w = text_width(label, font_size)
-    value_w = text_width(message, font_size)
-    width = pad_x + label_w + gap + value_w + pad_x
-    label_x = pad_x
-    value_x = pad_x + label_w + gap
-    baseline = 16
-
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(label)}: {html.escape(message)}">
-  <title>{html.escape(label)}: {html.escape(message)}</title>
-  <style>
-    .bg {{ fill: {DARK_BG}; stroke: {DARK_BORDER}; }}
-    .label {{ fill: {DARK_MUTED}; }}
-    .value {{ fill: {DARK_FG}; }}
-    @media (prefers-color-scheme: light) {{
-      .bg {{ fill: {LIGHT_BG}; stroke: {LIGHT_BORDER}; }}
-      .label {{ fill: {LIGHT_MUTED}; }}
-      .value {{ fill: {LIGHT_FG}; }}
-    }}
-  </style>
-  <rect class="bg" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{radius}" stroke-width="1"/>
-  <circle cx="{pad_x - 1}" cy="{height / 2:g}" r="2.5" fill="{accent}"/>
-  <text class="label" x="{label_x + 6}" y="{baseline}" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="{font_size}" font-weight="500">{html.escape(label)}</text>
-  <text class="value" x="{value_x + 6}" y="{baseline}" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="{font_size}" font-weight="600">{html.escape(message)}</text>
-</svg>
-'''
-
-
-def preview_badge_svg(
-    label: str,
-    value: int,
-    icon: str,
-    *,
-    variant: str = "secondary",
-    size: str = "xs",
-    accent: str = ACCENT_CLONES,
-) -> str:
-    message = compact_number(value)
-    sizes = {
-        "xs": (24, 12, 8, 12, 4),
-        "sm": (32, 14, 12, 16, 6),
+def variant_palette(variant: str, color: str | None) -> dict[str, str]:
+    custom = normalize_color(color)
+    if variant == "outline":
+        return {
+            "dark_bg": "transparent", "light_bg": "transparent",
+            "dark_border": custom or DARK_BORDER, "light_border": custom or LIGHT_BORDER,
+            "dark_label": DARK_MUTED, "light_label": LIGHT_MUTED,
+            "dark_value": custom or DARK_FG, "light_value": custom or LIGHT_FG,
+            "dark_icon": custom or DARK_FG, "light_icon": custom or LIGHT_FG,
+        }
+    if variant == "destructive":
+        bg = custom or ACCENT_DANGER
+        return {
+            "dark_bg": bg, "light_bg": bg, "dark_border": bg, "light_border": bg,
+            "dark_label": "#fee2e2", "light_label": "#fee2e2",
+            "dark_value": "#ffffff", "light_value": "#ffffff",
+            "dark_icon": "#ffffff", "light_icon": "#ffffff",
+        }
+    if variant in {"default", "branded"}:
+        if custom:
+            return {
+                "dark_bg": custom, "light_bg": custom, "dark_border": custom, "light_border": custom,
+                "dark_label": "#ffffff", "light_label": "#ffffff",
+                "dark_value": "#ffffff", "light_value": "#ffffff",
+                "dark_icon": "#ffffff", "light_icon": "#ffffff",
+            }
+        return {
+            "dark_bg": DARK_FG, "light_bg": LIGHT_FG,
+            "dark_border": DARK_FG, "light_border": LIGHT_FG,
+            "dark_label": "#52525b", "light_label": "#d4d4d8",
+            "dark_value": "#18181b", "light_value": "#fafafa",
+            "dark_icon": "#18181b", "light_icon": "#fafafa",
+        }
+    if variant == "ghost":
+        return {
+            "dark_bg": "transparent", "light_bg": "transparent",
+            "dark_border": "transparent", "light_border": "transparent",
+            "dark_label": DARK_MUTED, "light_label": LIGHT_MUTED,
+            "dark_value": DARK_FG, "light_value": LIGHT_FG,
+            "dark_icon": custom or DARK_FG, "light_icon": custom or LIGHT_FG,
+        }
+    return {
+        "dark_bg": custom or DARK_BG, "light_bg": custom or LIGHT_BG,
+        "dark_border": custom or DARK_BORDER, "light_border": custom or LIGHT_BORDER,
+        "dark_label": DARK_MUTED, "light_label": LIGHT_MUTED,
+        "dark_value": DARK_FG, "light_value": LIGHT_FG,
+        "dark_icon": custom or DARK_FG, "light_icon": custom or LIGHT_FG,
     }
-    height, font_size, pad_x, icon_size, gap = sizes.get(size, sizes["xs"])
-    radius = 6
+
+
+def gradient_defs(colors: list[str]) -> tuple[str, str | None]:
+    normalized = [normalize_color(color) for color in colors if color]
+    normalized = [color for color in normalized if color]
+    if not normalized:
+        return "", None
+    if len(normalized) == 1:
+        return "", normalized[0]
+    stops = []
+    denominator = max(1, len(normalized) - 1)
+    for index, color in enumerate(normalized):
+        offset = round(index * 100 / denominator)
+        stops.append(f'<stop offset="{offset}%" stop-color="{color}"/>')
+    defs = f'<defs><linearGradient id="badge-gradient" x1="0" y1="0" x2="1" y2="0">{"".join(stops)}</linearGradient></defs>'
+    return defs, "url(#badge-gradient)"
+
+
+def render_badge(config: BadgeConfig) -> str:
+    height, font_size, pad_x, icon_size, default_gap = SIZE_PRESETS.get(config.size, SIZE_PRESETS["xs"])
+    gap = max(0, min(60, int(config.gap if config.gap is not None else default_gap)))
+    font_family = FONT_STACKS.get(config.font, FONT_STACKS["inter"])
+    label = str(config.label)
+    value = str(config.value)
+    palette = variant_palette(config.variant, config.color)
+
     label_w = text_width(label, font_size)
-    value_w = text_width(message, font_size)
-    width = pad_x + icon_size + gap + label_w + gap + value_w + pad_x
+    value_w = text_width(value, font_size) if value else 0
+    icon_block = icon_size + gap if config.icon else 0
+    between = gap if label and value and not config.split else 0
+    width = pad_x + icon_block + label_w + between + value_w + pad_x
+    if config.split and value:
+        width += gap * 2
+
+    icon_x = pad_x
     icon_y = (height - icon_size) / 2
-    label_x = pad_x + icon_size + gap
-    value_x = label_x + label_w + gap
+    label_x = pad_x + icon_block
+    value_x = label_x + label_w + between
+    split_x = label_x + label_w + gap if config.split and value else None
+    if split_x is not None:
+        value_x = split_x + gap
     baseline = round(height / 2 + font_size * 0.34)
 
-    if variant == "outline":
-        dark_bg, dark_border, dark_label, dark_value = "transparent", DARK_BORDER, DARK_MUTED, DARK_FG
-        light_bg, light_border, light_label, light_value = "transparent", LIGHT_BORDER, LIGHT_MUTED, LIGHT_FG
-        dark_icon, light_icon = accent, accent
-    elif variant == "destructive":
-        dark_bg = light_bg = ACCENT_DANGER
-        dark_border = light_border = ACCENT_DANGER
-        dark_label = light_label = "#fee2e2"
-        dark_value = light_value = "#ffffff"
-        dark_icon = light_icon = "#ffffff"
-    elif variant == "default":
-        dark_bg, dark_border, dark_label, dark_value = DARK_FG, DARK_FG, "#52525b", "#18181b"
-        light_bg, light_border, light_label, light_value = LIGHT_FG, LIGHT_FG, "#d4d4d8", "#fafafa"
-        dark_icon, light_icon = "#18181b", "#fafafa"
-    else:
-        dark_bg, dark_border, dark_label, dark_value = DARK_BG, DARK_BORDER, DARK_MUTED, DARK_FG
-        light_bg, light_border, light_label, light_value = LIGHT_BG, LIGHT_BORDER, LIGHT_MUTED, LIGHT_FG
-        dark_icon, light_icon = accent, accent
+    defs, gradient_fill = gradient_defs(config.gradient)
+    dark_bg = gradient_fill or palette["dark_bg"]
+    light_bg = gradient_fill or palette["light_bg"]
+    dark_border = normalize_color(config.border_color, palette["dark_border"])
+    light_border = normalize_color(config.border_color, palette["light_border"])
+    dark_label = normalize_color(config.label_color, palette["dark_label"])
+    light_label = normalize_color(config.label_color, palette["light_label"])
+    dark_value = normalize_color(config.value_color, palette["dark_value"])
+    light_value = normalize_color(config.value_color, palette["light_value"])
+    dark_icon = normalize_color(config.icon_color, palette["dark_icon"])
+    light_icon = normalize_color(config.icon_color, palette["light_icon"])
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(label)}: {html.escape(message)}">
-  <title>{html.escape(label)}: {html.escape(message)}</title>
+    left_color = normalize_color(config.left_color)
+    right_color = normalize_color(config.right_color)
+    split_shapes = ""
+    if config.split and value and split_x is not None:
+        left_bg = left_color or palette["dark_bg"]
+        right_bg = right_color or gradient_fill or normalize_color(config.color, palette["dark_bg"])
+        split_shapes = (
+            f'<clipPath id="badge-clip"><rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{config.radius}"/></clipPath>'
+            f'<g clip-path="url(#badge-clip)">'
+            f'<rect x="0" y="0" width="{split_x}" height="{height}" fill="{left_bg}"/>'
+            f'<rect x="{split_x}" y="0" width="{width - split_x}" height="{height}" fill="{right_bg}"/>'
+            '</g>'
+        )
+
+    bg_rect = "" if config.split and value else (
+        f'<rect class="bg" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{config.radius}" stroke-width="1"/>'
+    )
+    border_rect = (
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{config.radius}" fill="none" class="border" stroke-width="1"/>'
+        if config.split and value else ""
+    )
+    icon_svg = icon_markup(config.icon, icon_x, icon_y, icon_size) if config.icon else ""
+    value_svg = (
+        f'<text class="value" x="{value_x}" y="{baseline}" font-family="{html.escape(font_family)}" font-size="{font_size}" font-weight="700">{html.escape(value)}</text>'
+        if value else ""
+    )
+
+    aria = f"{label}: {value}" if value else label
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(aria)}">
+  <title>{html.escape(aria)}</title>
+  {defs}
   <style>
     .bg {{ fill: {dark_bg}; stroke: {dark_border}; }}
+    .border {{ stroke: {dark_border}; }}
     .label {{ fill: {dark_label}; }}
     .value {{ fill: {dark_value}; }}
     .icon {{ color: {dark_icon}; }}
     @media (prefers-color-scheme: light) {{
       .bg {{ fill: {light_bg}; stroke: {light_border}; }}
+      .border {{ stroke: {light_border}; }}
       .label {{ fill: {light_label}; }}
       .value {{ fill: {light_value}; }}
       .icon {{ color: {light_icon}; }}
     }}
   </style>
-  <rect class="bg" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{radius}" stroke-width="1"/>
-  {icon_markup(icon, pad_x, icon_y, icon_size)}
-  <text class="label" x="{label_x}" y="{baseline}" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="{font_size}" font-weight="500">{html.escape(label)}</text>
-  <text class="value" x="{value_x}" y="{baseline}" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="{font_size}" font-weight="700">{html.escape(message)}</text>
+  {bg_rect}
+  {split_shapes}
+  {border_rect}
+  {icon_svg}
+  <text class="label" x="{label_x}" y="{baseline}" font-family="{html.escape(font_family)}" font-size="{font_size}" font-weight="500">{html.escape(label)}</text>
+  {value_svg}
 </svg>
 '''
+
+
+def badge_svg(label: str, value: int, accent: str) -> str:
+    return render_badge(BadgeConfig(label=label, value=compact_number(value), icon=None, color=None, size="xs"))
 
 
 def polyline_points(values: list[int], left: int, top: int, width: int, height: int, maximum: int) -> str:
@@ -251,6 +381,18 @@ def write_text(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8", newline="\n")
 
 
+def render_recipe_previews(root: Path) -> None:
+    if not PREVIEW_RECIPES.exists():
+        return
+    recipes = load_json(PREVIEW_RECIPES)
+    for recipe in recipes:
+        filename = str(recipe.get("filename", "")).strip()
+        if not filename or "/" in filename or "\\" in filename:
+            continue
+        config = BadgeConfig.from_dict(recipe)
+        write_text(root / filename, render_badge(config))
+
+
 def render_preview(repo_name: str, summary: dict[str, Any], chart: dict[str, Any]) -> None:
     if repo_name != PREVIEW_REPOSITORY:
         return
@@ -258,13 +400,14 @@ def render_preview(repo_name: str, summary: dict[str, Any], chart: dict[str, Any
     clones = int(summary.get("clones", 0))
     views = int(summary.get("views", 0))
 
-    write_text(root / "clones-icon-secondary.svg", preview_badge_svg("clones", clones, "clone", variant="secondary", accent=ACCENT_CLONES))
-    write_text(root / "views-icon-secondary.svg", preview_badge_svg("views", views, "eye", variant="secondary", accent=ACCENT_VIEWS))
-    write_text(root / "clones-icon-outline.svg", preview_badge_svg("clones", clones, "clone", variant="outline", accent=ACCENT_CLONES))
-    write_text(root / "views-icon-outline.svg", preview_badge_svg("views", views, "eye", variant="outline", accent=ACCENT_VIEWS))
-    write_text(root / "clones-icon-default.svg", preview_badge_svg("clones", clones, "clone", variant="default", size="sm", accent=ACCENT_CLONES))
-    write_text(root / "views-icon-destructive.svg", preview_badge_svg("views", views, "eye", variant="destructive", size="sm", accent=ACCENT_VIEWS))
+    write_text(root / "clones-icon-secondary.svg", render_badge(BadgeConfig(label="clones", value=compact_number(clones), icon="clone", variant="secondary", icon_color=ACCENT_CLONES)))
+    write_text(root / "views-icon-secondary.svg", render_badge(BadgeConfig(label="views", value=compact_number(views), icon="eye", variant="secondary", icon_color=ACCENT_VIEWS)))
+    write_text(root / "clones-icon-outline.svg", render_badge(BadgeConfig(label="clones", value=compact_number(clones), icon="clone", variant="outline", icon_color=ACCENT_CLONES)))
+    write_text(root / "views-icon-outline.svg", render_badge(BadgeConfig(label="views", value=compact_number(views), icon="eye", variant="outline", icon_color=ACCENT_VIEWS)))
+    write_text(root / "clones-icon-default.svg", render_badge(BadgeConfig(label="clones", value=compact_number(clones), icon="clone", variant="default", size="sm")))
+    write_text(root / "views-icon-destructive.svg", render_badge(BadgeConfig(label="views", value=compact_number(views), icon="eye", variant="destructive", size="sm")))
     write_text(root / "traffic-compact.svg", chart_svg(chart, compact=True))
+    render_recipe_previews(root)
 
 
 def render_repository(repository_dir: Path) -> bool:
