@@ -1,0 +1,265 @@
+from __future__ import annotations
+
+import json
+import os
+import sys
+import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+ROOT = Path(__file__).resolve().parents[1]
+CONFIG_PATH = ROOT / "repositories.json"
+DATA_ROOT = ROOT / "data"
+BADGE_ROOT = ROOT / "badges"
+API_ROOT = "https://api.github.com"
+
+
+def api_get(path: str, token: str) -> Any:
+    request = urllib.request.Request(
+        f"{API_ROOT}{path}",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "User-Agent": "repo-metrics",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.load(response)
+
+
+def load_json(path: Path, default: Any) -> Any:
+    if not path.exists():
+        return default
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def save_json(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    with temporary.open("w", encoding="utf-8", newline="\n") as handle:
+        json.dump(value, handle, indent=2, sort_keys=True, ensure_ascii=False)
+        handle.write("\n")
+    temporary.replace(path)
+
+
+def discover_repositories(config: dict[str, Any], token: str) -> list[dict[str, Any]]:
+    owner = config["owner"]
+    include_archived = bool(config.get("include_archived", False))
+    include_forks = bool(config.get("include_forks", True))
+    excluded = set(config.get("exclude", []))
+
+    repositories: list[dict[str, Any]] = []
+    page = 1
+    while True:
+        query = urllib.parse.urlencode(
+            {
+                "type": "owner",
+                "sort": "full_name",
+                "direction": "asc",
+                "per_page": 100,
+                "page": page,
+            }
+        )
+        batch = api_get(f"/users/{owner}/repos?{query}", token)
+        if not batch:
+            break
+
+        for repository in batch:
+            full_name = repository["full_name"]
+            if full_name in excluded or repository["name"] in excluded:
+                continue
+            if repository.get("private", False):
+                continue
+            if repository.get("archived", False) and not include_archived:
+                continue
+            if repository.get("fork", False) and not include_forks:
+                continue
+            repositories.append(repository)
+
+        if len(batch) < 100:
+            break
+        page += 1
+
+    return repositories
+
+
+def metric_days(payload: dict[str, Any], key: str, unique_key: str) -> dict[str, dict[str, int]]:
+    result: dict[str, dict[str, int]] = {}
+    for item in payload.get(key, []):
+        date = item["timestamp"][:10]
+        result[date] = {
+            key: int(item.get("count", 0)),
+            unique_key: int(item.get("uniques", 0)),
+        }
+    return result
+
+
+def merge_daily(existing: dict[str, Any], clones: dict[str, Any], views: dict[str, Any]) -> dict[str, Any]:
+    days = dict(existing.get("days", {}))
+
+    clone_days = metric_days(clones, "clones", "unique_cloners")
+    view_days = metric_days(views, "views", "unique_visitors")
+    for date in sorted(set(clone_days) | set(view_days)):
+        current = dict(days.get(date, {}))
+        current.update(clone_days.get(date, {}))
+        current.update(view_days.get(date, {}))
+        current.setdefault("clones", 0)
+        current.setdefault("unique_cloners", 0)
+        current.setdefault("views", 0)
+        current.setdefault("unique_visitors", 0)
+        days[date] = current
+
+    return dict(sorted(days.items()))
+
+
+def build_summary(full_name: str, days: dict[str, Any], updated_at: str) -> dict[str, Any]:
+    ordered_dates = sorted(days)
+    return {
+        "repository": full_name,
+        "tracking_since": ordered_dates[0] if ordered_dates else None,
+        "updated_at": updated_at,
+        "days_tracked": len(ordered_dates),
+        "clones": sum(int(day.get("clones", 0)) for day in days.values()),
+        "unique_cloners_daily_sum": sum(int(day.get("unique_cloners", 0)) for day in days.values()),
+        "views": sum(int(day.get("views", 0)) for day in days.values()),
+        "unique_visitors_daily_sum": sum(int(day.get("unique_visitors", 0)) for day in days.values()),
+    }
+
+
+def compact_number(value: int) -> str:
+    if value < 1_000:
+        return str(value)
+    if value < 1_000_000:
+        number = value / 1_000
+        suffix = "k"
+    elif value < 1_000_000_000:
+        number = value / 1_000_000
+        suffix = "M"
+    else:
+        number = value / 1_000_000_000
+        suffix = "B"
+    rendered = f"{number:.1f}".rstrip("0").rstrip(".")
+    return f"{rendered}{suffix}"
+
+
+def badge_svg(label: str, value: int) -> str:
+    message = compact_number(value)
+    label_width = max(54, 7 * len(label) + 14)
+    value_width = max(42, 7 * len(message) + 14)
+    total_width = label_width + value_width
+    label_mid = label_width / 2
+    value_mid = label_width + value_width / 2
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{total_width}" height="20" role="img" aria-label="{label}: {message}">
+  <title>{label}: {message}</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r"><rect width="{total_width}" height="20" rx="3"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="{label_width}" height="20" fill="#555"/>
+    <rect x="{label_width}" width="{value_width}" height="20" fill="#007ec6"/>
+    <rect width="{total_width}" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="{label_mid}" y="15" fill="#010101" fill-opacity=".3">{label}</text>
+    <text x="{label_mid}" y="14">{label}</text>
+    <text x="{value_mid}" y="15" fill="#010101" fill-opacity=".3">{message}</text>
+    <text x="{value_mid}" y="14">{message}</text>
+  </g>
+</svg>
+'''
+
+
+def save_badges(repo_name: str, summary: dict[str, Any]) -> None:
+    directory = BADGE_ROOT / repo_name
+    directory.mkdir(parents=True, exist_ok=True)
+    (directory / "clones.svg").write_text(
+        badge_svg("clones", int(summary["clones"])), encoding="utf-8", newline="\n"
+    )
+    (directory / "views.svg").write_text(
+        badge_svg("views", int(summary["views"])), encoding="utf-8", newline="\n"
+    )
+
+
+def remove_stale_public_data(active_repo_names: set[str]) -> None:
+    for root in (DATA_ROOT, BADGE_ROOT):
+        if not root.exists():
+            continue
+        for child in root.iterdir():
+            if child.is_dir() and child.name not in active_repo_names:
+                for path in sorted(child.rglob("*"), reverse=True):
+                    if path.is_file() or path.is_symlink():
+                        path.unlink()
+                    elif path.is_dir():
+                        path.rmdir()
+                child.rmdir()
+
+
+def collect_repository(repository: dict[str, Any], token: str, updated_at: str) -> bool:
+    full_name = repository["full_name"]
+    repo_name = repository["name"]
+    encoded_owner, encoded_repo = [urllib.parse.quote(part, safe="") for part in full_name.split("/", 1)]
+
+    try:
+        clones = api_get(f"/repos/{encoded_owner}/{encoded_repo}/traffic/clones?per=day", token)
+        views = api_get(f"/repos/{encoded_owner}/{encoded_repo}/traffic/views?per=day", token)
+    except urllib.error.HTTPError as error:
+        print(f"WARNING: {full_name}: traffic API returned HTTP {error.code}", file=sys.stderr)
+        return False
+
+    daily_path = DATA_ROOT / repo_name / "daily.json"
+    existing = load_json(daily_path, {"repository": full_name, "days": {}})
+    days = merge_daily(existing, clones, views)
+
+    daily = {"repository": full_name, "days": days}
+    summary = build_summary(full_name, days, updated_at)
+    save_json(daily_path, daily)
+    save_json(DATA_ROOT / repo_name / "summary.json", summary)
+    save_badges(repo_name, summary)
+
+    print(
+        f"{full_name}: {summary['clones']} clones, {summary['views']} views, "
+        f"{summary['days_tracked']} days tracked"
+    )
+    return True
+
+
+def main() -> int:
+    token = os.environ.get("GH_TRAFFIC_TOKEN", "").strip()
+    if not token:
+        print("GH_TRAFFIC_TOKEN is required", file=sys.stderr)
+        return 2
+
+    config = load_json(CONFIG_PATH, {})
+    if not config.get("discover_public_repositories", True):
+        print("Only public repository discovery mode is currently supported", file=sys.stderr)
+        return 2
+
+    repositories = discover_repositories(config, token)
+    if not repositories:
+        print("No public repositories discovered", file=sys.stderr)
+        return 1
+
+    active_repo_names = {repository["name"] for repository in repositories}
+    remove_stale_public_data(active_repo_names)
+
+    updated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    successful = 0
+    failed = 0
+    for repository in repositories:
+        if collect_repository(repository, token, updated_at):
+            successful += 1
+        else:
+            failed += 1
+
+    print(f"Collection complete: {successful} successful, {failed} failed")
+    return 0 if successful else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
