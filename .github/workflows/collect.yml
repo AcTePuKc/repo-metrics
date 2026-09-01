@@ -38,6 +38,9 @@ jobs:
           GH_TRAFFIC_TOKEN: ${{ secrets.GH_TRAFFIC_TOKEN }}
         run: python src/collect.py
 
+      - name: Generate chart data
+        run: python src/generate_chart_data.py
+
       - name: Commit updated metrics
         shell: bash
         run: |
