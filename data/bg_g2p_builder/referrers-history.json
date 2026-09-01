@@ -1,0 +1,22 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 8,
+        "referrer": "Google",
+        "uniques": 6
+      },
+      {
+        "count": 1,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/bg_g2p_builder"
+}

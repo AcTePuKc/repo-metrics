@@ -1,10 +1,28 @@
 {
   "clones": 21,
   "days_tracked": 14,
+  "last_30_days": {
+    "clones": 21,
+    "unique_cloners_daily_sum": 15,
+    "unique_visitors_daily_sum": 10,
+    "views": 19
+  },
+  "last_7_days": {
+    "clones": 12,
+    "unique_cloners_daily_sum": 10,
+    "unique_visitors_daily_sum": 8,
+    "views": 16
+  },
   "repository": "AcTePuKc/bg-text",
+  "repository_snapshot": {
+    "forks": 0,
+    "open_issues": 0,
+    "stars": 1,
+    "watchers": 0
+  },
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 15,
   "unique_visitors_daily_sum": 10,
-  "updated_at": "2026-09-01T06:05:06Z",
+  "updated_at": "2026-09-01T06:16:18Z",
   "views": 19
 }

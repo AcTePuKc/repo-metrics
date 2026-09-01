@@ -1,10 +1,28 @@
 {
   "clones": 5,
   "days_tracked": 14,
+  "last_30_days": {
+    "clones": 5,
+    "unique_cloners_daily_sum": 5,
+    "unique_visitors_daily_sum": 9,
+    "views": 11
+  },
+  "last_7_days": {
+    "clones": 2,
+    "unique_cloners_daily_sum": 2,
+    "unique_visitors_daily_sum": 4,
+    "views": 5
+  },
   "repository": "AcTePuKc/bg_g2p_builder",
+  "repository_snapshot": {
+    "forks": 0,
+    "open_issues": 0,
+    "stars": 1,
+    "watchers": 0
+  },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 5,
   "unique_visitors_daily_sum": 9,
-  "updated_at": "2026-09-01T06:05:06Z",
+  "updated_at": "2026-09-01T06:16:18Z",
   "views": 11
 }

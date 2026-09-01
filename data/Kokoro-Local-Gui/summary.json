@@ -1,10 +1,28 @@
 {
   "clones": 35,
   "days_tracked": 14,
+  "last_30_days": {
+    "clones": 35,
+    "unique_cloners_daily_sum": 34,
+    "unique_visitors_daily_sum": 249,
+    "views": 481
+  },
+  "last_7_days": {
+    "clones": 12,
+    "unique_cloners_daily_sum": 11,
+    "unique_visitors_daily_sum": 114,
+    "views": 222
+  },
   "repository": "AcTePuKc/Kokoro-Local-Gui",
+  "repository_snapshot": {
+    "forks": 5,
+    "open_issues": 0,
+    "stars": 39,
+    "watchers": 2
+  },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 34,
   "unique_visitors_daily_sum": 249,
-  "updated_at": "2026-09-01T06:05:06Z",
+  "updated_at": "2026-09-01T06:16:18Z",
   "views": 481
 }

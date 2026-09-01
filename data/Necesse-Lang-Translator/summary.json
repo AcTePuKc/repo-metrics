@@ -1,10 +1,28 @@
 {
   "clones": 17,
   "days_tracked": 14,
+  "last_30_days": {
+    "clones": 17,
+    "unique_cloners_daily_sum": 12,
+    "unique_visitors_daily_sum": 3,
+    "views": 3
+  },
+  "last_7_days": {
+    "clones": 8,
+    "unique_cloners_daily_sum": 7,
+    "unique_visitors_daily_sum": 1,
+    "views": 1
+  },
   "repository": "AcTePuKc/Necesse-Lang-Translator",
+  "repository_snapshot": {
+    "forks": 0,
+    "open_issues": 2,
+    "stars": 0,
+    "watchers": 1
+  },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 12,
   "unique_visitors_daily_sum": 3,
-  "updated_at": "2026-09-01T06:05:06Z",
+  "updated_at": "2026-09-01T06:16:18Z",
   "views": 3
 }

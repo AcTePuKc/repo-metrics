@@ -1,0 +1,32 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 121,
+        "referrer": "chatgpt.com",
+        "uniques": 58
+      },
+      {
+        "count": 56,
+        "referrer": "Google",
+        "uniques": 37
+      },
+      {
+        "count": 4,
+        "referrer": "github.com",
+        "uniques": 3
+      },
+      {
+        "count": 1,
+        "referrer": "Bing",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/Chatterbox-TTS-UI"
+}

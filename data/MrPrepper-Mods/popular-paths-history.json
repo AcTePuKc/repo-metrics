@@ -1,0 +1,31 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/MrPrepper-Mods",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/cyr-v0.1.1",
+        "title": "/releases/tag/cyr-v0.1.1",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/bg-v0.1.1",
+        "title": "/releases/tag/bg-v0.1.1",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/MrPrepper-Mods"
+}

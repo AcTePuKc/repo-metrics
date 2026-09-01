@@ -1,10 +1,28 @@
 {
   "clones": 1,
   "days_tracked": 14,
+  "last_30_days": {
+    "clones": 1,
+    "unique_cloners_daily_sum": 1,
+    "unique_visitors_daily_sum": 0,
+    "views": 0
+  },
+  "last_7_days": {
+    "clones": 0,
+    "unique_cloners_daily_sum": 0,
+    "unique_visitors_daily_sum": 0,
+    "views": 0
+  },
   "repository": "AcTePuKc/Spark-TTS",
+  "repository_snapshot": {
+    "forks": 0,
+    "open_issues": 0,
+    "stars": 1,
+    "watchers": 0
+  },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 1,
   "unique_visitors_daily_sum": 0,
-  "updated_at": "2026-09-01T06:05:06Z",
+  "updated_at": "2026-09-01T06:16:18Z",
   "views": 0
 }

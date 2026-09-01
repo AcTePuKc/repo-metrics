@@ -1,0 +1,57 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 161,
+        "referrer": "Google",
+        "uniques": 74
+      },
+      {
+        "count": 131,
+        "referrer": "chatgpt.com",
+        "uniques": 63
+      },
+      {
+        "count": 14,
+        "referrer": "github.com",
+        "uniques": 9
+      },
+      {
+        "count": 13,
+        "referrer": "Bing",
+        "uniques": 8
+      },
+      {
+        "count": 8,
+        "referrer": "search.brave.com",
+        "uniques": 4
+      },
+      {
+        "count": 7,
+        "referrer": "DuckDuckGo",
+        "uniques": 4
+      },
+      {
+        "count": 6,
+        "referrer": "perplexity.ai",
+        "uniques": 1
+      },
+      {
+        "count": 4,
+        "referrer": "claude.ai",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "referrer": "doubao.com",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "referrer": "duck.ai",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/Kokoro-Local-Gui"
+}

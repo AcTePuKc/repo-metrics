@@ -1,0 +1,25 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/github-motion",
+        "title": "Overview",
+        "uniques": 4
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/github-motion/blob/main/preview.md",
+        "title": "/blob/main/preview.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/github-motion/pulls",
+        "title": "/pulls",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/github-motion"
+}

@@ -1,0 +1,19 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 10,
+        "path": "/AcTePuKc/bg_g2p_builder",
+        "title": "Overview",
+        "uniques": 7
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg_g2p_builder/blob/main/NOTICE.bg.md",
+        "title": "/blob/main/NOTICE.bg.md",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/bg_g2p_builder"
+}

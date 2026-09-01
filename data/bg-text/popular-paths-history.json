@@ -1,0 +1,67 @@
+{
+  "days": {
+    "2026-09-01": [
+      {
+        "count": 9,
+        "path": "/AcTePuKc/bg-text",
+        "title": "Overview",
+        "uniques": 8
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.claude/skills/bg-text/SKILL.md",
+        "title": "/blob/main/.claude/skills/bg-text/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.codex-plugin/plugin.json",
+        "title": "/blob/main/.codex-plugin/plugin.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/commit/241bad9fdb803b77040947192b7eb2014fbe109b",
+        "title": "/commit/241bad9fdb803b77040947192b7eb2014fbe109b",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/commits",
+        "title": "/commits",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/issues",
+        "title": "/issues",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/pulls",
+        "title": "/pulls",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/tree/main",
+        "title": "/tree/main",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/tree/main/.claude/skills/bg-text",
+        "title": "/tree/main/.claude/skills/bg-text",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/tree/main/.codex-plugin",
+        "title": "/tree/main/.codex-plugin",
+        "uniques": 1
+      }
+    ]
+  },
+  "repository": "AcTePuKc/bg-text"
+}

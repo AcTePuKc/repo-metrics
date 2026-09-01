@@ -1,10 +1,28 @@
 {
   "clones": 5,
   "days_tracked": 14,
+  "last_30_days": {
+    "clones": 5,
+    "unique_cloners_daily_sum": 5,
+    "unique_visitors_daily_sum": 0,
+    "views": 0
+  },
+  "last_7_days": {
+    "clones": 4,
+    "unique_cloners_daily_sum": 4,
+    "unique_visitors_daily_sum": 0,
+    "views": 0
+  },
   "repository": "AcTePuKc/SAD_bulgarian_localization",
+  "repository_snapshot": {
+    "forks": 0,
+    "open_issues": 0,
+    "stars": 0,
+    "watchers": 0
+  },
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 5,
   "unique_visitors_daily_sum": 0,
-  "updated_at": "2026-09-01T06:05:06Z",
+  "updated_at": "2026-09-01T06:16:18Z",
   "views": 0
 }
