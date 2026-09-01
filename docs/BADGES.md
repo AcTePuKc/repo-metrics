@@ -7,10 +7,36 @@ The visual system is inspired by ShieldCN's MIT-licensed shadcn/ui badge rendere
 ## Where to look
 
 - [`PREVIEW.md`](../PREVIEW.md) - visual playground with generated examples.
-- `src/render_assets.py` - local SVG renderer.
+- [`preview_badges.json`](../preview_badges.json) - human-readable experimental badge recipes.
+- `src/render_assets.py` - local SVG renderer and `BadgeConfig` implementation.
 - `badges/<repo>/` - production badge output.
 - `charts/<repo>/` - production chart output.
 - `preview/<repo>/` - experimental output used only by the preview page.
+
+## How local badge recipes work
+
+The local renderer now has a generic `BadgeConfig` layer. Preview recipes can be written as JSON instead of adding one-off SVG code.
+
+Example:
+
+```json
+{
+  "filename": "construction-zone.svg",
+  "label": "Construction Zone",
+  "value": "",
+  "size": "xs",
+  "font": "geist",
+  "icon": "construction",
+  "icon_color": "18181b",
+  "gradient": ["FFEA61", "FFD400", "FFDD3C", "FFEA61"],
+  "gap": 10,
+  "label_color": "18181b"
+}
+```
+
+The workflow runs `src/render_assets.py`, which loads `preview_badges.json`, converts each object to `BadgeConfig`, renders SVG, and writes it under `preview/MrPrepper-Mods/`.
+
+This is intentionally a build-time recipe system, not an HTTP badge service. There is no `/badge/...` endpoint and no runtime server.
 
 ## Production assets
 
@@ -29,71 +55,103 @@ The public URLs remain stable even if the visual style changes later.
 | Feature | Values / behaviour | Status |
 | --- | --- | --- |
 | Light/dark mode | Automatic through SVG `prefers-color-scheme` | Supported |
-| Badge variants | `secondary`, `outline`, `default`, `destructive` in the preview renderer | Supported |
-| Compact production badge | 24 px shadcn-style badge | Supported |
-| Local SVG icons | Clone/branch and eye icons | Supported |
-| Badge accent colors | Metric-specific clone/view accents | Supported |
-| Compact numbers | `1.2k`, `3.4M`, etc. | Supported |
+| Badge variants | `default`, `secondary`, `outline`, `ghost`, `destructive`, `branded` | Supported |
+| Size | `xs`, `sm`, `default`, `lg` | Supported |
+| Font family hint | `inter`, `geist`, `geist-mono`, `jetbrains-mono` with system fallbacks | Supported |
+| Local SVG icons | clone, eye, pulse, robot, construction | Supported |
+| Icon color | Per recipe | Supported |
+| Main/background color | Per recipe | Supported |
+| Label/value colors | Per recipe | Supported |
+| Gradient | One or more horizontal color stops | Supported |
+| Split layout | Independent left/right segment colors | Supported |
+| Gap | Per recipe, clamped to a safe range | Supported |
+| Radius | Per recipe | Supported |
+| Compact numbers | `1.2k`, `3.4M`, etc. | Supported for metric badges |
 | Traffic chart | Clones + views line chart | Supported |
 | Compact traffic chart | Smaller preview version | Supported |
 | External runtime service | None | Not required |
 
+### Font note
+
+The local renderer does not currently embed font files. A recipe such as `font: "geist"` writes a Geist-first CSS font stack into the SVG and falls back to Inter/system fonts when Geist is not available on the viewer's machine. This keeps the renderer dependency-free.
+
 ## ShieldCN upstream design options
 
-ShieldCN exposes a much larger design surface. These are useful as a reference for features we may choose to copy into the local renderer; listing a feature here does **not** mean it is already implemented by `repo-metrics`.
+ShieldCN still exposes a larger design surface. These are useful as a reference for features we may choose to copy into the local renderer; listing a feature here does **not** imply exact pixel-for-pixel compatibility.
 
 | Area | ShieldCN options | Local status |
 | --- | --- | --- |
-| Variant | `default`, `secondary`, `outline`, `ghost`, `destructive`, `branded` | Partial |
-| Size | `xs`, `sm`, `default`, `lg` | Partial |
-| Mode | `dark`, `light` | Automatic rather than selectable |
-| Font | Inter, Geist, Geist Mono, JetBrains Mono, Fira Code, Roboto, Space Grotesk | Not implemented |
-| Colors | Main, label, value, label text, opacity overrides | Partial |
-| Gradient | Custom gradient backgrounds | Not implemented |
-| Logo/icon | Simple Icons, React Icons, custom SVG, icon color | Local custom SVG only |
-| Layout | Custom label, split, status dot | Not implemented |
-| Dimensions | Height, font size, radius, padding, icon size, gaps | Renderer-internal only |
+| Variant | `default`, `secondary`, `outline`, `ghost`, `destructive`, `branded` | Supported |
+| Size | `xs`, `sm`, `default`, `lg` | Supported |
+| Mode | `dark`, `light` | Automatic rather than URL-selectable |
+| Font | Inter, Geist, Geist Mono, JetBrains Mono, Fira Code, Roboto, Space Grotesk | Partial |
+| Colors | Main, label, value, label text, opacity overrides | Mostly supported |
+| Gradient | Custom gradient backgrounds | Supported |
+| Logo/icon | Simple Icons, React Icons, custom SVG, icon color | Small local registry only |
+| Layout | Custom label, split, status dot | Split supported; status dot not generic yet |
+| Dimensions | Height, font size, radius, padding, icon size, gaps | Presets + gap/radius currently exposed |
 | Animation | Pulse, glow, shimmer | Not implemented |
 | PNG output | Raster output | Not implemented; SVG only |
-| Static arbitrary badge | User-defined label/value/color | Not exposed as a general generator |
+| Static arbitrary badge | User-defined label/value/color | Supported through build-time JSON recipes |
 
-## Candidate badge recipes
+## Translating a ShieldCN builder recipe
 
-These are concrete ShieldCN-style recipes worth reproducing locally if they prove useful. They are references, not currently supported URL parameters in `repo-metrics`.
+A ShieldCN-style URL such as:
 
-### AI-assisted
+```text
+/badge/Construction%20Zone-abcde3.svg?size=xs&font=geist&logo=lu%3AConstruction&gradient=FFEA61%2CFFD400%2CFFDD3C%2CFFEA61&gap=10
+```
 
-Upstream-style reference:
+maps conceptually to our local recipe as:
+
+```text
+Construction%20Zone        -> label: "Construction Zone"
+size=xs                    -> size: "xs"
+font=geist                 -> font: "geist"
+logo=lu:Construction       -> icon: "construction"
+gradient=A,B,C,D           -> gradient: [A, B, C, D]
+gap=10                     -> gap: 10
+```
+
+Icon names are not downloaded from React Icons or Lucide at build time. We add only the local SVG symbols we actually need to the icon registry.
+
+## AI-assisted split recipe
+
+The ShieldCN-style idea:
 
 ```text
 /badge/assisted-ffee8c.svg?size=xs&split=true&logo=ri%3AFaRobot&logoColor=ec4899
 ```
 
-Desired local equivalent:
+can be represented locally with:
 
-- label/value: `assisted`
-- compact `xs` sizing
-- split layout
-- robot icon inspired by React Icons `FaRobot`
-- independently configurable icon color
-- example accent colors: `#ffee8c` for the badge and `#ec4899` for the icon
+```json
+{
+  "label": "AI",
+  "value": "assisted",
+  "size": "xs",
+  "icon": "robot",
+  "icon_color": "ec4899",
+  "split": true,
+  "left_color": "27272a",
+  "right_color": "ffee8c"
+}
+```
 
-The colors are intentionally configurable; this recipe is mainly useful as an `AI-assisted` disclosure badge for projects that want one.
+See `PREVIEW.md` for rendered examples.
 
 ## Recommended scope
 
-The goal is not to re-create the complete ShieldCN service. `repo-metrics` only needs a small presentation layer for repository traffic data and a few reusable project badges.
+The goal is not to re-create the complete ShieldCN service. `repo-metrics` only needs a small presentation layer for repository traffic data and a convenient local playground for reusable badge styles.
 
-Good candidates to add locally if they prove useful in the preview:
+Good candidates for future additions are:
 
-1. `ghost` and `branded` variants.
-2. A real `size` setting shared by production and preview badges.
-3. Optional `split` layout.
-4. A small local icon registry for GitHub/clone/view/download/star/robot-style symbols.
-5. Independent icon color support.
-6. Optional chart dimensions and compact/full presets.
+1. More useful local icons such as download, star, GitHub and release.
+2. Optional embedded/open font assets only if font consistency becomes important.
+3. Generic status-dot support.
+4. A tiny CLI that converts a ShieldCN-like recipe string to our JSON format.
 
-Features such as remote providers, databases, counters, HTTP endpoints, PNG rendering and provider auto-detection are intentionally outside the scope of this repository.
+Features such as remote providers, databases, counters, HTTP endpoints, PNG rendering and provider auto-detection remain outside the scope of this repository.
 
 ## README usage
 
@@ -113,4 +171,4 @@ Replace `REPOSITORY` with the repository name exactly as it appears under `data/
 
 ## Preview workflow
 
-Experimental styles should go into `preview/<repo>/` and be listed in `PREVIEW.md`. Once a style is selected, the production renderer can adopt it without changing external README URLs.
+Experimental styles should be added to `preview_badges.json` when they fit the generic recipe model. Once a style is selected, the production renderer can adopt it without changing external README URLs.
