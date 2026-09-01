@@ -5,7 +5,7 @@
     "value": "",
     "size": "xs",
     "font": "geist",
-    "icon": "construction",
+    "icon": "lu:Construction",
     "icon_color": "18181b",
     "gradient": [
       "FFEA61",
@@ -22,7 +22,7 @@
     "value": "assisted",
     "size": "xs",
     "font": "inter",
-    "icon": "robot",
+    "icon": "ri:FaRobot",
     "icon_color": "ec4899",
     "split": true,
     "left_color": "27272a",
@@ -32,18 +32,34 @@
     "gap": 5
   },
   {
-    "filename": "built-with-ai-split.svg",
+    "filename": "built-with-claude.svg",
     "label": "Built with",
-    "value": "AI assistance",
+    "value": "Claude",
     "size": "xs",
     "font": "inter",
-    "icon": "robot",
-    "icon_color": "60a5fa",
-    "split": true,
-    "left_color": "18181b",
-    "right_color": "dbeafe",
-    "label_color": "fafafa",
-    "value_color": "18181b",
+    "brand": "claude",
+    "variant": "secondary",
     "gap": 5
+  },
+  {
+    "filename": "builder-kitchen-sink.svg",
+    "label": "1",
+    "value": "mr-prepper",
+    "variant": "destructive",
+    "size": "xs",
+    "split": true,
+    "labelOpacity": 1,
+    "gradient": [
+      "3b82f6",
+      "3b82f6"
+    ],
+    "brand": "claude",
+    "height": 33,
+    "fontSize": 13,
+    "padX": 7,
+    "iconSize": 17,
+    "gap": 5,
+    "labelGap": 4,
+    "statusDot": true
   }
 ]
