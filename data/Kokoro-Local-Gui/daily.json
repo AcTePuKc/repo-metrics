@@ -1,0 +1,89 @@
+{
+  "days": {
+    "2026-08-18": {
+      "clones": 4,
+      "unique_cloners": 4,
+      "unique_visitors": 34,
+      "views": 67
+    },
+    "2026-08-19": {
+      "clones": 3,
+      "unique_cloners": 3,
+      "unique_visitors": 20,
+      "views": 40
+    },
+    "2026-08-20": {
+      "clones": 2,
+      "unique_cloners": 2,
+      "unique_visitors": 18,
+      "views": 40
+    },
+    "2026-08-21": {
+      "clones": 6,
+      "unique_cloners": 6,
+      "unique_visitors": 19,
+      "views": 28
+    },
+    "2026-08-22": {
+      "clones": 2,
+      "unique_cloners": 2,
+      "unique_visitors": 11,
+      "views": 21
+    },
+    "2026-08-23": {
+      "clones": 3,
+      "unique_cloners": 3,
+      "unique_visitors": 23,
+      "views": 50
+    },
+    "2026-08-24": {
+      "clones": 3,
+      "unique_cloners": 3,
+      "unique_visitors": 10,
+      "views": 13
+    },
+    "2026-08-25": {
+      "clones": 2,
+      "unique_cloners": 2,
+      "unique_visitors": 17,
+      "views": 29
+    },
+    "2026-08-26": {
+      "clones": 3,
+      "unique_cloners": 3,
+      "unique_visitors": 15,
+      "views": 23
+    },
+    "2026-08-27": {
+      "clones": 1,
+      "unique_cloners": 1,
+      "unique_visitors": 21,
+      "views": 37
+    },
+    "2026-08-28": {
+      "clones": 1,
+      "unique_cloners": 1,
+      "unique_visitors": 13,
+      "views": 40
+    },
+    "2026-08-29": {
+      "clones": 3,
+      "unique_cloners": 2,
+      "unique_visitors": 20,
+      "views": 41
+    },
+    "2026-08-30": {
+      "clones": 1,
+      "unique_cloners": 1,
+      "unique_visitors": 16,
+      "views": 24
+    },
+    "2026-08-31": {
+      "clones": 1,
+      "unique_cloners": 1,
+      "unique_visitors": 12,
+      "views": 28
+    }
+  },
+  "repository": "AcTePuKc/Kokoro-Local-Gui"
+}
