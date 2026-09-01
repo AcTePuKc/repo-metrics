@@ -10,17 +10,33 @@ For the full supported/upstream feature matrix and stable embed syntax, see [`do
 
 ![Clones](badges/MrPrepper-Mods/clones.svg) ![Views](badges/MrPrepper-Mods/views.svg)
 
+```md
+![Clones](badges/MrPrepper-Mods/clones.svg) ![Views](badges/MrPrepper-Mods/views.svg)
+```
+
 ## Icon badges - secondary
 
 ![Clones icon secondary](preview/MrPrepper-Mods/clones-icon-secondary.svg) ![Views icon secondary](preview/MrPrepper-Mods/views-icon-secondary.svg)
+
+```md
+![Clones icon secondary](preview/MrPrepper-Mods/clones-icon-secondary.svg) ![Views icon secondary](preview/MrPrepper-Mods/views-icon-secondary.svg)
+```
 
 ## Icon badges - outline
 
 ![Clones icon outline](preview/MrPrepper-Mods/clones-icon-outline.svg) ![Views icon outline](preview/MrPrepper-Mods/views-icon-outline.svg)
 
+```md
+![Clones icon outline](preview/MrPrepper-Mods/clones-icon-outline.svg) ![Views icon outline](preview/MrPrepper-Mods/views-icon-outline.svg)
+```
+
 ## Larger / louder variants
 
 ![Clones default](preview/MrPrepper-Mods/clones-icon-default.svg) ![Views destructive](preview/MrPrepper-Mods/views-icon-destructive.svg)
+
+```md
+![Clones default](preview/MrPrepper-Mods/clones-icon-default.svg) ![Views destructive](preview/MrPrepper-Mods/views-icon-destructive.svg)
+```
 
 The destructive version is intentionally excessive. It is here to test the design system, not because repository views are an emergency.
 
@@ -42,17 +58,35 @@ Local generated preview:
 
 ![Construction Zone](preview/MrPrepper-Mods/construction-zone.svg)
 
-The recipe now keeps the upstream-style icon identifier `lu:Construction`; `src/resolve_icons.mjs` resolves it from React Icons during the workflow.
+```md
+![Construction Zone](preview/MrPrepper-Mods/construction-zone.svg)
+```
+
+Icon identifier: `lu:Construction`
+
+The recipe keeps the upstream-style icon identifier `lu:Construction`; `src/resolve_icons.mjs` resolves it from React Icons during the workflow.
 
 ### Split AI badge - React Icons
 
 ![AI assisted](preview/MrPrepper-Mods/ai-assisted-split.svg)
+
+```md
+![AI assisted](preview/MrPrepper-Mods/ai-assisted-split.svg)
+```
+
+Icon identifier: `ri:FaRobot`
 
 This uses `ri:FaRobot`, which is resolved from the appropriate React Icons pack automatically.
 
 ### Brand badge - Simple Icons
 
 ![Built with Claude](preview/MrPrepper-Mods/built-with-claude.svg)
+
+```md
+![Built with Claude](preview/MrPrepper-Mods/built-with-claude.svg)
+```
+
+Brand identifier: `claude`
 
 The recipe only says `"brand": "claude"`. The build step searches Simple Icons by slug/title and supplies the icon path and default brand color. There is no hand-maintained list of brands in `repo-metrics`.
 
@@ -62,6 +96,12 @@ The following intentionally excessive badge exercises the controls from a Shield
 
 ![Builder kitchen sink](preview/MrPrepper-Mods/builder-kitchen-sink.svg)
 
+```md
+![Builder kitchen sink](preview/MrPrepper-Mods/builder-kitchen-sink.svg)
+```
+
+Brand identifier: `claude`
+
 It combines `destructive`, `xs`, `split`, full label opacity, a gradient, the Claude brand icon, custom height/font/padding/icon dimensions, `gap`, `labelGap`, and a status dot.
 
 ## Traffic chart
@@ -70,12 +110,21 @@ It combines `destructive`, `xs`, `split`, full label opacity, a gradient, the Cl
 
 ![Traffic chart](charts/MrPrepper-Mods/traffic.svg)
 
+```md
+![Traffic chart](charts/MrPrepper-Mods/traffic.svg)
+```
+
 ### Compact
 
 ![Compact traffic chart](preview/MrPrepper-Mods/traffic-compact.svg)
 
+```md
+![Compact traffic chart](preview/MrPrepper-Mods/traffic-compact.svg)
+```
+
 ## Notes
 
+- The code blocks below each rendered asset show the exact Markdown used by this page, so examples can be copied without opening the source view.
 - `preview_badges.json` contains the human-readable experimental badge recipes.
 - `src/badge_renderer.py` contains `BadgeConfig` and the generic SVG badge renderer.
 - `src/resolve_icons.mjs` resolves requested Simple Icons, React Icons and Lucide identifiers at build time.
