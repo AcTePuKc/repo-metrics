@@ -1,18 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="101" height="32" viewBox="0 0 101 32" role="img" aria-label="views: 7">
   <title>views: 7</title>
+  
   <style>
     .bg { fill: #dc2626; stroke: #dc2626; }
+    .border { stroke: #dc2626; }
     .label { fill: #fee2e2; }
     .value { fill: #ffffff; }
     .icon { color: #ffffff; }
     @media (prefers-color-scheme: light) {
       .bg { fill: #dc2626; stroke: #dc2626; }
+      .border { stroke: #dc2626; }
       .label { fill: #fee2e2; }
       .value { fill: #ffffff; }
       .icon { color: #ffffff; }
     }
   </style>
   <rect class="bg" x="0.5" y="0.5" width="100" height="31" rx="6" stroke-width="1"/>
+  
+  
   <g class="icon" transform="translate(12 8) scale(0.666667)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="3"/></g>
   <text class="label" x="34" y="21" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="500">views</text>
   <text class="value" x="81" y="21" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="700">7</text>

@@ -1,18 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="99" height="24" viewBox="0 0 99 24" role="img" aria-label="clones: 173">
   <title>clones: 173</title>
+  
   <style>
     .bg { fill: #27272a; stroke: #3f3f46; }
+    .border { stroke: #3f3f46; }
     .label { fill: #a1a1aa; }
     .value { fill: #fafafa; }
     .icon { color: #22c55e; }
     @media (prefers-color-scheme: light) {
       .bg { fill: #f4f4f5; stroke: #d4d4d8; }
+      .border { stroke: #d4d4d8; }
       .label { fill: #71717a; }
       .value { fill: #18181b; }
       .icon { color: #22c55e; }
     }
   </style>
   <rect class="bg" x="0.5" y="0.5" width="98" height="23" rx="6" stroke-width="1"/>
+  
+  
   <g class="icon" transform="translate(8 6) scale(0.5)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2.5"/><circle cx="18" cy="19" r="2.5"/><circle cx="6" cy="19" r="2.5"/><path d="M6 7.5v9M8.5 5h3.25A6.25 6.25 0 0 1 18 11.25v5.25"/></g>
   <text class="label" x="24" y="16" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="500">clones</text>
   <text class="value" x="70" y="16" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" font-weight="700">173</text>
