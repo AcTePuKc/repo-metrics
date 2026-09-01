@@ -1,0 +1,53 @@
+name: Collect repository traffic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/collect.yml"
+      - "src/**"
+      - "repositories.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-metrics-collector
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Collect traffic history
+        env:
+          GH_TRAFFIC_TOKEN: ${{ secrets.GH_TRAFFIC_TOKEN }}
+        run: python src/collect.py
+
+      - name: Commit updated metrics
+        shell: bash
+        run: |
+          if git diff --quiet -- data badges; then
+            echo "No metric changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data badges
+          git commit -m "Update repository traffic metrics"
+          git push
