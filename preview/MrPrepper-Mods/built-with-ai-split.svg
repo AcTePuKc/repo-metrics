@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="24" viewBox="0 0 164 24" role="img" aria-label="Built with: AI assistance">
+  <title>Built with: AI assistance</title>
+  <style>
+    .left { fill: #27272a; }
+    .right { fill: #7dd3fc; }
+    .label { fill: #fafafa; }
+    .value { fill: #0c4a6e; }
+    .robot { color: #a855f7; }
+    @media (prefers-color-scheme: light) {
+      .left { fill: #f4f4f5; }
+      .label { fill: #18181b; }
+    }
+  </style>
+  <clipPath id="r"><rect width="164" height="24" rx="6"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect class="left" width="78" height="24"/>
+    <rect class="right" x="78" width="86" height="24"/>
+  </g>
+  <g class="robot" transform="translate(6 6)" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="2.5" width="12" height="9" rx="2"/>
+    <path d="M7 0v2.5M4.5 6.5h.01M9.5 6.5h.01M4.5 9h5M0 6H1M13 6h1"/>
+  </g>
+  <text class="label" x="24" y="16" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="600">Built with</text>
+  <text class="value" x="86" y="16" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="600">AI assistance</text>
+</svg>
