@@ -1,5 +1,7 @@
 # repo-metrics
 
+![Collect repository traffic](https://github.com/AcTePuKc/repo-metrics/actions/workflows/collect.yml/badge.svg) ![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/repo-metrics/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/repo-metrics/views.svg)
+
 Persistent GitHub repository traffic history for my public repositories.
 
 GitHub only exposes repository clone and view traffic for a rolling 14-day window. This repository collects that data daily and keeps the historical values so they are not lost when they fall out of GitHub's window.
