@@ -49,9 +49,24 @@ jobs:
             exit 0
           fi
 
+          snapshot_dir="$(mktemp -d)"
+          cp -a data "$snapshot_dir/data"
+          cp -a badges "$snapshot_dir/badges"
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          rm -rf data badges
+          cp -a "$snapshot_dir/data" data
+          cp -a "$snapshot_dir/badges" badges
+
+          if [ -z "$(git status --porcelain -- data badges)" ]; then
+            echo "Remote already contains these metric changes."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data badges
           git commit -m "Update repository traffic metrics"
-          git pull --rebase origin main
           git push origin HEAD:main
