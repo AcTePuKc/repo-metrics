@@ -16,6 +16,23 @@
         "referrer": "github.com",
         "uniques": 2
       }
+    ],
+    "2026-09-02": [
+      {
+        "count": 27,
+        "referrer": "Google",
+        "uniques": 14
+      },
+      {
+        "count": 18,
+        "referrer": "DuckDuckGo",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "referrer": "github.com",
+        "uniques": 3
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

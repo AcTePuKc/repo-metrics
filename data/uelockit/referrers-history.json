@@ -21,6 +21,28 @@
         "referrer": "Bing",
         "uniques": 1
       }
+    ],
+    "2026-09-02": [
+      {
+        "count": 12,
+        "referrer": "yandex.ru",
+        "uniques": 4
+      },
+      {
+        "count": 10,
+        "referrer": "chatgpt.com",
+        "uniques": 5
+      },
+      {
+        "count": 9,
+        "referrer": "Google",
+        "uniques": 7
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"

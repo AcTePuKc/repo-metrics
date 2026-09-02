@@ -11,6 +11,18 @@
         "referrer": "Google",
         "uniques": 2
       }
+    ],
+    "2026-09-02": [
+      {
+        "count": 3,
+        "referrer": "github.com",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "referrer": "Google",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/github-motion"

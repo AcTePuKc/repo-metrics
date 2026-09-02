@@ -61,6 +61,68 @@
         "title": "/blob/main/docs/{{ '/tools/' | relative_url }}",
         "uniques": 1
       }
+    ],
+    "2026-09-02": [
+      {
+        "count": 23,
+        "path": "/AcTePuKc/uelockit",
+        "title": "Overview",
+        "uniques": 16
+      },
+      {
+        "count": 21,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/quickstart.md",
+        "title": "/blob/main/docs/quickstart.md",
+        "uniques": 3
+      },
+      {
+        "count": 8,
+        "path": "/AcTePuKc/uelockit/releases/tag/v0.1.0",
+        "title": "/releases/tag/v0.1.0",
+        "uniques": 8
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/tools.md",
+        "title": "/blob/main/docs/tools.md",
+        "uniques": 4
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/config/UELocKit.sample.config.psd1",
+        "title": "/blob/main/config/UELocKit.sample.config.psd1",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/iostore-packaging.md",
+        "title": "/blob/main/docs/iostore-packaging.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/workflow.md",
+        "title": "/blob/main/docs/workflow.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/{{ '/quickstart/' | relative_url }}",
+        "title": "/blob/main/docs/{{ '/quickstart/' | relative_url }}",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/{{ '/tools/' | relative_url }}",
+        "title": "/blob/main/docs/{{ '/tools/' | relative_url }}",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"

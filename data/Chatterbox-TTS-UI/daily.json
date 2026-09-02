@@ -83,6 +83,18 @@
       "unique_cloners": 3,
       "unique_visitors": 14,
       "views": 18
+    },
+    "2026-08-31": {
+      "clones": 2,
+      "unique_cloners": 1,
+      "unique_visitors": 8,
+      "views": 11
+    },
+    "2026-09-01": {
+      "clones": 3,
+      "unique_cloners": 3,
+      "unique_visitors": 15,
+      "views": 27
     }
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"

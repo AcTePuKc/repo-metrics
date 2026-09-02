@@ -26,6 +26,33 @@
         "referrer": "ecosia.org",
         "uniques": 1
       }
+    ],
+    "2026-09-02": [
+      {
+        "count": 118,
+        "referrer": "chatgpt.com",
+        "uniques": 60
+      },
+      {
+        "count": 48,
+        "referrer": "Google",
+        "uniques": 34
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "github.com",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"

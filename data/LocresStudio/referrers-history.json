@@ -41,6 +41,43 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-09-02": [
+      {
+        "count": 143,
+        "referrer": "Google",
+        "uniques": 71
+      },
+      {
+        "count": 28,
+        "referrer": "chatgpt.com",
+        "uniques": 11
+      },
+      {
+        "count": 7,
+        "referrer": "nexusmods.com",
+        "uniques": 5
+      },
+      {
+        "count": 7,
+        "referrer": "Bing",
+        "uniques": 4
+      },
+      {
+        "count": 5,
+        "referrer": "github.com",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "referrer": "Yahoo",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "referrer": "ya.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"
