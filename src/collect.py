@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "repositories.json"
 DATA_ROOT = ROOT / "data"
 BADGE_ROOT = ROOT / "badges"
+CHART_ROOT = ROOT / "charts"
 AGGREGATE_PATH = DATA_ROOT / "all-repositories.json"
 API_ROOT = "https://api.github.com"
 
@@ -196,64 +197,8 @@ def normalize_paths(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     ]
 
 
-def compact_number(value: int) -> str:
-    if value < 1_000:
-        return str(value)
-    if value < 1_000_000:
-        number = value / 1_000
-        suffix = "k"
-    elif value < 1_000_000_000:
-        number = value / 1_000_000
-        suffix = "M"
-    else:
-        number = value / 1_000_000_000
-        suffix = "B"
-    rendered = f"{number:.1f}".rstrip("0").rstrip(".")
-    return f"{rendered}{suffix}"
-
-
-def badge_svg(label: str, value: int) -> str:
-    message = compact_number(value)
-    label_width = max(54, 7 * len(label) + 14)
-    value_width = max(42, 7 * len(message) + 14)
-    total_width = label_width + value_width
-    label_mid = label_width / 2
-    value_mid = label_width + value_width / 2
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{total_width}" height="20" role="img" aria-label="{label}: {message}">
-  <title>{label}: {message}</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-    <stop offset="1" stop-opacity=".1"/>
-  </linearGradient>
-  <clipPath id="r"><rect width="{total_width}" height="20" rx="3"/></clipPath>
-  <g clip-path="url(#r)">
-    <rect width="{label_width}" height="20" fill="#555"/>
-    <rect x="{label_width}" width="{value_width}" height="20" fill="#007ec6"/>
-    <rect width="{total_width}" height="20" fill="url(#s)"/>
-  </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
-    <text x="{label_mid}" y="15" fill="#010101" fill-opacity=".3">{label}</text>
-    <text x="{label_mid}" y="14">{label}</text>
-    <text x="{value_mid}" y="15" fill="#010101" fill-opacity=".3">{message}</text>
-    <text x="{value_mid}" y="14">{message}</text>
-  </g>
-</svg>
-'''
-
-
-def save_badges(repo_name: str, summary: dict[str, Any]) -> None:
-    directory = BADGE_ROOT / repo_name
-    directory.mkdir(parents=True, exist_ok=True)
-    (directory / "clones.svg").write_text(
-        badge_svg("clones", int(summary["clones"])), encoding="utf-8", newline="\n"
-    )
-    (directory / "views.svg").write_text(
-        badge_svg("views", int(summary["views"])), encoding="utf-8", newline="\n"
-    )
-
-
 def remove_stale_public_data(active_repo_names: set[str]) -> None:
-    for root in (DATA_ROOT, BADGE_ROOT):
+    for root in (DATA_ROOT, BADGE_ROOT, CHART_ROOT):
         if not root.exists():
             continue
         for child in root.iterdir():
@@ -303,8 +248,6 @@ def collect_repository(repository: dict[str, Any], token: str, updated_at: str) 
         normalize_paths(paths),
         full_name,
     )
-    save_badges(repo_name, summary)
-
     print(
         f"{full_name}: {summary['clones']} clones, {summary['views']} views, "
         f"{summary['days_tracked']} days tracked, {snapshot['stars']} stars"
