@@ -76,10 +76,21 @@ Every tracked repository currently gets:
 ```text
 badges/<repo>/clones.svg
 badges/<repo>/views.svg
+badges/<repo>/clones-7d.svg
+badges/<repo>/views-7d.svg
+badges/<repo>/clones-30d.svg
+badges/<repo>/views-30d.svg
+badges/<repo>/stars.svg
+badges/<repo>/forks.svg
 charts/<repo>/traffic.svg
 ```
 
 The public URLs remain stable even if the visual style changes later.
+
+The unsuffixed `clones.svg` and `views.svg` badges are persistent totals from the
+start of tracking. The `-7d` and `-30d` badges are rolling windows based on the
+latest tracked daily records. `stars.svg` and `forks.svg` are current repository
+snapshots, not cumulative events.
 
 ## Local support today
 
@@ -205,7 +216,13 @@ Remote providers, databases, counters, HTTP endpoints and provider auto-detectio
 Production badges can be embedded from any repository with the stable raw URLs:
 
 ```md
-![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/views.svg)
+![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/views.svg) ![Repository Stars](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/stars.svg) ![Repository Forks](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/forks.svg)
+```
+
+Windowed traffic variants use the same path with `-7d` or `-30d` before `.svg`:
+
+```md
+![Clones in the last 30 days](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/clones-30d.svg) ![Views in the last 30 days](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/REPOSITORY/views-30d.svg)
 ```
 
 Traffic chart:

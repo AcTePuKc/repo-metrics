@@ -34,6 +34,10 @@ def badge_svg(label: str, value: int) -> str:
     return render_badge(BadgeConfig(label=label, value=compact_number(value), size="xs"))
 
 
+def write_metric_badge(directory: Path, filename: str, label: str, value: Any) -> None:
+    write_text(directory / filename, badge_svg(label, int(value)))
+
+
 def polyline_points(values: list[int], left: int, top: int, width: int, height: int, maximum: int) -> str:
     if not values:
         return ""
@@ -149,9 +153,23 @@ def render_repository(repository_dir: Path) -> bool:
     summary = load_json(summary_path)
     chart = load_json(chart_path)
     repo_name = repository_dir.name
+    badge_directory = BADGE_ROOT / repo_name
 
-    write_text(BADGE_ROOT / repo_name / "clones.svg", badge_svg("clones", int(summary.get("clones", 0))))
-    write_text(BADGE_ROOT / repo_name / "views.svg", badge_svg("views", int(summary.get("views", 0))))
+    write_metric_badge(badge_directory, "clones.svg", "clones", summary.get("clones", 0))
+    write_metric_badge(badge_directory, "views.svg", "views", summary.get("views", 0))
+
+    last_7_days = summary.get("last_7_days", {})
+    write_metric_badge(badge_directory, "clones-7d.svg", "clones 7d", last_7_days.get("clones", 0))
+    write_metric_badge(badge_directory, "views-7d.svg", "views 7d", last_7_days.get("views", 0))
+
+    last_30_days = summary.get("last_30_days", {})
+    write_metric_badge(badge_directory, "clones-30d.svg", "clones 30d", last_30_days.get("clones", 0))
+    write_metric_badge(badge_directory, "views-30d.svg", "views 30d", last_30_days.get("views", 0))
+
+    snapshot = summary.get("repository_snapshot", {})
+    write_metric_badge(badge_directory, "stars.svg", "stars", snapshot.get("stars", 0))
+    write_metric_badge(badge_directory, "forks.svg", "forks", snapshot.get("forks", 0))
+
     write_text(CHART_ROOT / repo_name / "traffic.svg", chart_svg(chart))
     render_preview(repo_name, summary, chart)
     return True

@@ -45,6 +45,12 @@ Generated SVG assets:
 
 - `badges/<repo>/clones.svg`
 - `badges/<repo>/views.svg`
+- `badges/<repo>/clones-7d.svg`
+- `badges/<repo>/views-7d.svg`
+- `badges/<repo>/clones-30d.svg`
+- `badges/<repo>/views-30d.svg`
+- `badges/<repo>/stars.svg`
+- `badges/<repo>/forks.svg`
 - `charts/<repo>/traffic.svg`
 
 `data/all-repositories.json` contains aggregate totals and per-repository summaries.
@@ -58,7 +64,14 @@ The badges are generated locally by the GitHub Actions workflow and served direc
 For `MrPrepper-Mods`:
 
 ```md
-![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/views.svg)
+![Repository Clones](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/clones.svg) ![Repository Views](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/views.svg) ![Repository Stars](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/stars.svg)
+```
+
+Windowed traffic badges use the daily totals for the most recent seven or thirty tracked days:
+
+```md
+![Clones in the last 7 days](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/clones-7d.svg) ![Views in the last 7 days](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/views-7d.svg)
+![Clones in the last 30 days](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/clones-30d.svg) ![Views in the last 30 days](https://raw.githubusercontent.com/AcTePuKc/repo-metrics/main/badges/MrPrepper-Mods/views-30d.svg)
 ```
 
 The renderer uses a compact shadcn-style visual design adapted from ShieldCN's MIT-licensed design tokens. The generated SVGs support light and dark system color schemes through CSS media queries.
