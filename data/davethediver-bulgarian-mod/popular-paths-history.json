@@ -21,6 +21,20 @@
         "title": "/releases",
         "uniques": 1
       }
+    ],
+    "2026-09-03": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/releases",
+        "title": "/releases",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"
