@@ -81,6 +81,7 @@ jobs:
           cp -a "$snapshot_dir/badges" badges
           cp -a "$snapshot_dir/charts" charts
           cp -a "$snapshot_dir/preview" preview
+          cp -a "$snapshot_dir/PORTFOLIO.md" PORTFOLIO.md
 
           if [ -z "$(git status --porcelain -- data badges charts preview PORTFOLIO.md)" ]; then
             echo "Remote already contains these metric changes."
