@@ -158,24 +158,24 @@
     ],
     "2026-09-04": [
       {
-        "count": 139,
+        "count": 128,
         "referrer": "Google",
-        "uniques": 70
+        "uniques": 66
       },
       {
-        "count": 123,
+        "count": 106,
         "referrer": "chatgpt.com",
-        "uniques": 59
+        "uniques": 52
       },
       {
-        "count": 16,
-        "referrer": "github.com",
-        "uniques": 11
-      },
-      {
-        "count": 16,
+        "count": 21,
         "referrer": "Bing",
-        "uniques": 10
+        "uniques": 12
+      },
+      {
+        "count": 17,
+        "referrer": "github.com",
+        "uniques": 12
       },
       {
         "count": 7,

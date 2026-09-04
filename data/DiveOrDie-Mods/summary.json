@@ -1,6 +1,6 @@
 {
   "clones": 8,
-  "days_tracked": 17,
+  "days_tracked": 18,
   "last_30_days": {
     "clones": 8,
     "unique_cloners_daily_sum": 8,
@@ -10,8 +10,8 @@
   "last_7_days": {
     "clones": 2,
     "unique_cloners_daily_sum": 2,
-    "unique_visitors_daily_sum": 8,
-    "views": 8
+    "unique_visitors_daily_sum": 3,
+    "views": 3
   },
   "repository": "AcTePuKc/DiveOrDie-Mods",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 8,
   "unique_visitors_daily_sum": 23,
-  "updated_at": "2026-09-04T05:59:51Z",
+  "updated_at": "2026-09-04T08:53:25Z",
   "views": 24
 }

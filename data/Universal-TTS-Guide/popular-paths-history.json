@@ -188,10 +188,10 @@
     ],
     "2026-09-04": [
       {
-        "count": 39,
+        "count": 37,
         "path": "/AcTePuKc/Universal-TTS-Guide",
         "title": "Overview",
-        "uniques": 29
+        "uniques": 31
       },
       {
         "count": 8,
@@ -200,21 +200,15 @@
         "uniques": 7
       },
       {
-        "count": 6,
+        "count": 7,
         "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/1-data-preparation.md",
         "title": "/blob/main/docs/guides/1-data-preparation.md",
-        "uniques": 6
+        "uniques": 7
       },
       {
-        "count": 5,
+        "count": 4,
         "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/1_DATA_PREPARATION.md",
         "title": "/blob/main/guides/1_DATA_PREPARATION.md",
-        "uniques": 5
-      },
-      {
-        "count": 5,
-        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/3-model-training.md",
-        "title": "/blob/main/docs/guides/3-model-training.md",
         "uniques": 4
       },
       {
@@ -222,6 +216,12 @@
         "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/4_INFERENCE.md",
         "title": "/blob/main/guides/4_INFERENCE.md",
         "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/3-model-training.md",
+        "title": "/blob/main/docs/guides/3-model-training.md",
+        "uniques": 3
       },
       {
         "count": 3,
@@ -237,14 +237,14 @@
       },
       {
         "count": 2,
-        "path": "/AcTePuKc/Universal-TTS-Guide/pulls",
-        "title": "/pulls",
-        "uniques": 2
-      },
-      {
-        "count": 2,
         "path": "/AcTePuKc/Universal-TTS-Guide/tree/main/docs/guides",
         "title": "/tree/main/docs/guides",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/4-inference.md",
+        "title": "/blob/main/docs/guides/4-inference.md",
         "uniques": 1
       }
     ]

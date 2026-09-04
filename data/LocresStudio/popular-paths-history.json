@@ -188,16 +188,16 @@
     ],
     "2026-09-04": [
       {
-        "count": 121,
+        "count": 117,
         "path": "/AcTePuKc/LocresStudio",
         "title": "Overview",
-        "uniques": 86
+        "uniques": 87
       },
       {
-        "count": 75,
+        "count": 77,
         "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
         "title": "/releases/tag/v1.1.0",
-        "uniques": 44
+        "uniques": 43
       },
       {
         "count": 68,
@@ -221,12 +221,6 @@
         "count": 2,
         "path": "/AcTePuKc/LocresStudio/commit/46541bcb9b1c45d5fbd10e9bbf4f347303fdf824",
         "title": "/commit/46541bcb9b1c45d5fbd10e9bbf4f347303fdf824",
-        "uniques": 1
-      },
-      {
-        "count": 1,
-        "path": "/AcTePuKc/LocresStudio/actions",
-        "title": "/actions",
         "uniques": 1
       },
       {

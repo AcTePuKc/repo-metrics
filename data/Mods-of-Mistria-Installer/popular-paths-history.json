@@ -188,7 +188,7 @@
     ],
     "2026-09-04": [
       {
-        "count": 31,
+        "count": 39,
         "path": "/AcTePuKc/Mods-of-Mistria-Installer",
         "title": "Overview",
         "uniques": 9
@@ -200,7 +200,7 @@
         "uniques": 5
       },
       {
-        "count": 13,
+        "count": 15,
         "path": "/AcTePuKc/Mods-of-Mistria-Installer/tree/aim/0.1.9-nexus-oauth",
         "title": "/tree/aim/0.1.9-nexus-oauth",
         "uniques": 2
@@ -237,14 +237,14 @@
       },
       {
         "count": 2,
-        "path": "/AcTePuKc/Mods-of-Mistria-Installer/tree/main/ModsOfMistriaInstallerLib/Seam",
-        "title": "/tree/main/ModsOfMistriaInstallerLib/Seam",
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/commit/f0db3a4e50b91bbc0beae5354c90084f3adba5b1",
+        "title": "/commit/f0db3a4e50b91bbc0beae5354c90084f3adba5b1",
         "uniques": 1
       },
       {
         "count": 2,
-        "path": "/AcTePuKc/Mods-of-Mistria-Installer/tree/main/ModsOfMistriaInstallerLib/Seam/Payload",
-        "title": "/tree/main/ModsOfMistriaInstallerLib/Seam/Payload",
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/commits/main",
+        "title": "/commits/main",
         "uniques": 1
       }
     ]

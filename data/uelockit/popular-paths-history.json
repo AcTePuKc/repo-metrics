@@ -188,28 +188,28 @@
     ],
     "2026-09-04": [
       {
-        "count": 29,
+        "count": 31,
         "path": "/AcTePuKc/uelockit",
         "title": "Overview",
-        "uniques": 19
+        "uniques": 20
       },
       {
-        "count": 22,
+        "count": 20,
         "path": "/AcTePuKc/uelockit/blob/main/docs/quickstart.md",
         "title": "/blob/main/docs/quickstart.md",
         "uniques": 3
+      },
+      {
+        "count": 10,
+        "path": "/AcTePuKc/uelockit/releases/tag/v0.1.0",
+        "title": "/releases/tag/v0.1.0",
+        "uniques": 10
       },
       {
         "count": 9,
         "path": "/AcTePuKc/uelockit/blob/main/docs/tools.md",
         "title": "/blob/main/docs/tools.md",
         "uniques": 5
-      },
-      {
-        "count": 8,
-        "path": "/AcTePuKc/uelockit/releases/tag/v0.1.0",
-        "title": "/releases/tag/v0.1.0",
-        "uniques": 8
       },
       {
         "count": 4,
@@ -231,12 +231,6 @@
       },
       {
         "count": 1,
-        "path": "/AcTePuKc/uelockit/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "uniques": 1
-      },
-      {
-        "count": 1,
         "path": "/AcTePuKc/uelockit/blob/main/build-locres.ps1",
         "title": "/blob/main/build-locres.ps1",
         "uniques": 1
@@ -245,6 +239,12 @@
         "count": 1,
         "path": "/AcTePuKc/uelockit/blob/main/config/UELocKit.sample.config.psd1",
         "title": "/blob/main/config/UELocKit.sample.config.psd1",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uelockit/blob/main/docs/iostore-packaging.md",
+        "title": "/blob/main/docs/iostore-packaging.md",
         "uniques": 1
       }
     ]

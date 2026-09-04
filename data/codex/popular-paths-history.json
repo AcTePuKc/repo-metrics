@@ -26,10 +26,16 @@
     ],
     "2026-09-04": [
       {
-        "count": 4,
+        "count": 3,
         "path": "/AcTePuKc/codex-gui",
         "title": "Overview",
-        "uniques": 3
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex",
+        "title": "Overview",
+        "uniques": 1
       }
     ]
   },
