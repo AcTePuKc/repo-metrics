@@ -4,7 +4,7 @@ Automatically generated from the repository snapshots in [`data/all-repositories
 
 ## At a glance
 
-| Repositories | Stars | Forks | Tracked clones | Tracked views |
+| Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
 | 55 | 128 | 10 | 1220 | 1660 |
 

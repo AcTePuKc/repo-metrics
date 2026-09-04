@@ -206,7 +206,7 @@ Automatically generated from the repository snapshots in [`data/all-repositories
 
 ## At a glance
 
-| Repositories | Stars | Forks | Tracked clones | Tracked views |
+| Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
 | {int(aggregate.get('repository_count', 0))} | {int(totals.get('stars', 0))} | {int(totals.get('forks', 0))} | {int(totals.get('clones', 0))} | {int(totals.get('views', 0))} |
 
