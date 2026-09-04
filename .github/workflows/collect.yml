@@ -13,6 +13,7 @@ on:
       - "repositories.json"
       - "preview_badges.json"
       - "package.json"
+      - "README.md"
 
 permissions:
   contents: write
@@ -60,7 +61,7 @@ jobs:
       - name: Commit updated metrics
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- data badges charts preview)" ]; then
+          if [ -z "$(git status --porcelain -- data badges charts preview PORTFOLIO.md)" ]; then
             echo "No metric changes to commit."
             exit 0
           fi
@@ -70,6 +71,7 @@ jobs:
           cp -a badges "$snapshot_dir/badges"
           cp -a charts "$snapshot_dir/charts"
           cp -a preview "$snapshot_dir/preview"
+          cp -a PORTFOLIO.md "$snapshot_dir/PORTFOLIO.md"
 
           git fetch origin main
           git reset --hard origin/main
@@ -80,13 +82,13 @@ jobs:
           cp -a "$snapshot_dir/charts" charts
           cp -a "$snapshot_dir/preview" preview
 
-          if [ -z "$(git status --porcelain -- data badges charts preview)" ]; then
+          if [ -z "$(git status --porcelain -- data badges charts preview PORTFOLIO.md)" ]; then
             echo "Remote already contains these metric changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data badges charts preview
+          git add data badges charts preview PORTFOLIO.md
           git commit -m "Update repository traffic metrics"
           git push origin HEAD:main

@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = ROOT / "data"
 BADGE_ROOT = ROOT / "badges"
 CHART_ROOT = ROOT / "charts"
+AGGREGATE_PATH = DATA_ROOT / "all-repositories.json"
+PORTFOLIO_PATH = ROOT / "PORTFOLIO.md"
 PREVIEW_ROOT = ROOT / "preview"
 PREVIEW_REPOSITORY = "MrPrepper-Mods"
 PREVIEW_RECIPES = ROOT / "preview_badges.json"
@@ -116,6 +118,138 @@ def write_text(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8", newline="\n")
 
 
+def latest_snapshot(path: Path) -> tuple[str | None, list[dict[str, Any]]]:
+    if not path.exists():
+        return None, []
+    history = load_json(path)
+    snapshots = history.get("days", {})
+    if not snapshots:
+        return None, []
+    day = sorted(snapshots)[-1]
+    return day, snapshots[day]
+
+
+def repository_short_name(repository: str) -> str:
+    return repository.split("/", 1)[-1]
+
+
+def portfolio_markdown(aggregate: dict[str, Any]) -> str:
+    repositories = aggregate.get("repositories", {})
+    totals = aggregate.get("totals", {})
+    last_7_days = aggregate.get("last_7_days", {})
+    last_30_days = aggregate.get("last_30_days", {})
+    updated_at = str(aggregate.get("updated_at", "unknown"))
+
+    ranked = sorted(
+        repositories.items(),
+        key=lambda item: (
+            int(item[1].get("last_30_days", {}).get("views", 0))
+            + int(item[1].get("last_30_days", {}).get("clones", 0)),
+            item[0].lower(),
+        ),
+        reverse=True,
+    )
+
+    repo_rows = []
+    for repository, summary in ranked[:10]:
+        name = repository_short_name(repository)
+        snapshot = summary.get("repository_snapshot", {})
+        last_30 = summary.get("last_30_days", {})
+        repo_url = f"https://github.com/{repository}"
+        chart_url = f"charts/{name}/traffic.svg"
+        repo_rows.append(
+            f"| [{name}]({repo_url}) | {int(last_30.get('views', 0))} | "
+            f"{int(last_30.get('clones', 0))} | {int(snapshot.get('stars', 0))} | "
+            f"[chart]({chart_url}) |"
+        )
+
+    referrer_totals: dict[str, int] = {}
+    referrer_days: set[str] = set()
+    path_rows: list[tuple[int, str, str, str, str]] = []
+    for repository in repositories:
+        name = repository_short_name(repository)
+        referrer_day, referrers = latest_snapshot(DATA_ROOT / name / "referrers-history.json")
+        if referrer_day:
+            referrer_days.add(referrer_day)
+        for item in referrers:
+            referrer = str(item.get("referrer", "")).strip() or "Unknown"
+            referrer_totals[referrer] = referrer_totals.get(referrer, 0) + int(item.get("count", 0))
+
+        path_day, paths = latest_snapshot(DATA_ROOT / name / "popular-paths-history.json")
+        if path_day:
+            for item in paths:
+                path = str(item.get("path", "")).strip() or "/"
+                title = str(item.get("title", "")).strip() or path
+                count = int(item.get("count", 0))
+                path_rows.append((count, repository, path, title, path_day))
+
+    referrer_day = max(referrer_days) if referrer_days else "not available"
+    referrer_rows = [
+        f"| {html.escape(referrer)} | {count} |"
+        for referrer, count in sorted(referrer_totals.items(), key=lambda item: (-item[1], item[0].lower()))[:10]
+    ]
+    if not referrer_rows:
+        referrer_rows = ["| No snapshot data yet | 0 |"]
+
+    path_rows.sort(key=lambda item: (-item[0], item[1].lower(), item[2]))
+    popular_path_rows = [
+        f"| [{repository_short_name(repository)}](https://github.com/{repository}) | "
+        f"{html.escape(title)} | `{html.escape(path)}` | {count} |"
+        for count, repository, path, title, _day in path_rows[:10]
+    ]
+    if not popular_path_rows:
+        popular_path_rows = ["| No snapshot data yet | — | — | 0 |"]
+
+    return f"""# Portfolio dashboard
+
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `{html.escape(updated_at)}`.
+
+## At a glance
+
+| Repositories | Stars | Forks | Tracked clones | Tracked views |
+| ---: | ---: | ---: | ---: | ---: |
+| {int(aggregate.get('repository_count', 0))} | {int(totals.get('stars', 0))} | {int(totals.get('forks', 0))} | {int(totals.get('clones', 0))} | {int(totals.get('views', 0))} |
+
+| Window | Clones | Views |
+| --- | ---: | ---: |
+| Last 7 days | {int(last_7_days.get('clones', 0))} | {int(last_7_days.get('views', 0))} |
+| Last 30 days | {int(last_30_days.get('clones', 0))} | {int(last_30_days.get('views', 0))} |
+
+## Most active repositories
+
+Ranked by combined views and clones in the last 30 days.
+
+| Repository | Views (30d) | Clones (30d) | Stars | Traffic |
+| --- | ---: | ---: | ---: | --- |
+{chr(10).join(repo_rows) if repo_rows else '| No repository data yet | 0 | 0 | 0 | — |'}
+
+## Latest traffic sources
+
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `{html.escape(referrer_day)}`.
+
+| Referrer | Snapshot views |
+| --- | ---: |
+{chr(10).join(referrer_rows)}
+
+## Latest popular pages
+
+The table combines the latest available popular-path snapshots. It helps identify which repository pages people are opening, but it is not a historical page-view total. Individual snapshot dates may differ.
+
+| Repository | Page | Path | Snapshot views |
+| --- | --- | --- | ---: |
+{chr(10).join(popular_path_rows)}
+
+Individual repository badges and full traffic charts are available under [`badges/`](badges/) and [`charts/`](charts/).
+
+> Traffic history begins when collection first succeeds for each repository. Referrers and popular paths are stored as dated GitHub snapshots and must not be added together as lifetime traffic.
+"""
+
+
+def render_portfolio() -> None:
+    if AGGREGATE_PATH.exists():
+        write_text(PORTFOLIO_PATH, portfolio_markdown(load_json(AGGREGATE_PATH)))
+
+
 def render_recipe_previews(root: Path) -> None:
     if not PREVIEW_RECIPES.exists():
         return
@@ -185,6 +319,7 @@ def main() -> int:
         if repository_dir.is_dir() and render_repository(repository_dir):
             generated += 1
 
+    render_portfolio()
     print(f"Rendered local badges and charts for {generated} repositories")
     return 0
 

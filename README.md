@@ -78,6 +78,10 @@ The renderer uses a compact shadcn-style visual design adapted from ShieldCN's M
 
 See [`PREVIEW.md`](PREVIEW.md) for the visual playground and [`docs/BADGES.md`](docs/BADGES.md) for the supported styling options, upstream ShieldCN reference features, and stable embed examples.
 
+## Portfolio dashboard
+
+See [`PORTFOLIO.md`](PORTFOLIO.md) for an automatically generated overview of all tracked repositories, including aggregate totals, the most active repositories, latest traffic sources, and popular pages. Source and page sections are snapshot-based and are not lifetime totals.
+
 ## Traffic charts
 
 A traffic chart is generated from `chart-data.json` for every tracked repository:
