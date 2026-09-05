@@ -37,6 +37,20 @@
         "title": "Overview",
         "uniques": 1
       }
+    ],
+    "2026-09-05": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/codex-gui",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex",
+        "title": "Overview",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/codex"
