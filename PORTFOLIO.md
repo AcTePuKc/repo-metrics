@@ -1,17 +1,17 @@
 # Portfolio dashboard
 
-Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-05T08:23:56Z`.
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-06T08:42:46Z`.
 
 ## At a glance
 
 | Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
-| 55 | 131 | 10 | 1410 | 1830 |
+| 55 | 131 | 10 | 1411 | 1836 |
 
 | Window | Clones | Views |
 | --- | ---: | ---: |
-| Last 7 days | 641 | 655 |
-| Last 30 days | 1406 | 1830 |
+| Last 7 days | 635 | 658 |
+| Last 30 days | 1403 | 1836 |
 
 ## Most active repositories
 
@@ -26,23 +26,23 @@ Ranked by combined views and clones in the last 30 days.
 | [MrPrepper-Mods](https://github.com/AcTePuKc/MrPrepper-Mods) | 7 | 175 | 0 | [chart](charts/MrPrepper-Mods/traffic.svg) |
 | [repo-metrics](https://github.com/AcTePuKc/repo-metrics) | 0 | 176 | 0 | [chart](charts/repo-metrics/traffic.svg) |
 | [Universal-TTS-Guide](https://github.com/AcTePuKc/Universal-TTS-Guide) | 102 | 21 | 40 | [chart](charts/Universal-TTS-Guide/traffic.svg) |
-| [uelockit](https://github.com/AcTePuKc/uelockit) | 101 | 12 | 0 | [chart](charts/uelockit/traffic.svg) |
+| [uelockit](https://github.com/AcTePuKc/uelockit) | 103 | 13 | 0 | [chart](charts/uelockit/traffic.svg) |
 | [Necesse-Lang-Translator](https://github.com/AcTePuKc/Necesse-Lang-Translator) | 3 | 93 | 0 | [chart](charts/Necesse-Lang-Translator/traffic.svg) |
 | [gghstats](https://github.com/AcTePuKc/gghstats) | 0 | 60 | 0 | [chart](charts/gghstats/traffic.svg) |
 
 ## Latest traffic sources
 
-The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-05`.
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-06`.
 
 | Referrer | Snapshot views |
 | --- | ---: |
-| Google | 394 |
-| chatgpt.com | 287 |
+| Google | 389 |
+| chatgpt.com | 286 |
 | github.com | 91 |
 | Bing | 40 |
 | nexusmods.com | 22 |
-| yandex.ru | 16 |
 | DuckDuckGo | 15 |
+| yandex.ru | 14 |
 | secure.helpscout.net | 6 |
 | search.brave.com | 5 |
 | doubao.com | 4 |
