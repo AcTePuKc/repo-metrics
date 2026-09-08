@@ -78,6 +78,18 @@
         "referrer": "chatgpt.com",
         "uniques": 2
       }
+    ],
+    "2026-09-08": [
+      {
+        "count": 18,
+        "referrer": "Google",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "referrer": "chatgpt.com",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"
