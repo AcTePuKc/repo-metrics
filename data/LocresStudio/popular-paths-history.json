@@ -418,22 +418,22 @@
     ],
     "2026-09-08": [
       {
-        "count": 121,
+        "count": 135,
         "path": "/AcTePuKc/LocresStudio",
         "title": "Overview",
-        "uniques": 89
+        "uniques": 99
       },
       {
-        "count": 90,
+        "count": 104,
         "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
         "title": "/releases/tag/v1.1.0",
-        "uniques": 50
+        "uniques": 59
       },
       {
-        "count": 61,
+        "count": 66,
         "path": "/AcTePuKc/LocresStudio/releases",
         "title": "/releases",
-        "uniques": 48
+        "uniques": 53
       },
       {
         "count": 4,
@@ -454,6 +454,12 @@
         "uniques": 1
       },
       {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/tree/main",
+        "title": "/tree/main",
+        "uniques": 1
+      },
+      {
         "count": 1,
         "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/LocresStudio.png",
         "title": "/blob/main/wiki/assets/img/LocresStudio.png",
@@ -467,14 +473,8 @@
       },
       {
         "count": 1,
-        "path": "/AcTePuKc/LocresStudio/tree/main/src",
-        "title": "/tree/main/src",
-        "uniques": 1
-      },
-      {
-        "count": 1,
-        "path": "/AcTePuKc/LocresStudio/tree/v1.1.0",
-        "title": "/tree/v1.1.0",
+        "path": "/AcTePuKc/LocresStudio/tags",
+        "title": "/tags",
         "uniques": 1
       }
     ]

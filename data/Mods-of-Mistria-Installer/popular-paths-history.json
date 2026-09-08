@@ -436,22 +436,16 @@
     ],
     "2026-09-08": [
       {
-        "count": 66,
+        "count": 56,
         "path": "/AcTePuKc/Mods-of-Mistria-Installer",
         "title": "Overview",
-        "uniques": 12
+        "uniques": 10
       },
       {
-        "count": 22,
+        "count": 32,
         "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/2",
         "title": "/pull/2",
-        "uniques": 7
-      },
-      {
-        "count": 21,
-        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/1",
-        "title": "/pull/1",
-        "uniques": 5
+        "uniques": 8
       },
       {
         "count": 15,
@@ -460,16 +454,16 @@
         "uniques": 2
       },
       {
-        "count": 9,
-        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pulls",
-        "title": "/pulls",
+        "count": 8,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/1",
+        "title": "/pull/1",
         "uniques": 1
       },
       {
-        "count": 7,
-        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
-        "title": "/releases",
-        "uniques": 4
+        "count": 8,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pulls",
+        "title": "/pulls",
+        "uniques": 1
       },
       {
         "count": 5,
@@ -494,6 +488,12 @@
         "path": "/AcTePuKc/Mods-of-Mistria-Installer/tree/main/ModsOfMistriaInstallerLib/Seam/Payload",
         "title": "/tree/main/ModsOfMistriaInstallerLib/Seam/Payload",
         "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
+        "title": "/releases",
+        "uniques": 3
       }
     ]
   },

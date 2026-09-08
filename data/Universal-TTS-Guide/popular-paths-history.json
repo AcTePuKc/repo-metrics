@@ -436,16 +436,16 @@
     ],
     "2026-09-08": [
       {
-        "count": 38,
+        "count": 36,
         "path": "/AcTePuKc/Universal-TTS-Guide",
         "title": "Overview",
-        "uniques": 32
+        "uniques": 31
       },
       {
-        "count": 7,
+        "count": 9,
         "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/1-data-preparation.md",
         "title": "/blob/main/docs/guides/1-data-preparation.md",
-        "uniques": 7
+        "uniques": 9
       },
       {
         "count": 7,
@@ -454,21 +454,15 @@
         "uniques": 6
       },
       {
-        "count": 4,
-        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/4_INFERENCE.md",
-        "title": "/blob/main/guides/4_INFERENCE.md",
-        "uniques": 4
-      },
-      {
-        "count": 3,
-        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/index.md",
-        "title": "/blob/main/docs/index.md",
-        "uniques": 3
-      },
-      {
-        "count": 3,
+        "count": 5,
         "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/1_DATA_PREPARATION.md",
         "title": "/blob/main/guides/1_DATA_PREPARATION.md",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/4_INFERENCE.md",
+        "title": "/blob/main/guides/4_INFERENCE.md",
         "uniques": 3
       },
       {
@@ -481,6 +475,12 @@
         "count": 2,
         "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/5-packaging-and-sharing.md",
         "title": "/blob/main/docs/guides/5-packaging-and-sharing.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/index.md",
+        "title": "/blob/main/docs/index.md",
         "uniques": 2
       },
       {

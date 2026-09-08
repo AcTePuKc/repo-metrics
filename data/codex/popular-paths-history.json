@@ -92,6 +92,36 @@
         "path": "/AcTePuKc/codex",
         "title": "Overview",
         "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/actions",
+        "title": "/actions",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/actions/runs/33852724619",
+        "title": "/actions/runs/33852724619",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/actions/runs/33852724619/usage",
+        "title": "/actions/runs/33852724619/usage",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/actions/runs/33852724619/workflow",
+        "title": "/actions/runs/33852724619/workflow",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/issues",
+        "title": "/issues",
+        "uniques": 1
       }
     ]
   },

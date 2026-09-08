@@ -1,17 +1,17 @@
 {
   "clones": 2,
-  "days_tracked": 19,
+  "days_tracked": 21,
   "last_30_days": {
     "clones": 2,
     "unique_cloners_daily_sum": 2,
-    "unique_visitors_daily_sum": 5,
-    "views": 10
+    "unique_visitors_daily_sum": 6,
+    "views": 11
   },
   "last_7_days": {
-    "clones": 1,
-    "unique_cloners_daily_sum": 1,
+    "clones": 0,
+    "unique_cloners_daily_sum": 0,
     "unique_visitors_daily_sum": 2,
-    "views": 4
+    "views": 2
   },
   "repository": "AcTePuKc/github-motion",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 2,
-  "unique_visitors_daily_sum": 5,
-  "updated_at": "2026-09-08T04:29:34Z",
-  "views": 10
+  "unique_visitors_daily_sum": 6,
+  "updated_at": "2026-09-08T08:55:00Z",
+  "views": 11
 }

@@ -436,13 +436,13 @@
     ],
     "2026-09-08": [
       {
-        "count": 23,
+        "count": 22,
         "path": "/AcTePuKc/uelockit",
         "title": "Overview",
-        "uniques": 15
+        "uniques": 14
       },
       {
-        "count": 17,
+        "count": 13,
         "path": "/AcTePuKc/uelockit/blob/main/docs/quickstart.md",
         "title": "/blob/main/docs/quickstart.md",
         "uniques": 3

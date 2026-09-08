@@ -113,6 +113,18 @@
       "unique_cloners": 10,
       "unique_visitors": 10,
       "views": 48
+    },
+    "2026-09-06": {
+      "clones": 9,
+      "unique_cloners": 7,
+      "unique_visitors": 3,
+      "views": 8
+    },
+    "2026-09-07": {
+      "clones": 99,
+      "unique_cloners": 23,
+      "unique_visitors": 2,
+      "views": 24
     }
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

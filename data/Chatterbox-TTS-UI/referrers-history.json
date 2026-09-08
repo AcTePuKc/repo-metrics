@@ -196,14 +196,19 @@
     ],
     "2026-09-08": [
       {
-        "count": 124,
+        "count": 142,
         "referrer": "chatgpt.com",
-        "uniques": 63
+        "uniques": 68
       },
       {
-        "count": 58,
+        "count": 59,
         "referrer": "Google",
-        "uniques": 37
+        "uniques": 39
+      },
+      {
+        "count": 5,
+        "referrer": "DuckDuckGo",
+        "uniques": 2
       },
       {
         "count": 3,
@@ -211,18 +216,13 @@
         "uniques": 3
       },
       {
-        "count": 1,
-        "referrer": "DuckDuckGo",
-        "uniques": 1
-      },
-      {
-        "count": 1,
-        "referrer": "ecosia.org",
-        "uniques": 1
-      },
-      {
-        "count": 1,
+        "count": 2,
         "referrer": "github.com",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "search.brave.com",
         "uniques": 1
       }
     ]

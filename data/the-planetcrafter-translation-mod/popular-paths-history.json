@@ -100,16 +100,10 @@
     ],
     "2026-09-08": [
       {
-        "count": 3,
+        "count": 5,
         "path": "/AcTePuKc/the-planetcrafter-translation-mod",
         "title": "Overview",
-        "uniques": 3
-      },
-      {
-        "count": 1,
-        "path": "/AcTePuKc/the-planetcrafter-translation-mod/releases",
-        "title": "/releases",
-        "uniques": 1
+        "uniques": 4
       }
     ]
   },

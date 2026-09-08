@@ -436,28 +436,28 @@
     ],
     "2026-09-08": [
       {
-        "count": 264,
+        "count": 241,
         "path": "/AcTePuKc/Kokoro-Local-Gui",
         "title": "Overview",
-        "uniques": 177
+        "uniques": 166
       },
       {
-        "count": 39,
+        "count": 42,
         "path": "/AcTePuKc/Kokoro-Local-Gui/releases",
         "title": "/releases",
-        "uniques": 31
+        "uniques": 33
       },
       {
-        "count": 30,
+        "count": 32,
         "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2",
         "title": "/releases/tag/v2.0.2",
         "uniques": 24
       },
       {
-        "count": 7,
+        "count": 11,
         "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "uniques": 6
+        "uniques": 7
       },
       {
         "count": 5,
@@ -485,15 +485,15 @@
       },
       {
         "count": 3,
-        "path": "/AcTePuKc/Kokoro-Local-Gui/commit/88223fec46d0641c2c9853b268b1a82886e67a5b",
-        "title": "/commit/88223fec46d0641c2c9853b268b1a82886e67a5b",
-        "uniques": 2
-      },
-      {
-        "count": 3,
         "path": "/AcTePuKc/Kokoro-Local-Gui/branches/active",
         "title": "/branches/active",
         "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/LICENSE",
+        "title": "/blob/main/LICENSE",
+        "uniques": 2
       }
     ]
   },

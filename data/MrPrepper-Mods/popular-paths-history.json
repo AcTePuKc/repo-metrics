@@ -202,22 +202,28 @@
     ],
     "2026-09-08": [
       {
-        "count": 7,
-        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/cyr-v0.1.1",
-        "title": "/releases/tag/cyr-v0.1.1",
-        "uniques": 2
-      },
-      {
-        "count": 5,
-        "path": "/AcTePuKc/MrPrepper-Mods",
-        "title": "Overview",
-        "uniques": 5
-      },
-      {
-        "count": 5,
+        "count": 8,
         "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/bg-v0.1.1",
         "title": "/releases/tag/bg-v0.1.1",
-        "uniques": 1
+        "uniques": 4
+      },
+      {
+        "count": 8,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/src/MrPrepperTranslationMod/translations/README.md",
+        "title": "/blob/main/src/MrPrepperTranslationMod/translations/README.md",
+        "uniques": 3
+      },
+      {
+        "count": 8,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/cyr-v0.1.1",
+        "title": "/releases/tag/cyr-v0.1.1",
+        "uniques": 3
+      },
+      {
+        "count": 7,
+        "path": "/AcTePuKc/MrPrepper-Mods",
+        "title": "Overview",
+        "uniques": 6
       },
       {
         "count": 1,

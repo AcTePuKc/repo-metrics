@@ -366,14 +366,14 @@
     ],
     "2026-09-08": [
       {
-        "count": 125,
+        "count": 126,
         "referrer": "Google",
-        "uniques": 66
+        "uniques": 71
       },
       {
-        "count": 91,
+        "count": 75,
         "referrer": "chatgpt.com",
-        "uniques": 49
+        "uniques": 42
       },
       {
         "count": 23,
@@ -381,33 +381,23 @@
         "uniques": 12
       },
       {
-        "count": 9,
-        "referrer": "github.com",
-        "uniques": 9
-      },
-      {
-        "count": 7,
-        "referrer": "search.brave.com",
-        "uniques": 5
-      },
-      {
-        "count": 7,
+        "count": 10,
         "referrer": "DuckDuckGo",
+        "uniques": 6
+      },
+      {
+        "count": 6,
+        "referrer": "search.brave.com",
         "uniques": 4
+      },
+      {
+        "count": 5,
+        "referrer": "github.com",
+        "uniques": 5
       },
       {
         "count": 4,
         "referrer": "doubao.com",
-        "uniques": 2
-      },
-      {
-        "count": 3,
-        "referrer": "duck.ai",
-        "uniques": 1
-      },
-      {
-        "count": 2,
-        "referrer": "l.facebook.com",
         "uniques": 2
       },
       {

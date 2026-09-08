@@ -113,6 +113,18 @@
       "unique_cloners": 0,
       "unique_visitors": 0,
       "views": 0
+    },
+    "2026-09-06": {
+      "clones": 1,
+      "unique_cloners": 1,
+      "unique_visitors": 0,
+      "views": 0
+    },
+    "2026-09-07": {
+      "clones": 0,
+      "unique_cloners": 0,
+      "unique_visitors": 1,
+      "views": 2
     }
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod"
