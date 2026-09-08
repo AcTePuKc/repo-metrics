@@ -12,6 +12,7 @@ on:
       - "src/**"
       - "repositories.json"
       - "preview_badges.json"
+      - "production_badges.json"
       - "package.json"
       - "README.md"
 

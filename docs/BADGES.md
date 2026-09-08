@@ -8,6 +8,7 @@ The visual system is inspired by ShieldCN's MIT-licensed shadcn/ui badge rendere
 
 - [`PREVIEW.md`](../PREVIEW.md) - visual playground with generated examples.
 - [`preview_badges.json`](../preview_badges.json) - human-readable experimental badge recipes.
+- [`production_badges.json`](../production_badges.json) - repository-specific production badge recipes.
 - `src/badge_renderer.py` - generic `BadgeConfig` + SVG renderer.
 - `src/resolve_icons.mjs` - build-time Simple Icons / React Icons / Lucide resolver.
 - `src/render_assets.py` - metrics/chart orchestration.
@@ -236,3 +237,5 @@ Replace `REPOSITORY` with the repository name exactly as it appears under `data/
 ## Preview workflow
 
 Experimental styles should be added to `preview_badges.json` when they fit the generic recipe model. Once a style is selected, the production renderer can adopt it without changing external README URLs.
+
+Repository-specific production badges belong in `production_badges.json`. They are rendered into `badges/<repo>/` by the normal collection workflow and can then be embedded through the same stable raw URL pattern.

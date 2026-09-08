@@ -6,6 +6,7 @@ import * as simpleIcons from "simple-icons"
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..")
 const recipesPath = path.join(root, "preview_badges.json")
+const productionRecipesPath = path.join(root, "production_badges.json")
 const cacheDir = path.join(root, ".cache")
 const cachePath = path.join(cacheDir, "icon-cache.json")
 
@@ -144,8 +145,9 @@ async function resolveIcon(slug) {
 }
 
 const recipes = fs.existsSync(recipesPath) ? JSON.parse(fs.readFileSync(recipesPath, "utf8")) : []
+const productionRecipes = fs.existsSync(productionRecipesPath) ? JSON.parse(fs.readFileSync(productionRecipesPath, "utf8")) : {}
 const requested = new Set()
-for (const recipe of recipes) {
+for (const recipe of [...recipes, ...Object.values(productionRecipes).flat()]) {
   const icon = recipe.icon || recipe.logo || recipe.brand
   if (icon && !LOCAL_ICONS.has(icon)) requested.add(icon)
 }

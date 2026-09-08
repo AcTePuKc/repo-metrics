@@ -16,6 +16,7 @@ PORTFOLIO_PATH = ROOT / "PORTFOLIO.md"
 PREVIEW_ROOT = ROOT / "preview"
 PREVIEW_REPOSITORY = "MrPrepper-Mods"
 PREVIEW_RECIPES = ROOT / "preview_badges.json"
+PRODUCTION_RECIPES = ROOT / "production_badges.json"
 
 DARK_FG = "#fafafa"
 DARK_MUTED = "#a1a1aa"
@@ -261,6 +262,17 @@ def render_recipe_previews(root: Path) -> None:
         write_text(root / filename, render_badge(BadgeConfig.from_dict(recipe)))
 
 
+def render_production_badges(repo_name: str, root: Path) -> None:
+    if not PRODUCTION_RECIPES.exists():
+        return
+    recipes = load_json(PRODUCTION_RECIPES)
+    for recipe in recipes.get(repo_name, []):
+        filename = str(recipe.get("filename", "")).strip()
+        if not filename or "/" in filename or "\\" in filename:
+            continue
+        write_text(root / filename, render_badge(BadgeConfig.from_dict(recipe)))
+
+
 def render_preview(repo_name: str, summary: dict[str, Any], chart: dict[str, Any]) -> None:
     if repo_name != PREVIEW_REPOSITORY:
         return
@@ -305,6 +317,7 @@ def render_repository(repository_dir: Path) -> bool:
     write_metric_badge(badge_directory, "forks.svg", "forks", snapshot.get("forks", 0))
 
     write_text(CHART_ROOT / repo_name / "traffic.svg", chart_svg(chart))
+    render_production_badges(repo_name, badge_directory)
     render_preview(repo_name, summary, chart)
     return True
 

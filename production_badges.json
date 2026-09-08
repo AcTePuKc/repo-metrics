@@ -1,0 +1,19 @@
+{
+  "Mods-of-Mistria-Installer": [
+    {
+      "filename": "ai-assisted.svg",
+      "label": "AI",
+      "value": "assisted",
+      "size": "xs",
+      "font": "inter",
+      "icon": "robot",
+      "icon_color": "fafafa",
+      "split": true,
+      "left_color": "27272a",
+      "right_color": "3f3f46",
+      "label_color": "a1a1aa",
+      "value_color": "fafafa",
+      "gap": 5
+    }
+  ]
+}
