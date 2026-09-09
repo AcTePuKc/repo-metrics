@@ -95,6 +95,18 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-09-09": [
+      {
+        "count": 6,
+        "referrer": "Google",
+        "uniques": 6
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/DiveOrDie-Mods"

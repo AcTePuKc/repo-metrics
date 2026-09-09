@@ -1,17 +1,17 @@
 # Portfolio dashboard
 
-Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-08T08:55:00Z`.
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-09T09:00:10Z`.
 
 ## At a glance
 
 | Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
-| 58 | 131 | 10 | 1689 | 2214 |
+| 58 | 131 | 10 | 1694 | 2214 |
 
 | Window | Clones | Views |
 | --- | ---: | ---: |
-| Last 7 days | 796 | 753 |
-| Last 30 days | 1679 | 2214 |
+| Last 7 days | 801 | 753 |
+| Last 30 days | 1684 | 2214 |
 
 ## Most active repositories
 
@@ -32,15 +32,15 @@ Ranked by combined views and clones in the last 30 days.
 
 ## Latest traffic sources
 
-The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-08`.
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-09`.
 
 | Referrer | Snapshot views |
 | --- | ---: |
-| Google | 425 |
+| Google | 424 |
 | chatgpt.com | 287 |
-| github.com | 107 |
+| github.com | 106 |
 | Bing | 43 |
-| DuckDuckGo | 23 |
+| DuckDuckGo | 22 |
 | nexusmods.com | 17 |
 | yandex.ru | 14 |
 | search.brave.com | 9 |
