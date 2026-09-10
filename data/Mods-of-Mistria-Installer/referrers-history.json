@@ -162,6 +162,28 @@
         "referrer": "secure.helpscout.net",
         "uniques": 2
       }
+    ],
+    "2026-09-10": [
+      {
+        "count": 70,
+        "referrer": "github.com",
+        "uniques": 6
+      },
+      {
+        "count": 11,
+        "referrer": "nexusmods.com",
+        "uniques": 3
+      },
+      {
+        "count": 8,
+        "referrer": "Google",
+        "uniques": 2
+      },
+      {
+        "count": 7,
+        "referrer": "secure.helpscout.net",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"
