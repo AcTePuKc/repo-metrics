@@ -69,6 +69,18 @@
         "referrer": "chatgpt.com",
         "uniques": 2
       }
+    ],
+    "2026-09-11": [
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/FoundryL10n"
