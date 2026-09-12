@@ -531,6 +531,48 @@
         "referrer": "doubao.com",
         "uniques": 1
       }
+    ],
+    "2026-09-12": [
+      {
+        "count": 134,
+        "referrer": "Google",
+        "uniques": 75
+      },
+      {
+        "count": 90,
+        "referrer": "chatgpt.com",
+        "uniques": 39
+      },
+      {
+        "count": 22,
+        "referrer": "Bing",
+        "uniques": 11
+      },
+      {
+        "count": 12,
+        "referrer": "DuckDuckGo",
+        "uniques": 8
+      },
+      {
+        "count": 6,
+        "referrer": "github.com",
+        "uniques": 6
+      },
+      {
+        "count": 5,
+        "referrer": "search.brave.com",
+        "uniques": 4
+      },
+      {
+        "count": 1,
+        "referrer": "claude.ai",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "doubao.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

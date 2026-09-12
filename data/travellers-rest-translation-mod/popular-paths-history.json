@@ -1,6 +1,68 @@
 {
   "days": {
-    "2026-09-11": []
+    "2026-09-11": [],
+    "2026-09-12": [
+      {
+        "count": 5,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main",
+        "title": "/tree/main",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/translations",
+        "title": "/tree/main/translations",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/translations/labels.bg.txt",
+        "title": "/blob/main/translations/labels.bg.txt",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/plugin",
+        "title": "/tree/main/plugin",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/src/TravellersRestTranslationMod",
+        "title": "/tree/main/src/TravellersRestTranslationMod",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/plugin/TravellersRestTranslationMod.dll",
+        "title": "/blob/main/plugin/TravellersRestTranslationMod.dll",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/src/TravellersRestTranslationMod/Plugin.cs",
+        "title": "/blob/main/src/TravellersRestTranslationMod/Plugin.cs",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/commits/main",
+        "title": "/commits/main",
+        "uniques": 1
+      }
+    ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"
 }

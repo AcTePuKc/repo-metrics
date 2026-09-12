@@ -7,6 +7,20 @@
         "title": "/blob/temp-translation/release/font-choices/nexus-description.bbcode",
         "uniques": 1
       }
+    ],
+    "2026-09-12": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/FieldsOfMistria-Mods/blob/temp-translation/release/font-choices/nexus-description.bbcode",
+        "title": "/blob/temp-translation/release/font-choices/nexus-description.bbcode",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/FieldsOfMistria-Mods/compare/vortex-support",
+        "title": "/compare/vortex-support",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/FieldsOfMistria-Mods"
