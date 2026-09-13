@@ -278,6 +278,33 @@
         "referrer": "DuckDuckGo",
         "uniques": 2
       }
+    ],
+    "2026-09-13": [
+      {
+        "count": 30,
+        "referrer": "Google",
+        "uniques": 14
+      },
+      {
+        "count": 11,
+        "referrer": "github.com",
+        "uniques": 3
+      },
+      {
+        "count": 6,
+        "referrer": "search.brave.com",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "referrer": "actepukc.github.io",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "DuckDuckGo",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

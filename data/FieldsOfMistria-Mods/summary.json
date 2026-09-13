@@ -1,17 +1,17 @@
 {
-  "clones": 15,
-  "days_tracked": 15,
+  "clones": 19,
+  "days_tracked": 16,
   "last_30_days": {
-    "clones": 15,
-    "unique_cloners_daily_sum": 9,
-    "unique_visitors_daily_sum": 2,
-    "views": 2
+    "clones": 19,
+    "unique_cloners_daily_sum": 12,
+    "unique_visitors_daily_sum": 3,
+    "views": 3
   },
   "last_7_days": {
-    "clones": 13,
-    "unique_cloners_daily_sum": 8,
-    "unique_visitors_daily_sum": 2,
-    "views": 2
+    "clones": 17,
+    "unique_cloners_daily_sum": 11,
+    "unique_visitors_daily_sum": 3,
+    "views": 3
   },
   "repository": "AcTePuKc/FieldsOfMistria-Mods",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 0
   },
   "tracking_since": "2026-08-27",
-  "unique_cloners_daily_sum": 9,
-  "unique_visitors_daily_sum": 2,
-  "updated_at": "2026-09-12T08:41:02Z",
-  "views": 2
+  "unique_cloners_daily_sum": 12,
+  "unique_visitors_daily_sum": 3,
+  "updated_at": "2026-09-13T09:35:51Z",
+  "views": 3
 }

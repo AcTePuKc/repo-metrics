@@ -227,6 +227,56 @@
         "title": "/tree/main/src/locales",
         "uniques": 1
       }
+    ],
+    "2026-09-13": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Necesse-Lang-Translator",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/blob/main/src/locales/en.json",
+        "title": "/blob/main/src/locales/en.json",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/blob/main/src/locales/ja.json",
+        "title": "/blob/main/src/locales/ja.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/blame/main/src/locales/ja.json",
+        "title": "/blame/main/src/locales/ja.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/blob/main/docs/glossaries.md",
+        "title": "/blob/main/docs/glossaries.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/pull/96",
+        "title": "/pull/96",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/tree/main/src",
+        "title": "/tree/main/src",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Necesse-Lang-Translator/tree/main/src/locales",
+        "title": "/tree/main/src/locales",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Necesse-Lang-Translator"
