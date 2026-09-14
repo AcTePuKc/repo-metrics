@@ -805,6 +805,68 @@
         "title": "/commit/a33767d85140f2b2f6712d77d5c2d76ff819bc9e",
         "uniques": 2
       }
+    ],
+    "2026-09-14": [
+      {
+        "count": 244,
+        "path": "/AcTePuKc/Kokoro-Local-Gui",
+        "title": "Overview",
+        "uniques": 158
+      },
+      {
+        "count": 40,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2",
+        "title": "/releases/tag/v2.0.2",
+        "uniques": 27
+      },
+      {
+        "count": 34,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases",
+        "title": "/releases",
+        "uniques": 28
+      },
+      {
+        "count": 12,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 6
+      },
+      {
+        "count": 9,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/run.bat",
+        "title": "/blob/main/run.bat",
+        "uniques": 5
+      },
+      {
+        "count": 6,
+        "path": "/actepukc/kokoro-local-gui",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/tree/main/tests",
+        "title": "/tree/main/tests",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/issues",
+        "title": "/issues",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/LICENSE",
+        "title": "/blob/main/LICENSE",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/commit/a33767d85140f2b2f6712d77d5c2d76ff819bc9e",
+        "title": "/commit/a33767d85140f2b2f6712d77d5c2d76ff819bc9e",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"
