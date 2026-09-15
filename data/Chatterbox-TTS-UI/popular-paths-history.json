@@ -867,6 +867,68 @@
         "title": "/pulls",
         "uniques": 2
       }
+    ],
+    "2026-09-15": [
+      {
+        "count": 220,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI",
+        "title": "Overview",
+        "uniques": 141
+      },
+      {
+        "count": 41,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/releases/tag/ui-v0.2.0",
+        "title": "/releases/tag/ui-v0.2.0",
+        "uniques": 28
+      },
+      {
+        "count": 13,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/Readme.md",
+        "title": "/blob/main/Readme.md",
+        "uniques": 9
+      },
+      {
+        "count": 11,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/releases",
+        "title": "/releases",
+        "uniques": 9
+      },
+      {
+        "count": 8,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/tree/main",
+        "title": "/tree/main",
+        "uniques": 8
+      },
+      {
+        "count": 7,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/screenshot_1.png",
+        "title": "/blob/main/screenshot_1.png",
+        "uniques": 7
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/issues",
+        "title": "/issues",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/pulls",
+        "title": "/pulls",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/setup_env.bat",
+        "title": "/blob/main/setup_env.bat",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/tree/ui-v0.2.0",
+        "title": "/tree/ui-v0.2.0",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"
