@@ -167,6 +167,14 @@
         "title": "/issues",
         "uniques": 1
       }
+    ],
+    "2026-09-16": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations/issues",
+        "title": "/issues",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/dysmantle-bulgarian-translations"
