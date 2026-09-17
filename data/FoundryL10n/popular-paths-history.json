@@ -235,6 +235,26 @@
         "title": "/releases/tag/v1.0",
         "uniques": 1
       }
+    ],
+    "2026-09-17": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/FoundryL10n",
+        "title": "Overview",
+        "uniques": 5
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/FoundryL10n/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/FoundryL10n/issues",
+        "title": "/issues",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/FoundryL10n"

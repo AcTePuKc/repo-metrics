@@ -1,17 +1,17 @@
 {
   "clones": 18,
-  "days_tracked": 28,
+  "days_tracked": 30,
   "last_30_days": {
     "clones": 18,
     "unique_cloners_daily_sum": 18,
-    "unique_visitors_daily_sum": 15,
-    "views": 17
+    "unique_visitors_daily_sum": 16,
+    "views": 19
   },
   "last_7_days": {
-    "clones": 10,
-    "unique_cloners_daily_sum": 10,
-    "unique_visitors_daily_sum": 3,
-    "views": 3
+    "clones": 8,
+    "unique_cloners_daily_sum": 8,
+    "unique_visitors_daily_sum": 4,
+    "views": 5
   },
   "repository": "AcTePuKc/bg_g2p_builder",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 18,
-  "unique_visitors_daily_sum": 15,
-  "updated_at": "2026-09-16T09:20:47Z",
-  "views": 17
+  "unique_visitors_daily_sum": 16,
+  "updated_at": "2026-09-17T09:30:13Z",
+  "views": 19
 }

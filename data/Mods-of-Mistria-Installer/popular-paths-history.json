@@ -991,6 +991,68 @@
         "title": "/forks",
         "uniques": 1
       }
+    ],
+    "2026-09-17": [
+      {
+        "count": 60,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer",
+        "title": "Overview",
+        "uniques": 13
+      },
+      {
+        "count": 34,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/2",
+        "title": "/pull/2",
+        "uniques": 8
+      },
+      {
+        "count": 20,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
+        "title": "/releases",
+        "uniques": 11
+      },
+      {
+        "count": 8,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/blob/main/docs/USER_GUIDE.md",
+        "title": "/blob/main/docs/USER_GUIDE.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/commits/main",
+        "title": "/commits/main",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/compare/main...SilvertongueRED:Mods-of-Mistria-Installer-with-Nexus-Support:main",
+        "title": "/compare/main...SilvertongueRED:Mods-of-Mistria-Installer-with-Nexus-Support:main",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/fork",
+        "title": "/fork",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/forks",
+        "title": "/forks",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.1",
+        "title": "/releases/tag/v0.2.1",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

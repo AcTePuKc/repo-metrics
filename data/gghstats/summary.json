@@ -1,6 +1,6 @@
 {
   "clones": 121,
-  "days_tracked": 29,
+  "days_tracked": 31,
   "last_30_days": {
     "clones": 121,
     "unique_cloners_daily_sum": 64,
@@ -8,10 +8,10 @@
     "views": 9
   },
   "last_7_days": {
-    "clones": 53,
-    "unique_cloners_daily_sum": 16,
-    "unique_visitors_daily_sum": 4,
-    "views": 9
+    "clones": 21,
+    "unique_cloners_daily_sum": 13,
+    "unique_visitors_daily_sum": 2,
+    "views": 5
   },
   "repository": "AcTePuKc/gghstats",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 64,
   "unique_visitors_daily_sum": 4,
-  "updated_at": "2026-09-16T09:20:47Z",
+  "updated_at": "2026-09-17T09:30:13Z",
   "views": 9
 }
