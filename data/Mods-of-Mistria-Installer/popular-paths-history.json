@@ -1177,6 +1177,68 @@
         "title": "compare/main...AcTePuKc:Mods-of-Mistria-Installer:main",
         "uniques": 2
       }
+    ],
+    "2026-09-20": [
+      {
+        "count": 27,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer",
+        "title": "Overview",
+        "uniques": 10
+      },
+      {
+        "count": 21,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
+        "title": "/releases",
+        "uniques": 13
+      },
+      {
+        "count": 12,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/2",
+        "title": "/pull/2",
+        "uniques": 2
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/blob/main/docs/USER_GUIDE.md",
+        "title": "/blob/main/docs/USER_GUIDE.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/compare/main...SilvertongueRED:Mods-of-Mistria-Installer-with-Nexus-Support:main",
+        "title": "/compare/main...SilvertongueRED:Mods-of-Mistria-Installer-with-Nexus-Support:main",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.1",
+        "title": "/releases/tag/v0.2.1",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/2/commits",
+        "title": "/pull/2/commits",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/Garethp/Mods-of-Mistria-Installer/compare/main...AcTePuKc:Mods-of-Mistria-Installer:main",
+        "title": "compare/main...AcTePuKc:Mods-of-Mistria-Installer:main",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

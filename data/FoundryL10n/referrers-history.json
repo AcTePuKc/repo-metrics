@@ -162,6 +162,13 @@
         "referrer": "Bing",
         "uniques": 2
       }
+    ],
+    "2026-09-20": [
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/FoundryL10n"
