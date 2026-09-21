@@ -494,6 +494,28 @@
         "referrer": "Bing",
         "uniques": 1
       }
+    ],
+    "2026-09-21": [
+      {
+        "count": 21,
+        "referrer": "github.com",
+        "uniques": 5
+      },
+      {
+        "count": 16,
+        "referrer": "Google",
+        "uniques": 8
+      },
+      {
+        "count": 14,
+        "referrer": "chatgpt.com",
+        "uniques": 6
+      },
+      {
+        "count": 1,
+        "referrer": "Bing",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"

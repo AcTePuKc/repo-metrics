@@ -499,6 +499,33 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-09-21": [
+      {
+        "count": 34,
+        "referrer": "Google",
+        "uniques": 24
+      },
+      {
+        "count": 15,
+        "referrer": "search.brave.com",
+        "uniques": 2
+      },
+      {
+        "count": 10,
+        "referrer": "github.com",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "actepukc.github.io",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

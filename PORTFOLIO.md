@@ -1,6 +1,6 @@
 # Portfolio dashboard
 
-Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-20T09:19:59Z`.
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-21T10:00:56Z`.
 
 ## At a glance
 
@@ -10,7 +10,7 @@ Automatically generated from the repository snapshots in [`data/all-repositories
 
 | Window | Clones | Views |
 | --- | ---: | ---: |
-| Last 7 days | 1307 | 884 |
+| Last 7 days | 1303 | 884 |
 | Last 30 days | 3352 | 3305 |
 
 ## Most active repositories
@@ -32,7 +32,7 @@ Ranked by combined views and clones in the last 30 days.
 
 ## Latest traffic sources
 
-The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-20`.
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-21`.
 
 | Referrer | Snapshot views |
 | --- | ---: |

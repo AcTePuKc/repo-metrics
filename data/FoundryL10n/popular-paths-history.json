@@ -315,6 +315,26 @@
         "title": "/issues",
         "uniques": 1
       }
+    ],
+    "2026-09-21": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/FoundryL10n",
+        "title": "Overview",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/FoundryL10n/pulls",
+        "title": "/pulls",
+        "uniques": 3
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/FoundryL10n/issues",
+        "title": "/issues",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/FoundryL10n"
