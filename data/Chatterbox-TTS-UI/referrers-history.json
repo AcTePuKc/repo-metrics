@@ -696,6 +696,58 @@
         "referrer": "claude.ai",
         "uniques": 1
       }
+    ],
+    "2026-09-22": [
+      {
+        "count": 125,
+        "referrer": "chatgpt.com",
+        "uniques": 75
+      },
+      {
+        "count": 110,
+        "referrer": "Google",
+        "uniques": 53
+      },
+      {
+        "count": 10,
+        "referrer": "search.brave.com",
+        "uniques": 2
+      },
+      {
+        "count": 9,
+        "referrer": "github.com",
+        "uniques": 6
+      },
+      {
+        "count": 6,
+        "referrer": "Bing",
+        "uniques": 4
+      },
+      {
+        "count": 5,
+        "referrer": "DuckDuckGo",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "referrer": "web.telegram.org",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "claude.ai",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"
