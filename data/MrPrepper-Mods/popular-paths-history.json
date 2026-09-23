@@ -865,6 +865,20 @@
         "title": "/releases/tag/cyr-v0.1.1",
         "uniques": 1
       }
+    ],
+    "2026-09-23": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/bg-v0.1.1",
+        "title": "/releases/tag/bg-v0.1.1",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"
