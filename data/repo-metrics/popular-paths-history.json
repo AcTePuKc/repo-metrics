@@ -62,6 +62,20 @@
         "title": "/pulls",
         "uniques": 1
       }
+    ],
+    "2026-09-25": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/repo-metrics",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/repo-metrics/pulls",
+        "title": "/pulls",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/repo-metrics"

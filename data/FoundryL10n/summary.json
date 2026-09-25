@@ -1,17 +1,17 @@
 {
   "clones": 93,
-  "days_tracked": 37,
+  "days_tracked": 38,
   "last_30_days": {
-    "clones": 85,
-    "unique_cloners_daily_sum": 39,
-    "unique_visitors_daily_sum": 11,
-    "views": 16
+    "clones": 84,
+    "unique_cloners_daily_sum": 38,
+    "unique_visitors_daily_sum": 12,
+    "views": 18
   },
   "last_7_days": {
-    "clones": 15,
-    "unique_cloners_daily_sum": 12,
+    "clones": 13,
+    "unique_cloners_daily_sum": 10,
     "unique_visitors_daily_sum": 3,
-    "views": 7
+    "views": 5
   },
   "repository": "AcTePuKc/FoundryL10n",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 47,
-  "unique_visitors_daily_sum": 12,
-  "updated_at": "2026-09-24T09:21:48Z",
-  "views": 17
+  "unique_visitors_daily_sum": 13,
+  "updated_at": "2026-09-25T09:39:31Z",
+  "views": 19
 }
