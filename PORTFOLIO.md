@@ -1,12 +1,12 @@
 # Portfolio dashboard
 
-Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-25T09:39:31Z`.
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-09-26T09:24:06Z`.
 
 ## At a glance
 
 | Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
-| 63 | 137 | 10 | 3919 | 4145 |
+| 65 | 137 | 10 | 3919 | 4145 |
 
 | Window | Clones | Views |
 | --- | ---: | ---: |
@@ -32,7 +32,7 @@ Ranked by combined views and clones in the last 30 days.
 
 ## Latest traffic sources
 
-The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-25`.
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-09-26`.
 
 | Referrer | Snapshot views |
 | --- | ---: |

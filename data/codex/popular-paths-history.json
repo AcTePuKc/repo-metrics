@@ -757,6 +757,20 @@
         "title": "/blob/main/gui_pyside6/docs/index.md",
         "uniques": 1
       }
+    ],
+    "2026-09-26": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/blob/main/gui_pyside6/README.md",
+        "title": "/blob/main/gui_pyside6/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/codex/blob/main/gui_pyside6/docs/index.md",
+        "title": "/blob/main/gui_pyside6/docs/index.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/codex"

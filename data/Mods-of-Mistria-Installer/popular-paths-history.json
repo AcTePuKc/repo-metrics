@@ -1549,6 +1549,68 @@
         "title": "/compare/main...Garethp:Mods-of-Mistria-Installer:main",
         "uniques": 1
       }
+    ],
+    "2026-09-26": [
+      {
+        "count": 22,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer",
+        "title": "Overview",
+        "uniques": 10
+      },
+      {
+        "count": 21,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
+        "title": "/releases",
+        "uniques": 12
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/blob/main/docs/USER_GUIDE.md",
+        "title": "/blob/main/docs/USER_GUIDE.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.1",
+        "title": "/releases/tag/v0.2.1",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/2",
+        "title": "/pull/2",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pulls",
+        "title": "/pulls",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/actions",
+        "title": "/actions",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/commits",
+        "title": "/commits",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/compare/main...Garethp:Mods-of-Mistria-Installer:main",
+        "title": "/compare/main...Garethp:Mods-of-Mistria-Installer:main",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

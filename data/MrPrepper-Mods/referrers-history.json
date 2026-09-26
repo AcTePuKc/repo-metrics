@@ -184,6 +184,18 @@
         "referrer": "Yahoo",
         "uniques": 1
       }
+    ],
+    "2026-09-26": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 3
+      },
+      {
+        "count": 1,
+        "referrer": "Yahoo",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"
