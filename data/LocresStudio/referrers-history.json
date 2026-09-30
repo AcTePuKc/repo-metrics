@@ -1292,6 +1292,58 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-09-30": [
+      {
+        "count": 93,
+        "referrer": "Google",
+        "uniques": 69
+      },
+      {
+        "count": 39,
+        "referrer": "chatgpt.com",
+        "uniques": 23
+      },
+      {
+        "count": 5,
+        "referrer": "github.com",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 3
+      },
+      {
+        "count": 1,
+        "referrer": "forum.zoneofgames.ru",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "perplexity.ai",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "ya.ru",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

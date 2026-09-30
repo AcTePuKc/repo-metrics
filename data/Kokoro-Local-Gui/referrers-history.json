@@ -1282,6 +1282,48 @@
         "referrer": "onegen.ai",
         "uniques": 1
       }
+    ],
+    "2026-09-30": [
+      {
+        "count": 85,
+        "referrer": "Google",
+        "uniques": 55
+      },
+      {
+        "count": 54,
+        "referrer": "chatgpt.com",
+        "uniques": 35
+      },
+      {
+        "count": 10,
+        "referrer": "github.com",
+        "uniques": 7
+      },
+      {
+        "count": 9,
+        "referrer": "Bing",
+        "uniques": 7
+      },
+      {
+        "count": 5,
+        "referrer": "DuckDuckGo",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "referrer": "search.brave.com",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "doubao.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

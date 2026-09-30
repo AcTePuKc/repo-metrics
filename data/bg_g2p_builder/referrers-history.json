@@ -427,6 +427,13 @@
         "referrer": "github.com",
         "uniques": 1
       }
+    ],
+    "2026-09-30": [
+      {
+        "count": 5,
+        "referrer": "Google",
+        "uniques": 4
+      }
     ]
   },
   "repository": "AcTePuKc/bg_g2p_builder"

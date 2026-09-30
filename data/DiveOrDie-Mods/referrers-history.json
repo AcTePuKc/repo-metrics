@@ -417,6 +417,13 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-09-30": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/DiveOrDie-Mods"

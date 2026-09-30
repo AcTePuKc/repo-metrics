@@ -657,6 +657,33 @@
         "referrer": "github.com",
         "uniques": 5
       }
+    ],
+    "2026-09-30": [
+      {
+        "count": 14,
+        "referrer": "Google",
+        "uniques": 8
+      },
+      {
+        "count": 11,
+        "referrer": "github.com",
+        "uniques": 4
+      },
+      {
+        "count": 10,
+        "referrer": "chatgpt.com",
+        "uniques": 5
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"

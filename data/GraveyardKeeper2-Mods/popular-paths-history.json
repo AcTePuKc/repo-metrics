@@ -3,7 +3,69 @@
     "2026-09-26": [],
     "2026-09-27": [],
     "2026-09-28": [],
-    "2026-09-29": []
+    "2026-09-29": [],
+    "2026-09-30": [
+      {
+        "count": 7,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/bulgarian-localization/Languages/bg",
+        "title": "/blob/main/mods/bulgarian-localization/Languages/bg",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/releases/tag/v0.1.0",
+        "title": "/releases/tag/v0.1.0",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/bulgarian-localization/Languages/bg",
+        "title": "/tree/main/mods/bulgarian-localization/Languages/bg",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/bulgarian-localization/Languages/bg/language.json",
+        "title": "/blob/main/mods/bulgarian-localization/Languages/bg/language.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/bulgarian-localization/Languages/bg/strings.csv",
+        "title": "/blob/main/mods/bulgarian-localization/Languages/bg/strings.csv",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/date-time-and-counter",
+        "title": "/blob/main/mods/date-time-and-counter",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/tools/split_translation_packages.ps1",
+        "title": "/blob/main/tools/split_translation_packages.ps1",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/branches",
+        "title": "/branches",
+        "uniques": 1
+      }
+    ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"
 }
