@@ -1159,6 +1159,48 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-10-01": [
+      {
+        "count": 94,
+        "referrer": "chatgpt.com",
+        "uniques": 58
+      },
+      {
+        "count": 70,
+        "referrer": "Google",
+        "uniques": 43
+      },
+      {
+        "count": 8,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "referrer": "github.com",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "Bing",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"
