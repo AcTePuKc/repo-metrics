@@ -711,6 +711,33 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-10-02": [
+      {
+        "count": 12,
+        "referrer": "Google",
+        "uniques": 8
+      },
+      {
+        "count": 4,
+        "referrer": "chatgpt.com",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"
