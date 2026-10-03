@@ -1965,6 +1965,68 @@
         "title": "/pulls",
         "uniques": 2
       }
+    ],
+    "2026-10-03": [
+      {
+        "count": 145,
+        "path": "/AcTePuKc/LocresStudio",
+        "title": "Overview",
+        "uniques": 101
+      },
+      {
+        "count": 75,
+        "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
+        "title": "/releases/tag/v1.1.0",
+        "uniques": 54
+      },
+      {
+        "count": 60,
+        "path": "/AcTePuKc/LocresStudio/releases",
+        "title": "/releases",
+        "uniques": 49
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/LocresStudio/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/LocresStudio/tree/main/src",
+        "title": "/tree/main/src",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/LocresStudio.png",
+        "title": "/blob/main/wiki/assets/img/LocresStudio.png",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/commit/46541bcb9b1c45d5fbd10e9bbf4f347303fdf824",
+        "title": "/commit/46541bcb9b1c45d5fbd10e9bbf4f347303fdf824",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/issues",
+        "title": "/issues",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/tree/main/src/UnrealLocresEditor",
+        "title": "/tree/main/src/UnrealLocresEditor",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"
