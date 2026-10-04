@@ -803,6 +803,50 @@
         "title": "d8e-1f2a9b91-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
         "uniques": 1
       }
+    ],
+    "2026-10-04": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-cyrillic-fonts",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-cyrillic-fonts/blob/main/BUILD.md",
+        "title": "/blob/main/BUILD.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-cyrillic-fonts/tree/main/russian-bg-work",
+        "title": "/tree/main/russian-bg-work",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/proxy_u/en-ru.ru.3d6d1d0b-6abf2cc7-be3c1efe-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "title": "cc7-be3c1efe-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/proxy_u/en-ru.ru.822ad251-6abdfd8e-1f2a9b91-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "title": "d8e-1f2a9b91-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/proxy_u/en-ru.ru.ad69ea07-6ac0ffb1-bb131e1f-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "title": "fb1-bb131e1f-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/stardew-cyrillic-fonts"

@@ -1,17 +1,17 @@
 {
-  "clones": 112,
-  "days_tracked": 20,
+  "clones": 115,
+  "days_tracked": 21,
   "last_30_days": {
-    "clones": 112,
-    "unique_cloners_daily_sum": 71,
-    "unique_visitors_daily_sum": 7,
-    "views": 47
+    "clones": 115,
+    "unique_cloners_daily_sum": 74,
+    "unique_visitors_daily_sum": 10,
+    "views": 52
   },
   "last_7_days": {
-    "clones": 104,
-    "unique_cloners_daily_sum": 65,
-    "unique_visitors_daily_sum": 7,
-    "views": 47
+    "clones": 72,
+    "unique_cloners_daily_sum": 45,
+    "unique_visitors_daily_sum": 8,
+    "views": 27
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 0
   },
   "tracking_since": "2026-09-13",
-  "unique_cloners_daily_sum": 71,
-  "unique_visitors_daily_sum": 7,
-  "updated_at": "2026-10-03T09:54:42Z",
-  "views": 47
+  "unique_cloners_daily_sum": 74,
+  "unique_visitors_daily_sum": 10,
+  "updated_at": "2026-10-04T10:37:19Z",
+  "views": 52
 }

@@ -1925,6 +1925,38 @@
         "title": "/blob/HEAD/docs/MMAPI/hooks/player.xp_delta.md",
         "uniques": 1
       }
+    ],
+    "2026-10-04": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer",
+        "title": "Overview",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/0.1.9",
+        "title": "/releases/tag/0.1.9",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/actepukc/mods-of-mistria-installer/blob/HEAD/docs/MMAPI/hooks/player.xp_delta.md",
+        "title": "/blob/HEAD/docs/MMAPI/hooks/player.xp_delta.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

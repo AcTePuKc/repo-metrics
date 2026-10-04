@@ -2045,6 +2045,68 @@
         "title": "/issues",
         "uniques": 2
       }
+    ],
+    "2026-10-04": [
+      {
+        "count": 264,
+        "path": "/AcTePuKc/Kokoro-Local-Gui",
+        "title": "Overview",
+        "uniques": 158
+      },
+      {
+        "count": 32,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2",
+        "title": "/releases/tag/v2.0.2",
+        "uniques": 28
+      },
+      {
+        "count": 20,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases",
+        "title": "/releases",
+        "uniques": 15
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/actions",
+        "title": "/actions",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/pulls",
+        "title": "/pulls",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/tree/main/tests",
+        "title": "/tree/main/tests",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/run.bat",
+        "title": "/blob/main/run.bat",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/branches",
+        "title": "/branches",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/issues",
+        "title": "/issues",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"
