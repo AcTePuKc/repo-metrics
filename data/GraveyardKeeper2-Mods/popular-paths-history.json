@@ -313,6 +313,68 @@
         "title": "/blob/main/README.md",
         "uniques": 1
       }
+    ],
+    "2026-10-05": [
+      {
+        "count": 16,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods",
+        "title": "Overview",
+        "uniques": 9
+      },
+      {
+        "count": 9,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/releases",
+        "title": "/releases",
+        "uniques": 6
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods",
+        "title": "/tree/main/mods",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/bulgarian-localization",
+        "title": "/tree/main/mods/bulgarian-localization",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/bulgarian-localization/Languages/bg",
+        "title": "/tree/main/mods/bulgarian-localization/Languages/bg",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/bulgarian-localization/Languages/bg/language.json",
+        "title": "/blob/main/mods/bulgarian-localization/Languages/bg/language.json",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/tools",
+        "title": "/tree/main/tools",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/bulgarian-localization/Languages/bg",
+        "title": "/blob/main/mods/bulgarian-localization/Languages/bg",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/releases/tag/v0.1.0",
+        "title": "/releases/tag/v0.1.0",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"

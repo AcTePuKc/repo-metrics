@@ -1307,6 +1307,28 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-10-05": [
+      {
+        "count": 73,
+        "referrer": "chatgpt.com",
+        "uniques": 48
+      },
+      {
+        "count": 67,
+        "referrer": "Google",
+        "uniques": 40
+      },
+      {
+        "count": 6,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"
