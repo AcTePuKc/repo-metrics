@@ -1329,6 +1329,28 @@
         "referrer": "github.com",
         "uniques": 1
       }
+    ],
+    "2026-10-06": [
+      {
+        "count": 73,
+        "referrer": "chatgpt.com",
+        "uniques": 50
+      },
+      {
+        "count": 66,
+        "referrer": "Google",
+        "uniques": 39
+      },
+      {
+        "count": 5,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"
