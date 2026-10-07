@@ -797,6 +797,26 @@
         "title": "/blob/main/docs/github-nexus-publishing.md",
         "uniques": 1
       }
+    ],
+    "2026-10-07": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/blob/main/docs/github-nexus-publishing.md",
+        "title": "/blob/main/docs/github-nexus-publishing.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod"

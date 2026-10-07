@@ -353,6 +353,26 @@
         "title": "/releases/tag/crop-watering-bubbles-continued-bg-v0.1.0",
         "uniques": 1
       }
+    ],
+    "2026-10-07": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/stardew-valley-bg/releases/tag/stardew-valley-bg-v0.1.4",
+        "title": "/releases/tag/stardew-valley-bg-v0.1.4",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-valley-bg/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-valley-bg/releases/tag/crop-watering-bubbles-continued-bg-v0.1.0",
+        "title": "/releases/tag/crop-watering-bubbles-continued-bg-v0.1.0",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/stardew-valley-bg"
