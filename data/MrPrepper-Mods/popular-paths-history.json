@@ -1557,6 +1557,62 @@
         "title": "/tree/main/src/CyrillicFontFix/config",
         "uniques": 1
       }
+    ],
+    "2026-10-09": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/bg-v0.1.1",
+        "title": "/releases/tag/bg-v0.1.1",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/cyr-v0.1.1",
+        "title": "/releases/tag/cyr-v0.1.1",
+        "uniques": 4
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/MrPrepper-Mods/tree/main/src/CyrillicFontFix",
+        "title": "/tree/main/src/CyrillicFontFix",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/src/CyrillicFontFix",
+        "title": "/blob/main/src/CyrillicFontFix",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/src/MrPrepperTranslationMod/README.md",
+        "title": "/blob/main/src/MrPrepperTranslationMod/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/useful-mods/MuteInBackground/BepInEx/config/BepInEx.MuteInBackground.cfg",
+        "title": "/blob/main/useful-mods/MuteInBackground/BepInEx/config/BepInEx.MuteInBackground.cfg",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/blob/main/useful-mods/MuteInBackground/BepInEx/plugins/BepInEx.MuteInBackground.dll",
+        "title": "/blob/main/useful-mods/MuteInBackground/BepInEx/plugins/BepInEx.MuteInBackground.dll",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/tree/main/src/CyrillicFontFix/config",
+        "title": "/tree/main/src/CyrillicFontFix/config",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"

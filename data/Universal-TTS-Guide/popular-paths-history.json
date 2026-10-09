@@ -2355,6 +2355,68 @@
         "title": "/blob/main/docs/guides/4-inference.md",
         "uniques": 1
       }
+    ],
+    "2026-10-09": [
+      {
+        "count": 18,
+        "path": "/AcTePuKc/Universal-TTS-Guide",
+        "title": "Overview",
+        "uniques": 15
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/2-training-setup.md",
+        "title": "/blob/main/docs/guides/2-training-setup.md",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/requirements-docs.txt",
+        "title": "/blob/main/requirements-docs.txt",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/1-data-preparation.md",
+        "title": "/blob/main/docs/guides/1-data-preparation.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/3-model-training.md",
+        "title": "/blob/main/docs/guides/3-model-training.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/5-packaging-and-sharing.md",
+        "title": "/blob/main/docs/guides/5-packaging-and-sharing.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/2_TRAINING_SETUP.md",
+        "title": "/blob/main/guides/2_TRAINING_SETUP.md",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/.github/workflows/mkdocs-gh-pages.yml",
+        "title": "/blob/main/.github/workflows/mkdocs-gh-pages.yml",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/4-inference.md",
+        "title": "/blob/main/docs/guides/4-inference.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"
