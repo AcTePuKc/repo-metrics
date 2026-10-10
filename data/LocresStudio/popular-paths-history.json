@@ -2399,6 +2399,68 @@
         "title": "/tree/main/src/UnrealLocresEditor",
         "uniques": 2
       }
+    ],
+    "2026-10-10": [
+      {
+        "count": 142,
+        "path": "/AcTePuKc/LocresStudio",
+        "title": "Overview",
+        "uniques": 97
+      },
+      {
+        "count": 89,
+        "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
+        "title": "/releases/tag/v1.1.0",
+        "uniques": 61
+      },
+      {
+        "count": 53,
+        "path": "/AcTePuKc/LocresStudio/releases",
+        "title": "/releases",
+        "uniques": 47
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/branches",
+        "title": "/branches",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/issues",
+        "title": "/issues",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/actions",
+        "title": "/actions",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/branches/active",
+        "title": "/branches/active",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/commit/46541bcb9b1c45d5fbd10e9bbf4f347303fdf824",
+        "title": "/commit/46541bcb9b1c45d5fbd10e9bbf4f347303fdf824",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/commit/4954870632b13494e05de1116ee8d876b42d8970",
+        "title": "/commit/4954870632b13494e05de1116ee8d876b42d8970",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

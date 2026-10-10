@@ -1,6 +1,14 @@
 {
   "days": {
-    "2026-10-09": []
+    "2026-10-09": [],
+    "2026-10-10": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Isle-of-Industry-Bulgarian-Localization/blob/main/release/nexus-bbcode-bulgarian.bbcode",
+        "title": "/blob/main/release/nexus-bbcode-bulgarian.bbcode",
+        "uniques": 1
+      }
+    ]
   },
   "repository": "AcTePuKc/Nightwater-Bulgarian-Localization"
 }

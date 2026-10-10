@@ -208,6 +208,28 @@
         "referrer": "chatgpt.com",
         "uniques": 1
       }
+    ],
+    "2026-10-10": [
+      {
+        "count": 9,
+        "referrer": "Google",
+        "uniques": 6
+      },
+      {
+        "count": 9,
+        "referrer": "github.com",
+        "uniques": 6
+      },
+      {
+        "count": 2,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"
