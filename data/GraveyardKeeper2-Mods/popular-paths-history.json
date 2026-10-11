@@ -685,6 +685,68 @@
         "title": "/blob/main/README.md",
         "uniques": 1
       }
+    ],
+    "2026-10-11": [
+      {
+        "count": 14,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods",
+        "title": "Overview",
+        "uniques": 10
+      },
+      {
+        "count": 11,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/releases",
+        "title": "/releases",
+        "uniques": 8
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods",
+        "title": "/tree/main/mods",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/bulgarian-localization",
+        "title": "/tree/main/mods/bulgarian-localization",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/bulgarian-localization/Languages/bg/language.json",
+        "title": "/blob/main/mods/bulgarian-localization/Languages/bg/language.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/date-time-and-counter/Locales/language-map.json",
+        "title": "/blob/main/mods/date-time-and-counter/Locales/language-map.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/blob/main/mods/date-time-and-counter/Locales/zh_cn.json",
+        "title": "/blob/main/mods/date-time-and-counter/Locales/zh_cn.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/bulgarian-localization/Languages/bg",
+        "title": "/tree/main/mods/bulgarian-localization/Languages/bg",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/date-time-and-counter",
+        "title": "/tree/main/mods/date-time-and-counter",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods/date-time-and-counter/Locales",
+        "title": "/tree/main/mods/date-time-and-counter/Locales",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"

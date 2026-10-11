@@ -1834,6 +1834,58 @@
         "referrer": "perplexity.ai",
         "uniques": 1
       }
+    ],
+    "2026-10-11": [
+      {
+        "count": 108,
+        "referrer": "Google",
+        "uniques": 81
+      },
+      {
+        "count": 10,
+        "referrer": "chatgpt.com",
+        "uniques": 7
+      },
+      {
+        "count": 7,
+        "referrer": "yandex.ru",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "referrer": "github.com",
+        "uniques": 4
+      },
+      {
+        "count": 2,
+        "referrer": "DuckDuckGo",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "alice.yandex.ru",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "chat.zalo.me",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "perplexity.ai",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"
