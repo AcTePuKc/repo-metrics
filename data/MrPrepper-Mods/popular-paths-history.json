@@ -1725,6 +1725,26 @@
         "title": "/tree/main/src/CyrillicFontFix/config",
         "uniques": 1
       }
+    ],
+    "2026-10-12": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/bg-v0.1.1",
+        "title": "/releases/tag/bg-v0.1.1",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/cyr-v0.1.1",
+        "title": "/releases/tag/cyr-v0.1.1",
+        "uniques": 4
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods",
+        "title": "Overview",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"

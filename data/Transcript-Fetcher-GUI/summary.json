@@ -1,6 +1,6 @@
 {
   "clones": 15,
-  "days_tracked": 55,
+  "days_tracked": 56,
   "last_30_days": {
     "clones": 14,
     "unique_cloners_daily_sum": 14,
@@ -8,10 +8,10 @@
     "views": 12
   },
   "last_7_days": {
-    "clones": 5,
-    "unique_cloners_daily_sum": 5,
-    "unique_visitors_daily_sum": 6,
-    "views": 6
+    "clones": 4,
+    "unique_cloners_daily_sum": 4,
+    "unique_visitors_daily_sum": 4,
+    "views": 4
   },
   "repository": "AcTePuKc/Transcript-Fetcher-GUI",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 15,
   "unique_visitors_daily_sum": 18,
-  "updated_at": "2026-10-11T10:52:46Z",
+  "updated_at": "2026-10-12T12:07:45Z",
   "views": 22
 }

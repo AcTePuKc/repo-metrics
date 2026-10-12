@@ -214,6 +214,18 @@
         "referrer": "github.com",
         "uniques": 1
       }
+    ],
+    "2026-10-12": [
+      {
+        "count": 1,
+        "referrer": "Google",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/FieldsOfMistria-Mods"
