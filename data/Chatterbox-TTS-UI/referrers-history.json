@@ -1518,6 +1518,33 @@
         "referrer": "search.brave.com",
         "uniques": 1
       }
+    ],
+    "2026-10-13": [
+      {
+        "count": 53,
+        "referrer": "Google",
+        "uniques": 28
+      },
+      {
+        "count": 48,
+        "referrer": "chatgpt.com",
+        "uniques": 36
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"

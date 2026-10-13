@@ -1,11 +1,11 @@
 {
   "clones": 130,
-  "days_tracked": 43,
+  "days_tracked": 44,
   "last_30_days": {
-    "clones": 130,
-    "unique_cloners_daily_sum": 76,
-    "unique_visitors_daily_sum": 1,
-    "views": 1
+    "clones": 110,
+    "unique_cloners_daily_sum": 62,
+    "unique_visitors_daily_sum": 0,
+    "views": 0
   },
   "last_7_days": {
     "clones": 0,
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-30",
   "unique_cloners_daily_sum": 76,
   "unique_visitors_daily_sum": 1,
-  "updated_at": "2026-10-12T12:07:45Z",
+  "updated_at": "2026-10-13T11:53:37Z",
   "views": 1
 }
