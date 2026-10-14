@@ -2665,6 +2665,68 @@
         "title": "/pulls",
         "uniques": 2
       }
+    ],
+    "2026-10-14": [
+      {
+        "count": 227,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI",
+        "title": "Overview",
+        "uniques": 145
+      },
+      {
+        "count": 43,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/releases/tag/ui-v0.2.0",
+        "title": "/releases/tag/ui-v0.2.0",
+        "uniques": 32
+      },
+      {
+        "count": 36,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/releases",
+        "title": "/releases",
+        "uniques": 27
+      },
+      {
+        "count": 6,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/Readme.md",
+        "title": "/blob/main/Readme.md",
+        "uniques": 6
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/issues",
+        "title": "/issues",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/screenshot_1.png",
+        "title": "/blob/main/screenshot_1.png",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/CONTRIBUTING.md",
+        "title": "/blob/main/CONTRIBUTING.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/commit/80a84a3094d37bf4fceca50a3e06d756a33e256e",
+        "title": "/commit/80a84a3094d37bf4fceca50a3e06d756a33e256e",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/projects",
+        "title": "/projects",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"

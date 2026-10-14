@@ -390,6 +390,18 @@
         "referrer": "Google",
         "uniques": 2
       }
+    ],
+    "2026-10-14": [
+      {
+        "count": 2,
+        "referrer": "Google",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"
