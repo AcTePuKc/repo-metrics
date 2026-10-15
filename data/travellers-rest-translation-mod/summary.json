@@ -1,17 +1,17 @@
 {
-  "clones": 290,
-  "days_tracked": 45,
+  "clones": 310,
+  "days_tracked": 47,
   "last_30_days": {
-    "clones": 178,
-    "unique_cloners_daily_sum": 110,
+    "clones": 189,
+    "unique_cloners_daily_sum": 114,
     "unique_visitors_daily_sum": 21,
     "views": 23
   },
   "last_7_days": {
-    "clones": 57,
-    "unique_cloners_daily_sum": 31,
-    "unique_visitors_daily_sum": 6,
-    "views": 8
+    "clones": 75,
+    "unique_cloners_daily_sum": 42,
+    "unique_visitors_daily_sum": 5,
+    "views": 7
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 0
   },
   "tracking_since": "2026-08-29",
-  "unique_cloners_daily_sum": 164,
+  "unique_cloners_daily_sum": 177,
   "unique_visitors_daily_sum": 23,
-  "updated_at": "2026-10-14T09:34:25Z",
+  "updated_at": "2026-10-15T09:12:27Z",
   "views": 46
 }
