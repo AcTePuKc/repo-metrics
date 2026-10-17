@@ -991,6 +991,50 @@
         "title": "/tree/main/Bulgarian_language/artifacts",
         "uniques": 1
       }
+    ],
+    "2026-10-17": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/DiveOrDie-Mods",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/DiveOrDie-Mods/blob/main/.github/workflows/release-bulgarian-language.yml",
+        "title": "/blob/main/.github/workflows/release-bulgarian-language.yml",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/DiveOrDie-Mods/blame/main/.github/workflows/release-bulgarian-language.yml",
+        "title": "/blame/main/.github/workflows/release-bulgarian-language.yml",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/DiveOrDie-Mods/tree/main/Bulgarian_language",
+        "title": "/tree/main/Bulgarian_language",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/DiveOrDie-Mods/blob/main/.gitignore",
+        "title": "/blob/main/.gitignore",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/DiveOrDie-Mods/tree/main/.github/workflows",
+        "title": "/tree/main/.github/workflows",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/DiveOrDie-Mods/tree/main/Bulgarian_language/artifacts",
+        "title": "/tree/main/Bulgarian_language/artifacts",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/DiveOrDie-Mods"

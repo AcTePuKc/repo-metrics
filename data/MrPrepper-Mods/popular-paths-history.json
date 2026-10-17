@@ -1849,6 +1849,38 @@
         "title": "/releases/tag/skip-v0.1.0",
         "uniques": 1
       }
+    ],
+    "2026-10-17": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/bg-v0.1.1",
+        "title": "/releases/tag/bg-v0.1.1",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/MrPrepper-Mods",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/cyr-v0.1.1",
+        "title": "/releases/tag/cyr-v0.1.1",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/MrPrepper-Mods/releases/tag/skip-v0.1.0",
+        "title": "/releases/tag/skip-v0.1.0",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"

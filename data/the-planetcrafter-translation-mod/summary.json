@@ -1,17 +1,17 @@
 {
   "clones": 75,
-  "days_tracked": 59,
+  "days_tracked": 60,
   "last_30_days": {
-    "clones": 41,
-    "unique_cloners_daily_sum": 34,
-    "unique_visitors_daily_sum": 12,
-    "views": 13
+    "clones": 39,
+    "unique_cloners_daily_sum": 32,
+    "unique_visitors_daily_sum": 11,
+    "views": 12
   },
   "last_7_days": {
     "clones": 7,
     "unique_cloners_daily_sum": 7,
-    "unique_visitors_daily_sum": 2,
-    "views": 2
+    "unique_visitors_daily_sum": 1,
+    "views": 1
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 61,
   "unique_visitors_daily_sum": 21,
-  "updated_at": "2026-10-16T09:05:06Z",
+  "updated_at": "2026-10-17T08:37:48Z",
   "views": 28
 }

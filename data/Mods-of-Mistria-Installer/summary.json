@@ -1,17 +1,17 @@
 {
   "clones": 1202,
-  "days_tracked": 59,
+  "days_tracked": 60,
   "last_30_days": {
-    "clones": 306,
-    "unique_cloners_daily_sum": 120,
-    "unique_visitors_daily_sum": 19,
-    "views": 25
+    "clones": 236,
+    "unique_cloners_daily_sum": 92,
+    "unique_visitors_daily_sum": 18,
+    "views": 24
   },
   "last_7_days": {
     "clones": 2,
     "unique_cloners_daily_sum": 2,
-    "unique_visitors_daily_sum": 0,
-    "views": 0
+    "unique_visitors_daily_sum": 1,
+    "views": 3
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 314,
-  "unique_visitors_daily_sum": 85,
-  "updated_at": "2026-10-16T09:05:06Z",
-  "views": 307
+  "unique_visitors_daily_sum": 86,
+  "updated_at": "2026-10-17T08:37:48Z",
+  "views": 310
 }
