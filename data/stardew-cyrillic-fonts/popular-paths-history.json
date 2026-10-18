@@ -1395,6 +1395,26 @@
         "title": "fb1-bb131e1f-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
         "uniques": 1
       }
+    ],
+    "2026-10-18": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/stardew-cyrillic-fonts",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/proxy_u/en-ru.ru.ab9fbbe5-6ac44d49-2c2bb414-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "title": "d49-2c2bb414-74722d776562/https/github.com/AcTePuKc/stardew-cyrillic-fonts/blob/main/README.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/stardew-cyrillic-fonts"

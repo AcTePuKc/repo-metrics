@@ -352,6 +352,32 @@
         "title": "/tree/master/localizations/bg-BG",
         "uniques": 1
       }
+    ],
+    "2026-10-18": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations/blob/master/localizations/bg-BG/language.xml",
+        "title": "/blob/master/localizations/bg-BG/language.xml",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations/tree/master/localizations/bg-BG",
+        "title": "/tree/master/localizations/bg-BG",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/dysmantle-bulgarian-translations"

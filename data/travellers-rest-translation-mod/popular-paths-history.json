@@ -1326,6 +1326,32 @@
         "title": "/releases",
         "uniques": 9
       }
+    ],
+    "2026-10-18": [
+      {
+        "count": 10,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 8
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/employee-refresh/translations/employee-names.de.txt",
+        "title": "/blob/main/employee-refresh/translations/employee-names.de.txt",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/employee-refresh",
+        "title": "/tree/main/employee-refresh",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/employee-refresh/translations",
+        "title": "/tree/main/employee-refresh/translations",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"

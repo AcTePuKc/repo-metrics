@@ -1638,6 +1638,38 @@
         "referrer": "DuckDuckGo",
         "uniques": 2
       }
+    ],
+    "2026-10-18": [
+      {
+        "count": 35,
+        "referrer": "Google",
+        "uniques": 20
+      },
+      {
+        "count": 19,
+        "referrer": "chatgpt.com",
+        "uniques": 16
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "DuckDuckGo",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "web.telegram.org",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"
