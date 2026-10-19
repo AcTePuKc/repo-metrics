@@ -480,6 +480,13 @@
         "referrer": "Google",
         "uniques": 2
       }
+    ],
+    "2026-10-19": [
+      {
+        "count": 1,
+        "referrer": "Google",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod"
