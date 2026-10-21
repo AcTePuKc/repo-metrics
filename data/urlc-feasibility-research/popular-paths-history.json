@@ -417,6 +417,20 @@
         "title": "/blob/main/docs/validation/stage-0-gate-1-decision.md",
         "uniques": 1
       }
+    ],
+    "2026-10-21": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/urlc-feasibility-research/blob/main/docs/validation/evidence-acquisition-report.md",
+        "title": "/blob/main/docs/validation/evidence-acquisition-report.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/urlc-feasibility-research/blob/main/docs/validation/stage-0-gate-1-decision.md",
+        "title": "/blob/main/docs/validation/stage-0-gate-1-decision.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/urlc-feasibility-research"

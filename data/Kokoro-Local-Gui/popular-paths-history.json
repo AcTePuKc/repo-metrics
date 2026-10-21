@@ -3099,6 +3099,68 @@
         "title": "/releases/tag/v2.0.1",
         "uniques": 1
       }
+    ],
+    "2026-10-21": [
+      {
+        "count": 180,
+        "path": "/AcTePuKc/Kokoro-Local-Gui",
+        "title": "Overview",
+        "uniques": 122
+      },
+      {
+        "count": 40,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2",
+        "title": "/releases/tag/v2.0.2",
+        "uniques": 28
+      },
+      {
+        "count": 19,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases",
+        "title": "/releases",
+        "uniques": 14
+      },
+      {
+        "count": 7,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/actions",
+        "title": "/actions",
+        "uniques": 5
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/issues",
+        "title": "/issues",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/pulls",
+        "title": "/pulls",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/install_torch_uv.py",
+        "title": "/blob/main/install_torch_uv.py",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.1",
+        "title": "/releases/tag/v2.0.1",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/actions/runs/27479879098",
+        "title": "/actions/runs/27479879098",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

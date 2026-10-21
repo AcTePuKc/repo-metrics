@@ -509,6 +509,13 @@
         "referrer": "yandex.ru",
         "uniques": 2
       }
+    ],
+    "2026-10-21": [
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/stardew-cyrillic-fonts"
