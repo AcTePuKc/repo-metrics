@@ -3143,6 +3143,68 @@
         "title": "/blob/main/wiki/assets/img/preview4.png",
         "uniques": 1
       }
+    ],
+    "2026-10-22": [
+      {
+        "count": 93,
+        "path": "/AcTePuKc/LocresStudio",
+        "title": "Overview",
+        "uniques": 72
+      },
+      {
+        "count": 80,
+        "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
+        "title": "/releases/tag/v1.1.0",
+        "uniques": 38
+      },
+      {
+        "count": 63,
+        "path": "/AcTePuKc/LocresStudio/releases",
+        "title": "/releases",
+        "uniques": 43
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/LocresStudio.png",
+        "title": "/blob/main/wiki/assets/img/LocresStudio.png",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/preview1.png",
+        "title": "/blob/main/wiki/assets/img/preview1.png",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/preview2.png",
+        "title": "/blob/main/wiki/assets/img/preview2.png",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/preview3.png",
+        "title": "/blob/main/wiki/assets/img/preview3.png",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/preview4.png",
+        "title": "/blob/main/wiki/assets/img/preview4.png",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

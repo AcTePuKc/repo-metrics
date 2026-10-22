@@ -1176,6 +1176,18 @@
         "referrer": "nexusmods.com",
         "uniques": 2
       }
+    ],
+    "2026-10-22": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "nexusmods.com",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"
