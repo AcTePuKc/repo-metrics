@@ -2403,6 +2403,50 @@
         "title": "/blob/main/commands/bg-score.md",
         "uniques": 1
       }
+    ],
+    "2026-10-24": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/bg-text",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/anti-patterns.md",
+        "title": "/blob/main/skills/bg-text/references/anti-patterns.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.agents/skills/bg-text/SKILL.md",
+        "title": "/blob/main/.agents/skills/bg-text/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/SKILL.md",
+        "title": "/blob/main/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/commands/bg-check.md",
+        "title": "/blob/main/commands/bg-check.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/commands/bg-score.md",
+        "title": "/blob/main/commands/bg-score.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg-text"

@@ -579,6 +579,20 @@
         "title": "Overview",
         "uniques": 1
       }
+    ],
+    "2026-10-24": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-valley-bg",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/stardew-valley-bg/releases",
+        "title": "/releases",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/stardew-valley-bg"
