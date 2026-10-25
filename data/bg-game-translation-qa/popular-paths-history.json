@@ -326,6 +326,14 @@
         "title": "Overview",
         "uniques": 1
       }
+    ],
+    "2026-10-25": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-game-translation-qa",
+        "title": "Overview",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/bg-game-translation-qa"

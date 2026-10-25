@@ -1247,6 +1247,18 @@
         "referrer": "Bing",
         "uniques": 1
       }
+    ],
+    "2026-10-25": [
+      {
+        "count": 12,
+        "referrer": "Google",
+        "uniques": 12
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

@@ -2502,6 +2502,48 @@
         "referrer": "forum.zoneofgames.ru",
         "uniques": 1
       }
+    ],
+    "2026-10-25": [
+      {
+        "count": 84,
+        "referrer": "Google",
+        "uniques": 52
+      },
+      {
+        "count": 4,
+        "referrer": "github.com",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "referrer": "Bing",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "yandex.ru",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "Yahoo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "forum.zoneofgames.ru",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

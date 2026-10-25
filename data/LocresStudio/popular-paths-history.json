@@ -3329,6 +3329,68 @@
         "title": "/blob/main/wiki/assets/img/preview4.png",
         "uniques": 1
       }
+    ],
+    "2026-10-25": [
+      {
+        "count": 89,
+        "path": "/AcTePuKc/LocresStudio",
+        "title": "Overview",
+        "uniques": 71
+      },
+      {
+        "count": 70,
+        "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
+        "title": "/releases/tag/v1.1.0",
+        "uniques": 34
+      },
+      {
+        "count": 60,
+        "path": "/AcTePuKc/LocresStudio/releases",
+        "title": "/releases",
+        "uniques": 40
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/tree/main/src",
+        "title": "/tree/main/src",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/src/UnrealLocresEditor/Utils/LocresSerialization.cs",
+        "title": "/blob/main/src/UnrealLocresEditor/Utils/LocresSerialization.cs",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/LocresStudio.png",
+        "title": "/blob/main/wiki/assets/img/LocresStudio.png",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/preview1.png",
+        "title": "/blob/main/wiki/assets/img/preview1.png",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/wiki/assets/img/preview2.png",
+        "title": "/blob/main/wiki/assets/img/preview2.png",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

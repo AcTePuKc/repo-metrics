@@ -53,7 +53,14 @@
     "2026-10-21": [],
     "2026-10-22": [],
     "2026-10-23": [],
-    "2026-10-24": []
+    "2026-10-24": [],
+    "2026-10-25": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 2
+      }
+    ]
   },
   "repository": "AcTePuKc/SAD_bulgarian_localization"
 }

@@ -454,6 +454,18 @@
         "referrer": "Bing",
         "uniques": 1
       }
+    ],
+    "2026-10-25": [
+      {
+        "count": 8,
+        "referrer": "Google",
+        "uniques": 8
+      },
+      {
+        "count": 1,
+        "referrer": "Bing",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"
