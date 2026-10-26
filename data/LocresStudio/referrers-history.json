@@ -2544,6 +2544,48 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-10-26": [
+      {
+        "count": 91,
+        "referrer": "Google",
+        "uniques": 56
+      },
+      {
+        "count": 4,
+        "referrer": "github.com",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "Yahoo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"
