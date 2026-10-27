@@ -1,17 +1,17 @@
 {
   "clones": 52,
-  "days_tracked": 69,
+  "days_tracked": 70,
   "last_30_days": {
-    "clones": 24,
-    "unique_cloners_daily_sum": 22,
-    "unique_visitors_daily_sum": 45,
-    "views": 96
+    "clones": 22,
+    "unique_cloners_daily_sum": 20,
+    "unique_visitors_daily_sum": 40,
+    "views": 87
   },
   "last_7_days": {
-    "clones": 4,
-    "unique_cloners_daily_sum": 4,
+    "clones": 2,
+    "unique_cloners_daily_sum": 2,
     "unique_visitors_daily_sum": 14,
-    "views": 43
+    "views": 40
   },
   "repository": "AcTePuKc/uelockit",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 50,
-  "unique_visitors_daily_sum": 135,
-  "updated_at": "2026-10-26T10:14:42Z",
-  "views": 316
+  "unique_visitors_daily_sum": 137,
+  "updated_at": "2026-10-27T09:52:08Z",
+  "views": 318
 }

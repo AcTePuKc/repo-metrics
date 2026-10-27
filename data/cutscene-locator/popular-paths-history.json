@@ -62,6 +62,14 @@
         "title": "Overview",
         "uniques": 1
       }
+    ],
+    "2026-10-27": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/cutscene-locator",
+        "title": "Overview",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/cutscene-locator"
