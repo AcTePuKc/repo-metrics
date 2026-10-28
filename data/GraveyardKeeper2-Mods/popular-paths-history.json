@@ -1071,6 +1071,20 @@
         "title": "Overview",
         "uniques": 2
       }
+    ],
+    "2026-10-28": [
+      {
+        "count": 5,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods",
+        "title": "Overview",
+        "uniques": 5
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/releases",
+        "title": "/releases",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"

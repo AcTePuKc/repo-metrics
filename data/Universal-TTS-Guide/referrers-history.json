@@ -1283,6 +1283,23 @@
         "referrer": "Bing",
         "uniques": 2
       }
+    ],
+    "2026-10-28": [
+      {
+        "count": 8,
+        "referrer": "Google",
+        "uniques": 8
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "aocr.org",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

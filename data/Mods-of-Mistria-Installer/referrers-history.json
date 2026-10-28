@@ -736,6 +736,18 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-10-28": [
+      {
+        "count": 8,
+        "referrer": "github-com.btglss.net",
+        "uniques": 4
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

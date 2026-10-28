@@ -1253,6 +1253,38 @@
         "title": "Overview",
         "uniques": 3
       }
+    ],
+    "2026-10-28": [
+      {
+        "count": 9,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod",
+        "title": "Overview",
+        "uniques": 6
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/blob/main/src/DaveTheDiverTranslationMod/DaveTheDiverTranslationMod.csproj",
+        "title": "/blob/main/src/DaveTheDiverTranslationMod/DaveTheDiverTranslationMod.csproj",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/blob/main/src/DaveTheDiverTranslationMod/Plugin.cs",
+        "title": "/blob/main/src/DaveTheDiverTranslationMod/Plugin.cs",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/blob/main/src/DaveTheDiverTranslationMod/translations/labels.txt",
+        "title": "/blob/main/src/DaveTheDiverTranslationMod/translations/labels.txt",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"

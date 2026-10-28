@@ -2383,6 +2383,58 @@
         "referrer": "yuanbao.tencent.com",
         "uniques": 1
       }
+    ],
+    "2026-10-28": [
+      {
+        "count": 84,
+        "referrer": "Google",
+        "uniques": 59
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "search.brave.com",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "doubao.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "duck.ai",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "gathering.tweakers.net",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github-com.btglss.net",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"
