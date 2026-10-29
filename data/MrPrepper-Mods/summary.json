@@ -1,6 +1,6 @@
 {
   "clones": 210,
-  "days_tracked": 71,
+  "days_tracked": 72,
   "last_30_days": {
     "clones": 19,
     "unique_cloners_daily_sum": 19,
@@ -8,10 +8,10 @@
     "views": 33
   },
   "last_7_days": {
-    "clones": 5,
-    "unique_cloners_daily_sum": 5,
-    "unique_visitors_daily_sum": 5,
-    "views": 6
+    "clones": 4,
+    "unique_cloners_daily_sum": 4,
+    "unique_visitors_daily_sum": 4,
+    "views": 5
   },
   "repository": "AcTePuKc/MrPrepper-Mods",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 122,
   "unique_visitors_daily_sum": 42,
-  "updated_at": "2026-10-28T10:38:55Z",
+  "updated_at": "2026-10-29T10:56:30Z",
   "views": 83
 }

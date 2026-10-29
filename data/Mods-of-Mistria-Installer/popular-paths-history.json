@@ -2707,6 +2707,68 @@
         "title": "/releases/tag/v0.2.1",
         "uniques": 1
       }
+    ],
+    "2026-10-29": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/2/commits",
+        "title": "/pull/2/commits",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/22/commits/fd36ec534ff3dba809966ddaafadf653fe7ee7d8",
+        "title": "/pull/22/commits/fd36ec534ff3dba809966ddaafadf653fe7ee7d8",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/3/commits/767ceee988ba74626a3a0797d8787dc57ce24cd2",
+        "title": "/pull/3/commits/767ceee988ba74626a3a0797d8787dc57ce24cd2",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/7",
+        "title": "/pull/7",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/8",
+        "title": "/pull/8",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/pull/9",
+        "title": "/pull/9",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/0.1.8",
+        "title": "/releases/tag/0.1.8",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Mods-of-Mistria-Installer/releases/tag/v0.2.1",
+        "title": "/releases/tag/v0.2.1",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"
