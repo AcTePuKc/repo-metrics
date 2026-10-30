@@ -3657,6 +3657,68 @@
         "title": "/blob/main/error_handler.py",
         "uniques": 1
       }
+    ],
+    "2026-10-30": [
+      {
+        "count": 173,
+        "path": "/AcTePuKc/Kokoro-Local-Gui",
+        "title": "Overview",
+        "uniques": 117
+      },
+      {
+        "count": 34,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases",
+        "title": "/releases",
+        "uniques": 21
+      },
+      {
+        "count": 29,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2",
+        "title": "/releases/tag/v2.0.2",
+        "uniques": 22
+      },
+      {
+        "count": 6,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/actions",
+        "title": "/actions",
+        "uniques": 4
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/pulls",
+        "title": "/pulls",
+        "uniques": 5
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/issues",
+        "title": "/issues",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/activity",
+        "title": "/activity",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.1",
+        "title": "/releases/tag/v2.0.1",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/actions/runs/27479879098",
+        "title": "/actions/runs/27479879098",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/error_handler.py",
+        "title": "/blob/main/error_handler.py",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

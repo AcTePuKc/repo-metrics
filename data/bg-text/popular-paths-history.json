@@ -2721,6 +2721,44 @@
         "title": "/tree/main/skills/bg-text",
         "uniques": 1
       }
+    ],
+    "2026-10-30": [
+      {
+        "count": 10,
+        "path": "/AcTePuKc/bg-text",
+        "title": "Overview",
+        "uniques": 6
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/anti-patterns.md",
+        "title": "/blob/main/skills/bg-text/references/anti-patterns.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.cursor-plugin/plugin.json",
+        "title": "/blob/main/.cursor-plugin/plugin.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/SKILL.md",
+        "title": "/blob/main/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/issues",
+        "title": "/issues",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/tree/main/skills/bg-text",
+        "title": "/tree/main/skills/bg-text",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg-text"

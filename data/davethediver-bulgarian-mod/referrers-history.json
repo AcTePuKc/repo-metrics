@@ -551,7 +551,14 @@
         "uniques": 1
       }
     ],
-    "2026-10-29": []
+    "2026-10-29": [],
+    "2026-10-30": [
+      {
+        "count": 1,
+        "referrer": "aocr.org",
+        "uniques": 1
+      }
+    ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"
 }

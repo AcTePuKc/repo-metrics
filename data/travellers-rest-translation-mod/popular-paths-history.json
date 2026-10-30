@@ -1944,6 +1944,62 @@
         "title": "/commits",
         "uniques": 1
       }
+    ],
+    "2026-10-30": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/employee-refresh",
+        "title": "/tree/main/employee-refresh",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/tree/main/employee-refresh/translations",
+        "title": "/tree/main/employee-refresh/translations",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/employee-refresh/translations/employee-names.ar.txt",
+        "title": "/blob/main/employee-refresh/translations/employee-names.ar.txt",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blame/main/employee-refresh/translations/employee-names.ar.txt",
+        "title": "/blame/main/employee-refresh/translations/employee-names.ar.txt",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/employee-refresh/translations/employee-names.de.txt",
+        "title": "/blob/main/employee-refresh/translations/employee-names.de.txt",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/translations/labels.ar.txt",
+        "title": "/blob/main/translations/labels.ar.txt",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/commits",
+        "title": "/commits",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"

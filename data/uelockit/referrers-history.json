@@ -1312,6 +1312,38 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-10-30": [
+      {
+        "count": 6,
+        "referrer": "Google",
+        "uniques": 3
+      },
+      {
+        "count": 5,
+        "referrer": "Bing",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "referrer": "aocr.org",
+        "uniques": 4
+      },
+      {
+        "count": 2,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uelockit"
