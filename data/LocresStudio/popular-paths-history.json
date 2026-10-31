@@ -3689,6 +3689,68 @@
         "title": "/tree/main/src/UnrealLocresEditor/Utils",
         "uniques": 1
       }
+    ],
+    "2026-10-31": [
+      {
+        "count": 105,
+        "path": "/AcTePuKc/LocresStudio",
+        "title": "Overview",
+        "uniques": 85
+      },
+      {
+        "count": 64,
+        "path": "/AcTePuKc/LocresStudio/releases/tag/v1.1.0",
+        "title": "/releases/tag/v1.1.0",
+        "uniques": 44
+      },
+      {
+        "count": 60,
+        "path": "/AcTePuKc/LocresStudio/releases",
+        "title": "/releases",
+        "uniques": 46
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/LocresStudio/issues",
+        "title": "/issues",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/LocresStudio/tree/main/src",
+        "title": "/tree/main/src",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/actions",
+        "title": "/actions",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/blob/main/src/UnrealLocresEditor/Utils/LocresSerialization.cs",
+        "title": "/blob/main/src/UnrealLocresEditor/Utils/LocresSerialization.cs",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/projects",
+        "title": "/projects",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/LocresStudio/pulls",
+        "title": "/pulls",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

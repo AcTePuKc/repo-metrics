@@ -173,6 +173,26 @@
         "title": "/releases/tag/v0.03.006",
         "uniques": 1
       }
+    ],
+    "2026-10-31": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/SAD_bulgarian_localization",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/SAD_bulgarian_localization/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/SAD_bulgarian_localization/releases/tag/v0.03.006",
+        "title": "/releases/tag/v0.03.006",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/SAD_bulgarian_localization"

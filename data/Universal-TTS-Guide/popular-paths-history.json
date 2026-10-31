@@ -3719,6 +3719,68 @@
         "title": "/tree/main/docs",
         "uniques": 2
       }
+    ],
+    "2026-10-31": [
+      {
+        "count": 15,
+        "path": "/AcTePuKc/Universal-TTS-Guide",
+        "title": "Overview",
+        "uniques": 14
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/LICENCE.md",
+        "title": "/blob/main/LICENCE.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/1-data-preparation.md",
+        "title": "/blob/main/docs/guides/1-data-preparation.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/6-troubleshooting-and-resources.md",
+        "title": "/blob/main/docs/guides/6-troubleshooting-and-resources.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/3_MODEL_TRAINING.md",
+        "title": "/blob/main/guides/3_MODEL_TRAINING.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/pull/9",
+        "title": "/pull/9",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/1_DATA_PREPARATION.md",
+        "title": "/blob/main/guides/1_DATA_PREPARATION.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/4_INFERENCE.md",
+        "title": "/blob/main/guides/4_INFERENCE.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/languages/es/README.md",
+        "title": "/blob/main/languages/es/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

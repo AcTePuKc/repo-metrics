@@ -693,6 +693,23 @@
         "referrer": "aocr.org",
         "uniques": 1
       }
+    ],
+    "2026-10-31": [
+      {
+        "count": 1,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "Google",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "aocr.org",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/DiveOrDie-Mods"

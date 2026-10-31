@@ -1,17 +1,17 @@
 {
-  "clones": 228,
-  "days_tracked": 72,
+  "clones": 230,
+  "days_tracked": 74,
   "last_30_days": {
     "clones": 43,
-    "unique_cloners_daily_sum": 32,
+    "unique_cloners_daily_sum": 31,
     "unique_visitors_daily_sum": 5,
     "views": 5
   },
   "last_7_days": {
-    "clones": 2,
-    "unique_cloners_daily_sum": 2,
-    "unique_visitors_daily_sum": 2,
-    "views": 2
+    "clones": 4,
+    "unique_cloners_daily_sum": 3,
+    "unique_visitors_daily_sum": 1,
+    "views": 1
   },
   "repository": "AcTePuKc/stardew-valley-bg",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 0
   },
   "tracking_since": "2026-08-18",
-  "unique_cloners_daily_sum": 122,
+  "unique_cloners_daily_sum": 123,
   "unique_visitors_daily_sum": 9,
-  "updated_at": "2026-10-30T10:54:32Z",
+  "updated_at": "2026-10-31T10:26:47Z",
   "views": 10
 }
