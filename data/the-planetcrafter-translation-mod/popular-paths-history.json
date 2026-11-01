@@ -1291,6 +1291,38 @@
         "title": "/releases/tag/v0.2.2",
         "uniques": 1
       }
+    ],
+    "2026-11-01": [
+      {
+        "count": 10,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod",
+        "title": "Overview",
+        "uniques": 8
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/issues",
+        "title": "/issues",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/labels",
+        "title": "/labels",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod"

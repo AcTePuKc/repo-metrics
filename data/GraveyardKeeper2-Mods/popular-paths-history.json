@@ -1127,6 +1127,32 @@
         "title": "/releases",
         "uniques": 4
       }
+    ],
+    "2026-11-01": [
+      {
+        "count": 10,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods",
+        "title": "Overview",
+        "uniques": 8
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/releases",
+        "title": "/releases",
+        "uniques": 5
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/branches",
+        "title": "/branches",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/GraveyardKeeper2-Mods/tree/main/mods",
+        "title": "/tree/main/mods",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"
