@@ -1,17 +1,17 @@
 {
   "clones": 86,
-  "days_tracked": 76,
+  "days_tracked": 77,
   "last_30_days": {
-    "clones": 33,
-    "unique_cloners_daily_sum": 26,
-    "unique_visitors_daily_sum": 5,
-    "views": 5
+    "clones": 31,
+    "unique_cloners_daily_sum": 25,
+    "unique_visitors_daily_sum": 7,
+    "views": 8
   },
   "last_7_days": {
     "clones": 4,
     "unique_cloners_daily_sum": 2,
-    "unique_visitors_daily_sum": 1,
-    "views": 1
+    "unique_visitors_daily_sum": 3,
+    "views": 4
   },
   "repository": "AcTePuKc/bg-game-translation-qa",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 65,
-  "unique_visitors_daily_sum": 9,
-  "updated_at": "2026-11-01T11:20:48Z",
-  "views": 9
+  "unique_visitors_daily_sum": 11,
+  "updated_at": "2026-11-02T12:34:29Z",
+  "views": 12
 }

@@ -2106,6 +2106,26 @@
         "title": "/commits",
         "uniques": 1
       }
+    ],
+    "2026-11-02": [
+      {
+        "count": 7,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 6
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/blob/main/translations/labels.ar.txt",
+        "title": "/blob/main/translations/labels.ar.txt",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"
