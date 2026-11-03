@@ -1400,6 +1400,28 @@
         "referrer": "ecosia.org",
         "uniques": 1
       }
+    ],
+    "2026-11-03": [
+      {
+        "count": 8,
+        "referrer": "Google",
+        "uniques": 7
+      },
+      {
+        "count": 5,
+        "referrer": "aocr.org",
+        "uniques": 5
+      },
+      {
+        "count": 1,
+        "referrer": "Bing",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

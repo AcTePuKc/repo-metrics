@@ -116,6 +116,13 @@
         "referrer": "Google",
         "uniques": 2
       }
+    ],
+    "2026-11-03": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/SAD_bulgarian_localization"

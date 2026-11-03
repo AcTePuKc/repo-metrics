@@ -574,6 +574,18 @@
         "referrer": "Google",
         "uniques": 1
       }
+    ],
+    "2026-11-03": [
+      {
+        "count": 7,
+        "referrer": "Google",
+        "uniques": 2
+      },
+      {
+        "count": 5,
+        "referrer": "aocr.org",
+        "uniques": 5
+      }
     ]
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod"
