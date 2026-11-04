@@ -3967,6 +3967,68 @@
         "title": "/blob/main/LICENCE.md",
         "uniques": 1
       }
+    ],
+    "2026-11-04": [
+      {
+        "count": 16,
+        "path": "/AcTePuKc/Universal-TTS-Guide",
+        "title": "Overview",
+        "uniques": 15
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/1-data-preparation.md",
+        "title": "/blob/main/docs/guides/1-data-preparation.md",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/1_DATA_PREPARATION.md",
+        "title": "/blob/main/guides/1_DATA_PREPARATION.md",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/2_TRAINING_SETUP.md",
+        "title": "/blob/main/guides/2_TRAINING_SETUP.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/3_MODEL_TRAINING.md",
+        "title": "/blob/main/guides/3_MODEL_TRAINING.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/pull/9",
+        "title": "/pull/9",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/2-training-setup.md",
+        "title": "/blob/main/docs/guides/2-training-setup.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/6-troubleshooting-and-resources.md",
+        "title": "/blob/main/docs/guides/6-troubleshooting-and-resources.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/4_INFERENCE.md",
+        "title": "/blob/main/guides/4_INFERENCE.md",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/6_TROUBLESHOOTING_AND_RESOURCES.md",
+        "title": "/blob/main/6_TROUBLESHOOTING_AND_RESOURCES.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

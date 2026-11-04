@@ -2911,6 +2911,68 @@
         "title": "/tree/main/skills/bg-text",
         "uniques": 1
       }
+    ],
+    "2026-11-04": [
+      {
+        "count": 11,
+        "path": "/AcTePuKc/bg-text",
+        "title": "Overview",
+        "uniques": 7
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.agents/skills/bg-text/SKILL.md",
+        "title": "/blob/main/.agents/skills/bg-text/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.claude/skills/bg-text/SKILL.md",
+        "title": "/blob/main/.claude/skills/bg-text/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/.cursor-plugin/plugin.json",
+        "title": "/blob/main/.cursor-plugin/plugin.json",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/SKILL.md",
+        "title": "/blob/main/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/business-writing.md",
+        "title": "/blob/main/skills/bg-text/references/business-writing.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/clear-writing.md",
+        "title": "/blob/main/skills/bg-text/references/clear-writing.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/editorial-punctuation.md",
+        "title": "/blob/main/skills/bg-text/references/editorial-punctuation.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/scoring.md",
+        "title": "/blob/main/skills/bg-text/references/scoring.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/sources.md",
+        "title": "/blob/main/skills/bg-text/references/sources.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg-text"
