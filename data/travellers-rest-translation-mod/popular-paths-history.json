@@ -2154,6 +2154,20 @@
         "title": "Overview",
         "uniques": 2
       }
+    ],
+    "2026-11-05": [
+      {
+        "count": 7,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 6
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/travellers-rest-translation-mod",
+        "title": "Overview",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"

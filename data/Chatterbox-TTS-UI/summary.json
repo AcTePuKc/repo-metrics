@@ -1,17 +1,17 @@
 {
-  "clones": 310,
-  "days_tracked": 79,
+  "clones": 311,
+  "days_tracked": 80,
   "last_30_days": {
-    "clones": 145,
-    "unique_cloners_daily_sum": 113,
-    "unique_visitors_daily_sum": 400,
-    "views": 631
+    "clones": 143,
+    "unique_cloners_daily_sum": 111,
+    "unique_visitors_daily_sum": 394,
+    "views": 621
   },
   "last_7_days": {
-    "clones": 51,
-    "unique_cloners_daily_sum": 30,
-    "unique_visitors_daily_sum": 120,
-    "views": 186
+    "clones": 47,
+    "unique_cloners_daily_sum": 28,
+    "unique_visitors_daily_sum": 107,
+    "views": 163
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 1
   },
   "tracking_since": "2026-08-17",
-  "unique_cloners_daily_sum": 263,
-  "unique_visitors_daily_sum": 1016,
-  "updated_at": "2026-11-04T12:15:14Z",
-  "views": 1815
+  "unique_cloners_daily_sum": 264,
+  "unique_visitors_daily_sum": 1024,
+  "updated_at": "2026-11-05T12:28:50Z",
+  "views": 1823
 }

@@ -601,6 +601,28 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-11-05": [
+      {
+        "count": 7,
+        "referrer": "Google",
+        "uniques": 7
+      },
+      {
+        "count": 1,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "yandex.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/MrPrepper-Mods"
