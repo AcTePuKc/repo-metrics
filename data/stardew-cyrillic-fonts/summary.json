@@ -1,6 +1,6 @@
 {
-  "clones": 35,
-  "days_tracked": 79,
+  "clones": 36,
+  "days_tracked": 80,
   "last_30_days": {
     "clones": 12,
     "unique_cloners_daily_sum": 12,
@@ -8,10 +8,10 @@
     "views": 5
   },
   "last_7_days": {
-    "clones": 1,
-    "unique_cloners_daily_sum": 1,
-    "unique_visitors_daily_sum": 0,
-    "views": 0
+    "clones": 2,
+    "unique_cloners_daily_sum": 2,
+    "unique_visitors_daily_sum": 1,
+    "views": 1
   },
   "repository": "AcTePuKc/stardew-cyrillic-fonts",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 0
   },
   "tracking_since": "2026-08-18",
-  "unique_cloners_daily_sum": 35,
-  "unique_visitors_daily_sum": 16,
-  "updated_at": "2026-11-05T12:28:50Z",
-  "views": 25
+  "unique_cloners_daily_sum": 36,
+  "unique_visitors_daily_sum": 17,
+  "updated_at": "2026-11-06T12:12:43Z",
+  "views": 26
 }

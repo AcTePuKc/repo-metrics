@@ -2851,6 +2851,58 @@
         "referrer": "github-com.btglss.net",
         "uniques": 1
       }
+    ],
+    "2026-11-06": [
+      {
+        "count": 109,
+        "referrer": "Google",
+        "uniques": 67
+      },
+      {
+        "count": 11,
+        "referrer": "github.com",
+        "uniques": 9
+      },
+      {
+        "count": 10,
+        "referrer": "Bing",
+        "uniques": 9
+      },
+      {
+        "count": 7,
+        "referrer": "aocr.org",
+        "uniques": 7
+      },
+      {
+        "count": 5,
+        "referrer": "search.brave.com",
+        "uniques": 5
+      },
+      {
+        "count": 5,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "referrer": "ecosia.org",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "referrer": "ya.ru",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "duck.ai",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github-com.btglss.net",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

@@ -425,6 +425,18 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-11-06": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"

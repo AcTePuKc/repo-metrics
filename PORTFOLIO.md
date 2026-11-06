@@ -1,17 +1,17 @@
 # Portfolio dashboard
 
-Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-11-05T12:28:50Z`.
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-11-06T12:12:43Z`.
 
 ## At a glance
 
 | Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
-| 66 | 147 | 10 | 7247 | 7667 |
+| 66 | 147 | 10 | 7296 | 7793 |
 
 | Window | Clones | Views |
 | --- | ---: | ---: |
-| Last 7 days | 454 | 699 |
-| Last 30 days | 2474 | 2424 |
+| Last 7 days | 383 | 678 |
+| Last 30 days | 2371 | 2428 |
 
 ## Most active repositories
 
@@ -19,27 +19,27 @@ Ranked by combined views and clones in the last 30 days.
 
 | Repository | Views (30d) | Clones (30d) | Stars | Traffic |
 | --- | ---: | ---: | ---: | --- |
-| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | 621 | 143 | 25 | [chart](charts/Chatterbox-TTS-UI/traffic.svg) |
-| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | 595 | 91 | 48 | [chart](charts/Kokoro-Local-Gui/traffic.svg) |
-| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | 567 | 54 | 11 | [chart](charts/LocresStudio/traffic.svg) |
-| [repo-metrics](https://github.com/AcTePuKc/repo-metrics) | 26 | 383 | 0 | [chart](charts/repo-metrics/traffic.svg) |
-| [codex](https://github.com/AcTePuKc/codex) | 3 | 197 | 0 | [chart](charts/codex/traffic.svg) |
-| [ONI-Mods-TestFix](https://github.com/AcTePuKc/ONI-Mods-TestFix) | 7 | 180 | 0 | [chart](charts/ONI-Mods-TestFix/traffic.svg) |
-| [FoundryL10n](https://github.com/AcTePuKc/FoundryL10n) | 15 | 136 | 0 | [chart](charts/FoundryL10n/traffic.svg) |
-| [uelockit](https://github.com/AcTePuKc/uelockit) | 121 | 27 | 2 | [chart](charts/uelockit/traffic.svg) |
-| [Universal-TTS-Guide](https://github.com/AcTePuKc/Universal-TTS-Guide) | 100 | 46 | 42 | [chart](charts/Universal-TTS-Guide/traffic.svg) |
-| [Nightwater-Bulgarian-Localization](https://github.com/AcTePuKc/Nightwater-Bulgarian-Localization) | 1 | 143 | 0 | [chart](charts/Nightwater-Bulgarian-Localization/traffic.svg) |
+| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | 627 | 145 | 25 | [chart](charts/Chatterbox-TTS-UI/traffic.svg) |
+| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | 597 | 90 | 48 | [chart](charts/Kokoro-Local-Gui/traffic.svg) |
+| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | 540 | 53 | 11 | [chart](charts/LocresStudio/traffic.svg) |
+| [repo-metrics](https://github.com/AcTePuKc/repo-metrics) | 27 | 396 | 0 | [chart](charts/repo-metrics/traffic.svg) |
+| [codex](https://github.com/AcTePuKc/codex) | 3 | 165 | 0 | [chart](charts/codex/traffic.svg) |
+| [uelockit](https://github.com/AcTePuKc/uelockit) | 124 | 27 | 2 | [chart](charts/uelockit/traffic.svg) |
+| [Universal-TTS-Guide](https://github.com/AcTePuKc/Universal-TTS-Guide) | 99 | 47 | 42 | [chart](charts/Universal-TTS-Guide/traffic.svg) |
+| [Nightwater-Bulgarian-Localization](https://github.com/AcTePuKc/Nightwater-Bulgarian-Localization) | 1 | 145 | 0 | [chart](charts/Nightwater-Bulgarian-Localization/traffic.svg) |
+| [FoundryL10n](https://github.com/AcTePuKc/FoundryL10n) | 18 | 127 | 0 | [chart](charts/FoundryL10n/traffic.svg) |
+| [bg-text](https://github.com/AcTePuKc/bg-text) | 51 | 92 | 1 | [chart](charts/bg-text/traffic.svg) |
 
 ## Latest traffic sources
 
-The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-11-05`.
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-11-06`.
 
 | Referrer | Snapshot views |
 | --- | ---: |
-| Google | 305 |
-| aocr.org | 44 |
-| github.com | 21 |
-| Bing | 18 |
+| Google | 325 |
+| aocr.org | 75 |
+| github.com | 24 |
+| Bing | 20 |
 | github-com.btglss.net | 17 |
 | search.brave.com | 12 |
 | chatgpt.com | 7 |
@@ -53,15 +53,15 @@ The table combines the latest available popular-path snapshots. It helps identif
 
 | Repository | Page | Path | Snapshot views |
 | --- | --- | --- | ---: |
-| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | Overview | `/AcTePuKc/Chatterbox-TTS-UI` | 212 |
-| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | Overview | `/AcTePuKc/Kokoro-Local-Gui` | 197 |
-| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | Overview | `/AcTePuKc/LocresStudio` | 120 |
-| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | /releases/tag/v1.1.0 | `/AcTePuKc/LocresStudio/releases/tag/v1.1.0` | 71 |
-| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | /releases | `/AcTePuKc/LocresStudio/releases` | 62 |
+| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | Overview | `/AcTePuKc/Chatterbox-TTS-UI` | 225 |
+| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | Overview | `/AcTePuKc/Kokoro-Local-Gui` | 220 |
+| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | Overview | `/AcTePuKc/LocresStudio` | 125 |
+| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | /releases/tag/v1.1.0 | `/AcTePuKc/LocresStudio/releases/tag/v1.1.0` | 74 |
+| [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | /releases | `/AcTePuKc/LocresStudio/releases` | 64 |
 | [uelockit](https://github.com/AcTePuKc/uelockit) | Overview | `/AcTePuKc/uelockit` | 46 |
-| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | /releases/tag/ui-v0.2.0 | `/AcTePuKc/Chatterbox-TTS-UI/releases/tag/ui-v0.2.0` | 29 |
-| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | /releases | `/AcTePuKc/Kokoro-Local-Gui/releases` | 26 |
-| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | /releases/tag/v2.0.2 | `/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2` | 26 |
+| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | /releases/tag/ui-v0.2.0 | `/AcTePuKc/Chatterbox-TTS-UI/releases/tag/ui-v0.2.0` | 33 |
+| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | /releases | `/AcTePuKc/Kokoro-Local-Gui/releases` | 29 |
+| [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | /releases/tag/v2.0.2 | `/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2` | 27 |
 | [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | /releases | `/AcTePuKc/Chatterbox-TTS-UI/releases` | 20 |
 
 Individual repository badges and full traffic charts are available under [`badges/`](badges/) and [`charts/`](charts/).
