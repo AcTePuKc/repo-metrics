@@ -1,6 +1,6 @@
 {
   "clones": 36,
-  "days_tracked": 81,
+  "days_tracked": 82,
   "last_30_days": {
     "clones": 14,
     "unique_cloners_daily_sum": 14,
@@ -10,8 +10,8 @@
   "last_7_days": {
     "clones": 1,
     "unique_cloners_daily_sum": 1,
-    "unique_visitors_daily_sum": 7,
-    "views": 18
+    "unique_visitors_daily_sum": 2,
+    "views": 2
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 36,
   "unique_visitors_daily_sum": 32,
-  "updated_at": "2026-11-06T12:12:43Z",
+  "updated_at": "2026-11-07T11:09:06Z",
   "views": 73
 }
