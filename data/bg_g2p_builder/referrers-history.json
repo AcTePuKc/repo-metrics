@@ -836,6 +836,23 @@
         "referrer": "github.com",
         "uniques": 1
       }
+    ],
+    "2026-11-08": [
+      {
+        "count": 5,
+        "referrer": "Google",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg_g2p_builder"

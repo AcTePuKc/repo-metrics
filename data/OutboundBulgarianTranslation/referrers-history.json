@@ -223,6 +223,13 @@
         "referrer": "ya.ru",
         "uniques": 1
       }
+    ],
+    "2026-11-08": [
+      {
+        "count": 1,
+        "referrer": "ya.ru",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/OutboundBulgarianTranslation"

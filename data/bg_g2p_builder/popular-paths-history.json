@@ -1047,6 +1047,20 @@
         "title": "/pulls",
         "uniques": 2
       }
+    ],
+    "2026-11-08": [
+      {
+        "count": 11,
+        "path": "/AcTePuKc/bg_g2p_builder",
+        "title": "Overview",
+        "uniques": 5
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg_g2p_builder/pulls",
+        "title": "/pulls",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg_g2p_builder"
