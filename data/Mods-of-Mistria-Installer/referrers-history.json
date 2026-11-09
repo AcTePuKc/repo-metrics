@@ -890,6 +890,18 @@
         "referrer": "aocr.org",
         "uniques": 2
       }
+    ],
+    "2026-11-09": [
+      {
+        "count": 5,
+        "referrer": "github-com.btglss.net",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "aocr.org",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"
