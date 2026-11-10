@@ -1693,6 +1693,68 @@
         "title": "/releases/tag/v0.2.2",
         "uniques": 1
       }
+    ],
+    "2026-11-10": [
+      {
+        "count": 11,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod",
+        "title": "Overview",
+        "uniques": 8
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/actions",
+        "title": "/actions",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/commit/0be538c51b528f68fb727d9a5cafa7c9dc467828",
+        "title": "/commit/0be538c51b528f68fb727d9a5cafa7c9dc467828",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/commit/113761edb1d7a00dd3fa6c5966197b25d484caaa",
+        "title": "/commit/113761edb1d7a00dd3fa6c5966197b25d484caaa",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/commit/95a71c910621a096b68418455ad0499e3c4ef41e",
+        "title": "/commit/95a71c910621a096b68418455ad0499e3c4ef41e",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/commit/e07b4137dc633cf0976d3e01817eb72eebf3f511",
+        "title": "/commit/e07b4137dc633cf0976d3e01817eb72eebf3f511",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/commits",
+        "title": "/commits",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/labels",
+        "title": "/labels",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/the-planetcrafter-translation-mod/releases/tag/v0.2.2",
+        "title": "/releases/tag/v0.2.2",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/the-planetcrafter-translation-mod"

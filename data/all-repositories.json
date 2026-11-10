@@ -1,26 +1,26 @@
 {
   "last_30_days": {
-    "clones": 2478,
-    "views": 2398
+    "clones": 2380,
+    "views": 2411
   },
   "last_7_days": {
-    "clones": 717,
-    "views": 544
+    "clones": 726,
+    "views": 540
   },
   "repositories": {
     "AcTePuKc/AcTePuKc": {
-      "clones": 31,
+      "clones": 33,
       "last_30_days": {
-        "clones": 14,
-        "unique_cloners_daily_sum": 14,
+        "clones": 13,
+        "unique_cloners_daily_sum": 13,
         "unique_visitors_daily_sum": 7,
         "views": 7
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 4,
-        "unique_visitors_daily_sum": 3,
-        "views": 3
+        "clones": 5,
+        "unique_cloners_daily_sum": 5,
+        "unique_visitors_daily_sum": 1,
+        "views": 1
       },
       "repository_snapshot": {
         "forks": 0,
@@ -34,14 +34,14 @@
     "AcTePuKc/Angela-WebDesign": {
       "clones": 27,
       "last_30_days": {
-        "clones": 16,
-        "unique_cloners_daily_sum": 14,
+        "clones": 13,
+        "unique_cloners_daily_sum": 11,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 4,
+        "clones": 4,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -78,18 +78,18 @@
       "views": 1
     },
     "AcTePuKc/Chatterbox-TTS-UI": {
-      "clones": 323,
+      "clones": 328,
       "last_30_days": {
-        "clones": 141,
-        "unique_cloners_daily_sum": 109,
-        "unique_visitors_daily_sum": 375,
-        "views": 597
+        "clones": 139,
+        "unique_cloners_daily_sum": 106,
+        "unique_visitors_daily_sum": 368,
+        "views": 582
       },
       "last_7_days": {
-        "clones": 33,
-        "unique_cloners_daily_sum": 17,
-        "unique_visitors_daily_sum": 85,
-        "views": 118
+        "clones": 35,
+        "unique_cloners_daily_sum": 18,
+        "unique_visitors_daily_sum": 77,
+        "views": 110
       },
       "repository_snapshot": {
         "forks": 1,
@@ -98,19 +98,19 @@
         "watchers": 1
       },
       "tracking_since": "2026-08-17",
-      "views": 1897
+      "views": 1908
     },
     "AcTePuKc/DiveOrDie-Mods": {
       "clones": 47,
       "last_30_days": {
-        "clones": 20,
-        "unique_cloners_daily_sum": 18,
+        "clones": 17,
+        "unique_cloners_daily_sum": 15,
         "unique_visitors_daily_sum": 17,
         "views": 28
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 2,
+        "clones": 3,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 7,
         "views": 8
       },
@@ -121,7 +121,7 @@
         "watchers": 0
       },
       "tracking_since": "2026-08-17",
-      "views": 70
+      "views": 71
     },
     "AcTePuKc/Fast-Spark-TTS": {
       "clones": 8,
@@ -149,14 +149,14 @@
     "AcTePuKc/FieldsOfMistria-Mods": {
       "clones": 73,
       "last_30_days": {
-        "clones": 24,
-        "unique_cloners_daily_sum": 24,
+        "clones": 21,
+        "unique_cloners_daily_sum": 21,
         "unique_visitors_daily_sum": 4,
         "views": 4
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 4,
+        "clones": 3,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -172,16 +172,16 @@
     "AcTePuKc/FoundryL10n": {
       "clones": 276,
       "last_30_days": {
-        "clones": 111,
-        "unique_cloners_daily_sum": 85,
-        "unique_visitors_daily_sum": 20,
-        "views": 21
+        "clones": 108,
+        "unique_cloners_daily_sum": 82,
+        "unique_visitors_daily_sum": 19,
+        "views": 20
       },
       "last_7_days": {
-        "clones": 10,
-        "unique_cloners_daily_sum": 10,
-        "unique_visitors_daily_sum": 9,
-        "views": 9
+        "clones": 9,
+        "unique_cloners_daily_sum": 9,
+        "unique_visitors_daily_sum": 8,
+        "views": 8
       },
       "repository_snapshot": {
         "forks": 0,
@@ -195,8 +195,8 @@
     "AcTePuKc/GK2-Mod-Framework": {
       "clones": 102,
       "last_30_days": {
-        "clones": 7,
-        "unique_cloners_daily_sum": 7,
+        "clones": 6,
+        "unique_cloners_daily_sum": 6,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -241,16 +241,16 @@
     "AcTePuKc/GraveyardKeeper2-Mods": {
       "clones": 179,
       "last_30_days": {
-        "clones": 54,
-        "unique_cloners_daily_sum": 44,
-        "unique_visitors_daily_sum": 25,
-        "views": 40
+        "clones": 49,
+        "unique_cloners_daily_sum": 39,
+        "unique_visitors_daily_sum": 26,
+        "views": 41
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
+        "clones": 0,
+        "unique_cloners_daily_sum": 0,
         "unique_visitors_daily_sum": 11,
-        "views": 18
+        "views": 15
       },
       "repository_snapshot": {
         "forks": 0,
@@ -259,7 +259,7 @@
         "watchers": 0
       },
       "tracking_since": "2026-09-13",
-      "views": 102
+      "views": 103
     },
     "AcTePuKc/HatMP": {
       "clones": 34,
@@ -308,18 +308,18 @@
       "views": 0
     },
     "AcTePuKc/KamiSetup": {
-      "clones": 27,
+      "clones": 28,
       "last_30_days": {
-        "clones": 12,
-        "unique_cloners_daily_sum": 11,
-        "unique_visitors_daily_sum": 0,
-        "views": 0
+        "clones": 9,
+        "unique_cloners_daily_sum": 8,
+        "unique_visitors_daily_sum": 1,
+        "views": 1
       },
       "last_7_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 2,
-        "unique_visitors_daily_sum": 0,
-        "views": 0
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
+        "unique_visitors_daily_sum": 1,
+        "views": 1
       },
       "repository_snapshot": {
         "forks": 0,
@@ -328,21 +328,21 @@
         "watchers": 1
       },
       "tracking_since": "2026-08-16",
-      "views": 2
+      "views": 3
     },
     "AcTePuKc/Kokoro-Local-Gui": {
       "clones": 261,
       "last_30_days": {
-        "clones": 89,
-        "unique_cloners_daily_sum": 79,
-        "unique_visitors_daily_sum": 343,
-        "views": 571
+        "clones": 85,
+        "unique_cloners_daily_sum": 75,
+        "unique_visitors_daily_sum": 351,
+        "views": 579
       },
       "last_7_days": {
-        "clones": 13,
-        "unique_cloners_daily_sum": 12,
-        "unique_visitors_daily_sum": 80,
-        "views": 125
+        "clones": 8,
+        "unique_cloners_daily_sum": 8,
+        "unique_visitors_daily_sum": 78,
+        "views": 118
       },
       "repository_snapshot": {
         "forks": 5,
@@ -351,7 +351,7 @@
         "watchers": 3
       },
       "tracking_since": "2026-08-18",
-      "views": 2010
+      "views": 2038
     },
     "AcTePuKc/Little-Geeky-s-Learning-UI": {
       "clones": 5,
@@ -377,39 +377,39 @@
       "views": 3
     },
     "AcTePuKc/LocresStudio": {
-      "clones": 108,
+      "clones": 109,
       "last_30_days": {
-        "clones": 59,
-        "unique_cloners_daily_sum": 45,
-        "unique_visitors_daily_sum": 282,
-        "views": 522
+        "clones": 50,
+        "unique_cloners_daily_sum": 41,
+        "unique_visitors_daily_sum": 285,
+        "views": 536
       },
       "last_7_days": {
         "clones": 17,
         "unique_cloners_daily_sum": 14,
-        "unique_visitors_daily_sum": 55,
-        "views": 85
+        "unique_visitors_daily_sum": 62,
+        "views": 100
       },
       "repository_snapshot": {
         "forks": 0,
         "open_issues": 0,
-        "stars": 11,
+        "stars": 12,
         "watchers": 0
       },
       "tracking_since": "2026-08-17",
-      "views": 1809
+      "views": 1838
     },
     "AcTePuKc/Mods-of-Mistria-Installer": {
-      "clones": 1515,
+      "clones": 1536,
       "last_30_days": {
-        "clones": 315,
-        "unique_cloners_daily_sum": 72,
+        "clones": 334,
+        "unique_cloners_daily_sum": 80,
         "unique_visitors_daily_sum": 26,
         "views": 32
       },
       "last_7_days": {
-        "clones": 250,
-        "unique_cloners_daily_sum": 47,
+        "clones": 270,
+        "unique_cloners_daily_sum": 56,
         "unique_visitors_daily_sum": 14,
         "views": 15
       },
@@ -425,14 +425,14 @@
     "AcTePuKc/MrPrepper-Mods": {
       "clones": 216,
       "last_30_days": {
-        "clones": 22,
-        "unique_cloners_daily_sum": 21,
-        "unique_visitors_daily_sum": 26,
-        "views": 40
+        "clones": 19,
+        "unique_cloners_daily_sum": 18,
+        "unique_visitors_daily_sum": 27,
+        "views": 41
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 4,
+        "clones": 4,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 4,
         "views": 10
       },
@@ -443,13 +443,13 @@
         "watchers": 0
       },
       "tracking_since": "2026-08-18",
-      "views": 101
+      "views": 102
     },
     "AcTePuKc/Necesse-Lang-Translator": {
-      "clones": 175,
+      "clones": 176,
       "last_30_days": {
-        "clones": 23,
-        "unique_cloners_daily_sum": 21,
+        "clones": 21,
+        "unique_cloners_daily_sum": 19,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -471,14 +471,14 @@
     "AcTePuKc/Nightwater-Bulgarian-Localization": {
       "clones": 146,
       "last_30_days": {
-        "clones": 92,
-        "unique_cloners_daily_sum": 65,
+        "clones": 55,
+        "unique_cloners_daily_sum": 42,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 5,
+        "clones": 3,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -515,16 +515,16 @@
       "views": 14
     },
     "AcTePuKc/OutboundBulgarianTranslation": {
-      "clones": 79,
+      "clones": 81,
       "last_30_days": {
-        "clones": 33,
-        "unique_cloners_daily_sum": 29,
+        "clones": 32,
+        "unique_cloners_daily_sum": 28,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
+        "clones": 3,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -540,14 +540,14 @@
     "AcTePuKc/SAD_bulgarian_localization": {
       "clones": 36,
       "last_30_days": {
-        "clones": 17,
-        "unique_cloners_daily_sum": 17,
+        "clones": 14,
+        "unique_cloners_daily_sum": 14,
         "unique_visitors_daily_sum": 2,
         "views": 4
       },
       "last_7_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 3,
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -569,8 +569,8 @@
         "views": 0
       },
       "last_7_days": {
-        "clones": 1,
-        "unique_cloners_daily_sum": 1,
+        "clones": 0,
+        "unique_cloners_daily_sum": 0,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -630,16 +630,16 @@
       "views": 1
     },
     "AcTePuKc/StardewMods": {
-      "clones": 18,
+      "clones": 20,
       "last_30_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 4,
-        "unique_visitors_daily_sum": 1,
-        "views": 1
+        "clones": 6,
+        "unique_cloners_daily_sum": 6,
+        "unique_visitors_daily_sum": 0,
+        "views": 0
       },
       "last_7_days": {
-        "clones": 0,
-        "unique_cloners_daily_sum": 0,
+        "clones": 2,
+        "unique_cloners_daily_sum": 2,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -653,16 +653,16 @@
       "views": 1
     },
     "AcTePuKc/Stardrop": {
-      "clones": 22,
+      "clones": 23,
       "last_30_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 3,
+        "clones": 4,
+        "unique_cloners_daily_sum": 4,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 0,
-        "unique_cloners_daily_sum": 0,
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -684,8 +684,8 @@
         "views": 0
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -701,14 +701,14 @@
     "AcTePuKc/Stranded-FanGenerations": {
       "clones": 28,
       "last_30_days": {
-        "clones": 14,
-        "unique_cloners_daily_sum": 13,
+        "clones": 9,
+        "unique_cloners_daily_sum": 8,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 3,
+        "clones": 3,
+        "unique_cloners_daily_sum": 2,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -722,15 +722,15 @@
       "views": 1
     },
     "AcTePuKc/Transcript-Fetcher-GUI": {
-      "clones": 32,
+      "clones": 34,
       "last_30_days": {
-        "clones": 20,
-        "unique_cloners_daily_sum": 18,
-        "unique_visitors_daily_sum": 8,
-        "views": 8
+        "clones": 19,
+        "unique_cloners_daily_sum": 16,
+        "unique_visitors_daily_sum": 7,
+        "views": 7
       },
       "last_7_days": {
-        "clones": 6,
+        "clones": 7,
         "unique_cloners_daily_sum": 5,
         "unique_visitors_daily_sum": 4,
         "views": 4
@@ -745,16 +745,16 @@
       "views": 29
     },
     "AcTePuKc/Universal-TTS-Guide": {
-      "clones": 109,
+      "clones": 113,
       "last_30_days": {
         "clones": 48,
-        "unique_cloners_daily_sum": 37,
+        "unique_cloners_daily_sum": 36,
         "unique_visitors_daily_sum": 85,
         "views": 104
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 5,
+        "clones": 8,
+        "unique_cloners_daily_sum": 7,
         "unique_visitors_daily_sum": 21,
         "views": 31
       },
@@ -765,7 +765,7 @@
         "watchers": 1
       },
       "tracking_since": "2026-08-18",
-      "views": 421
+      "views": 423
     },
     "AcTePuKc/Witcher3StringEditor": {
       "clones": 72,
@@ -791,16 +791,16 @@
       "views": 3
     },
     "AcTePuKc/bg-game-translation-qa": {
-      "clones": 103,
+      "clones": 104,
       "last_30_days": {
-        "clones": 44,
-        "unique_cloners_daily_sum": 35,
+        "clones": 42,
+        "unique_cloners_daily_sum": 33,
         "unique_visitors_daily_sum": 5,
         "views": 6
       },
       "last_7_days": {
-        "clones": 17,
-        "unique_cloners_daily_sum": 12,
+        "clones": 13,
+        "unique_cloners_daily_sum": 8,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -837,18 +837,18 @@
       "views": 181
     },
     "AcTePuKc/bg_g2p_builder": {
-      "clones": 45,
+      "clones": 48,
       "last_30_days": {
-        "clones": 17,
-        "unique_cloners_daily_sum": 17,
+        "clones": 16,
+        "unique_cloners_daily_sum": 16,
         "unique_visitors_daily_sum": 9,
         "views": 15
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 5,
-        "unique_visitors_daily_sum": 3,
-        "views": 4
+        "clones": 6,
+        "unique_cloners_daily_sum": 6,
+        "unique_visitors_daily_sum": 0,
+        "views": 0
       },
       "repository_snapshot": {
         "forks": 0,
@@ -862,14 +862,14 @@
     "AcTePuKc/bmfont_studio": {
       "clones": 27,
       "last_30_days": {
-        "clones": 12,
-        "unique_cloners_daily_sum": 12,
+        "clones": 9,
+        "unique_cloners_daily_sum": 9,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
       "last_7_days": {
-        "clones": 1,
-        "unique_cloners_daily_sum": 1,
+        "clones": 0,
+        "unique_cloners_daily_sum": 0,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -906,16 +906,16 @@
       "views": 1
     },
     "AcTePuKc/code-institute": {
-      "clones": 26,
+      "clones": 31,
       "last_30_days": {
-        "clones": 13,
-        "unique_cloners_daily_sum": 12,
+        "clones": 15,
+        "unique_cloners_daily_sum": 13,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 3,
+        "clones": 7,
+        "unique_cloners_daily_sum": 6,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -929,7 +929,7 @@
       "views": 0
     },
     "AcTePuKc/codex": {
-      "clones": 292,
+      "clones": 293,
       "last_30_days": {
         "clones": 94,
         "unique_cloners_daily_sum": 15,
@@ -937,8 +937,8 @@
         "views": 4
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 4,
+        "clones": 5,
+        "unique_cloners_daily_sum": 5,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -954,14 +954,14 @@
     "AcTePuKc/colorization_project": {
       "clones": 44,
       "last_30_days": {
-        "clones": 22,
-        "unique_cloners_daily_sum": 17,
+        "clones": 19,
+        "unique_cloners_daily_sum": 14,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 8,
-        "unique_cloners_daily_sum": 5,
+        "clones": 4,
+        "unique_cloners_daily_sum": 2,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -975,10 +975,10 @@
       "views": 0
     },
     "AcTePuKc/cutscene-locator": {
-      "clones": 231,
+      "clones": 232,
       "last_30_days": {
-        "clones": 113,
-        "unique_cloners_daily_sum": 23,
+        "clones": 111,
+        "unique_cloners_daily_sum": 21,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -1006,8 +1006,8 @@
         "views": 0
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 4,
+        "clones": 3,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1023,16 +1023,16 @@
     "AcTePuKc/davethediver-bulgarian-mod": {
       "clones": 37,
       "last_30_days": {
-        "clones": 14,
-        "unique_cloners_daily_sum": 14,
-        "unique_visitors_daily_sum": 16,
-        "views": 35
+        "clones": 11,
+        "unique_cloners_daily_sum": 11,
+        "unique_visitors_daily_sum": 15,
+        "views": 34
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
-        "unique_visitors_daily_sum": 2,
-        "views": 2
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
+        "unique_visitors_daily_sum": 1,
+        "views": 1
       },
       "repository_snapshot": {
         "forks": 0,
@@ -1044,16 +1044,16 @@
       "views": 73
     },
     "AcTePuKc/dysmantle-bulgarian-translations": {
-      "clones": 40,
+      "clones": 41,
       "last_30_days": {
-        "clones": 19,
-        "unique_cloners_daily_sum": 18,
+        "clones": 17,
+        "unique_cloners_daily_sum": 16,
         "unique_visitors_daily_sum": 1,
         "views": 6
       },
       "last_7_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 3,
+        "clones": 2,
+        "unique_cloners_daily_sum": 2,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1090,7 +1090,7 @@
       "views": 9
     },
     "AcTePuKc/github-motion": {
-      "clones": 36,
+      "clones": 39,
       "last_30_days": {
         "clones": 16,
         "unique_cloners_daily_sum": 15,
@@ -1098,8 +1098,8 @@
         "views": 4
       },
       "last_7_days": {
-        "clones": 4,
-        "unique_cloners_daily_sum": 3,
+        "clones": 6,
+        "unique_cloners_daily_sum": 5,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -1138,14 +1138,14 @@
     "AcTePuKc/icon-image-resizer": {
       "clones": 33,
       "last_30_days": {
-        "clones": 17,
-        "unique_cloners_daily_sum": 15,
+        "clones": 14,
+        "unique_cloners_daily_sum": 12,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 4,
+        "clones": 2,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1159,16 +1159,16 @@
       "views": 0
     },
     "AcTePuKc/learn-gdscript": {
-      "clones": 27,
+      "clones": 30,
       "last_30_days": {
-        "clones": 10,
-        "unique_cloners_daily_sum": 8,
+        "clones": 13,
+        "unique_cloners_daily_sum": 11,
         "unique_visitors_daily_sum": 3,
         "views": 3
       },
       "last_7_days": {
-        "clones": 5,
-        "unique_cloners_daily_sum": 4,
+        "clones": 8,
+        "unique_cloners_daily_sum": 7,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1182,10 +1182,10 @@
       "views": 5
     },
     "AcTePuKc/locflow": {
-      "clones": 34,
+      "clones": 35,
       "last_30_days": {
-        "clones": 12,
-        "unique_cloners_daily_sum": 12,
+        "clones": 10,
+        "unique_cloners_daily_sum": 10,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -1228,16 +1228,16 @@
       "views": 1
     },
     "AcTePuKc/rdr2-l10n-tool": {
-      "clones": 32,
+      "clones": 34,
       "last_30_days": {
-        "clones": 14,
-        "unique_cloners_daily_sum": 14,
+        "clones": 13,
+        "unique_cloners_daily_sum": 13,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
+        "clones": 3,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1251,18 +1251,18 @@
       "views": 0
     },
     "AcTePuKc/repo-metrics": {
-      "clones": 978,
+      "clones": 995,
       "last_30_days": {
-        "clones": 404,
-        "unique_cloners_daily_sum": 210,
-        "unique_visitors_daily_sum": 16,
-        "views": 27
+        "clones": 410,
+        "unique_cloners_daily_sum": 208,
+        "unique_visitors_daily_sum": 14,
+        "views": 25
       },
       "last_7_days": {
-        "clones": 96,
-        "unique_cloners_daily_sum": 46,
-        "unique_visitors_daily_sum": 4,
-        "views": 4
+        "clones": 107,
+        "unique_cloners_daily_sum": 49,
+        "unique_visitors_daily_sum": 3,
+        "views": 3
       },
       "repository_snapshot": {
         "forks": 0,
@@ -1276,14 +1276,14 @@
     "AcTePuKc/stardew-cyrillic-fonts": {
       "clones": 37,
       "last_30_days": {
-        "clones": 12,
-        "unique_cloners_daily_sum": 12,
-        "unique_visitors_daily_sum": 4,
-        "views": 5
+        "clones": 9,
+        "unique_cloners_daily_sum": 9,
+        "unique_visitors_daily_sum": 3,
+        "views": 4
       },
       "last_7_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 3,
+        "clones": 2,
+        "unique_cloners_daily_sum": 2,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -1297,16 +1297,16 @@
       "views": 26
     },
     "AcTePuKc/stardew-valley-bg": {
-      "clones": 237,
+      "clones": 238,
       "last_30_days": {
-        "clones": 48,
-        "unique_cloners_daily_sum": 35,
+        "clones": 46,
+        "unique_cloners_daily_sum": 33,
         "unique_visitors_daily_sum": 4,
         "views": 4
       },
       "last_7_days": {
-        "clones": 7,
-        "unique_cloners_daily_sum": 6,
+        "clones": 4,
+        "unique_cloners_daily_sum": 3,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
@@ -1328,8 +1328,8 @@
         "views": 6
       },
       "last_7_days": {
-        "clones": 1,
-        "unique_cloners_daily_sum": 1,
+        "clones": 0,
+        "unique_cloners_daily_sum": 0,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1374,8 +1374,8 @@
         "views": 0
       },
       "last_7_days": {
-        "clones": 1,
-        "unique_cloners_daily_sum": 1,
+        "clones": 0,
+        "unique_cloners_daily_sum": 0,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1389,18 +1389,18 @@
       "views": 1
     },
     "AcTePuKc/travellers-rest-translation-mod": {
-      "clones": 338,
+      "clones": 340,
       "last_30_days": {
-        "clones": 102,
-        "unique_cloners_daily_sum": 63,
-        "unique_visitors_daily_sum": 15,
-        "views": 27
+        "clones": 101,
+        "unique_cloners_daily_sum": 61,
+        "unique_visitors_daily_sum": 16,
+        "views": 28
       },
       "last_7_days": {
         "clones": 3,
-        "unique_cloners_daily_sum": 3,
-        "unique_visitors_daily_sum": 1,
-        "views": 1
+        "unique_cloners_daily_sum": 2,
+        "unique_visitors_daily_sum": 3,
+        "views": 3
       },
       "repository_snapshot": {
         "forks": 0,
@@ -1409,21 +1409,21 @@
         "watchers": 0
       },
       "tracking_since": "2026-08-29",
-      "views": 69
+      "views": 71
     },
     "AcTePuKc/uelockit": {
-      "clones": 63,
+      "clones": 65,
       "last_30_days": {
-        "clones": 27,
-        "unique_cloners_daily_sum": 25,
-        "unique_visitors_daily_sum": 68,
-        "views": 143
+        "clones": 26,
+        "unique_cloners_daily_sum": 23,
+        "unique_visitors_daily_sum": 72,
+        "views": 152
       },
       "last_7_days": {
-        "clones": 3,
+        "clones": 4,
         "unique_cloners_daily_sum": 3,
-        "unique_visitors_daily_sum": 16,
-        "views": 37
+        "unique_visitors_daily_sum": 18,
+        "views": 43
       },
       "repository_snapshot": {
         "forks": 0,
@@ -1432,19 +1432,19 @@
         "watchers": 0
       },
       "tracking_since": "2026-08-18",
-      "views": 403
+      "views": 412
     },
     "AcTePuKc/urlc-feasibility-research": {
       "clones": 68,
       "last_30_days": {
-        "clones": 15,
-        "unique_cloners_daily_sum": 15,
+        "clones": 12,
+        "unique_cloners_daily_sum": 12,
         "unique_visitors_daily_sum": 1,
         "views": 1
       },
       "last_7_days": {
-        "clones": 1,
-        "unique_cloners_daily_sum": 1,
+        "clones": 0,
+        "unique_cloners_daily_sum": 0,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1460,14 +1460,14 @@
     "AcTePuKc/uv-app-starter-pack": {
       "clones": 37,
       "last_30_days": {
-        "clones": 20,
-        "unique_cloners_daily_sum": 19,
+        "clones": 16,
+        "unique_cloners_daily_sum": 15,
         "unique_visitors_daily_sum": 9,
         "views": 10
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 3,
         "views": 4
       },
@@ -1483,14 +1483,14 @@
     "AcTePuKc/void-architect": {
       "clones": 28,
       "last_30_days": {
-        "clones": 16,
-        "unique_cloners_daily_sum": 14,
+        "clones": 12,
+        "unique_cloners_daily_sum": 10,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
       "last_7_days": {
-        "clones": 2,
-        "unique_cloners_daily_sum": 2,
+        "clones": 1,
+        "unique_cloners_daily_sum": 1,
         "unique_visitors_daily_sum": 0,
         "views": 0
       },
@@ -1504,18 +1504,18 @@
       "views": 0
     },
     "AcTePuKc/word-splitter": {
-      "clones": 32,
+      "clones": 33,
       "last_30_days": {
-        "clones": 16,
-        "unique_cloners_daily_sum": 15,
+        "clones": 14,
+        "unique_cloners_daily_sum": 13,
         "unique_visitors_daily_sum": 6,
         "views": 6
       },
       "last_7_days": {
-        "clones": 3,
-        "unique_cloners_daily_sum": 3,
-        "unique_visitors_daily_sum": 2,
-        "views": 2
+        "clones": 2,
+        "unique_cloners_daily_sum": 2,
+        "unique_visitors_daily_sum": 1,
+        "views": 1
       },
       "repository_snapshot": {
         "forks": 0,
@@ -1529,11 +1529,11 @@
   },
   "repository_count": 66,
   "totals": {
-    "clones": 7781,
+    "clones": 7867,
     "forks": 10,
-    "stars": 147,
-    "views": 7994,
+    "stars": 148,
+    "views": 8079,
     "watchers": 17
   },
-  "updated_at": "2026-11-09T12:59:21Z"
+  "updated_at": "2026-11-10T12:44:28Z"
 }

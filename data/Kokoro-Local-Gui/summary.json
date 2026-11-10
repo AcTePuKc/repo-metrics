@@ -1,17 +1,17 @@
 {
   "clones": 261,
-  "days_tracked": 83,
+  "days_tracked": 84,
   "last_30_days": {
-    "clones": 89,
-    "unique_cloners_daily_sum": 79,
-    "unique_visitors_daily_sum": 343,
-    "views": 571
+    "clones": 85,
+    "unique_cloners_daily_sum": 75,
+    "unique_visitors_daily_sum": 351,
+    "views": 579
   },
   "last_7_days": {
-    "clones": 13,
-    "unique_cloners_daily_sum": 12,
-    "unique_visitors_daily_sum": 80,
-    "views": 125
+    "clones": 8,
+    "unique_cloners_daily_sum": 8,
+    "unique_visitors_daily_sum": 78,
+    "views": 118
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 231,
-  "unique_visitors_daily_sum": 1142,
-  "updated_at": "2026-11-09T12:59:21Z",
-  "views": 2010
+  "unique_visitors_daily_sum": 1161,
+  "updated_at": "2026-11-10T12:44:28Z",
+  "views": 2038
 }
