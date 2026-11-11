@@ -516,6 +516,20 @@
         "title": "/releases",
         "uniques": 1
       }
+    ],
+    "2026-11-11": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/bg-game-translation-qa",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-game-translation-qa/releases",
+        "title": "/releases",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg-game-translation-qa"
