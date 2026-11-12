@@ -1,17 +1,17 @@
 {
   "clones": 33,
-  "days_tracked": 86,
+  "days_tracked": 87,
   "last_30_days": {
-    "clones": 11,
-    "unique_cloners_daily_sum": 11,
-    "unique_visitors_daily_sum": 7,
-    "views": 7
+    "clones": 10,
+    "unique_cloners_daily_sum": 10,
+    "unique_visitors_daily_sum": 6,
+    "views": 6
   },
   "last_7_days": {
-    "clones": 4,
-    "unique_cloners_daily_sum": 4,
-    "unique_visitors_daily_sum": 1,
-    "views": 1
+    "clones": 2,
+    "unique_cloners_daily_sum": 2,
+    "unique_visitors_daily_sum": 0,
+    "views": 0
   },
   "repository": "AcTePuKc/AcTePuKc",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 33,
   "unique_visitors_daily_sum": 18,
-  "updated_at": "2026-11-11T11:56:02Z",
+  "updated_at": "2026-11-12T12:52:29Z",
   "views": 18
 }

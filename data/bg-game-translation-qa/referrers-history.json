@@ -478,6 +478,13 @@
         "referrer": "Google",
         "uniques": 2
       }
+    ],
+    "2026-11-12": [
+      {
+        "count": 2,
+        "referrer": "Google",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/bg-game-translation-qa"

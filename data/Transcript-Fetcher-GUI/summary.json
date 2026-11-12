@@ -1,17 +1,17 @@
 {
   "clones": 34,
-  "days_tracked": 86,
+  "days_tracked": 87,
   "last_30_days": {
-    "clones": 19,
-    "unique_cloners_daily_sum": 16,
-    "unique_visitors_daily_sum": 7,
-    "views": 7
+    "clones": 18,
+    "unique_cloners_daily_sum": 15,
+    "unique_visitors_daily_sum": 6,
+    "views": 6
   },
   "last_7_days": {
     "clones": 3,
     "unique_cloners_daily_sum": 2,
-    "unique_visitors_daily_sum": 3,
-    "views": 3
+    "unique_visitors_daily_sum": 4,
+    "views": 4
   },
   "repository": "AcTePuKc/Transcript-Fetcher-GUI",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 31,
-  "unique_visitors_daily_sum": 25,
-  "updated_at": "2026-11-11T11:56:02Z",
-  "views": 29
+  "unique_visitors_daily_sum": 26,
+  "updated_at": "2026-11-12T12:52:29Z",
+  "views": 30
 }
