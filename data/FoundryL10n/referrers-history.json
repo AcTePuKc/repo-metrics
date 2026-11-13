@@ -473,6 +473,13 @@
         "referrer": "aocr.org",
         "uniques": 6
       }
+    ],
+    "2026-11-13": [
+      {
+        "count": 3,
+        "referrer": "aocr.org",
+        "uniques": 3
+      }
     ]
   },
   "repository": "AcTePuKc/FoundryL10n"

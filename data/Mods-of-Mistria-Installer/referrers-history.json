@@ -923,6 +923,13 @@
         "referrer": "aocr.org",
         "uniques": 2
       }
+    ],
+    "2026-11-13": [
+      {
+        "count": 1,
+        "referrer": "aocr.org",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Mods-of-Mistria-Installer"

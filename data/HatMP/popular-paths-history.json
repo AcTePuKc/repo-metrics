@@ -205,7 +205,21 @@
     "2026-11-09": [],
     "2026-11-10": [],
     "2026-11-11": [],
-    "2026-11-12": []
+    "2026-11-12": [],
+    "2026-11-13": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/commit/cd833ba5589d306cb7ae3776dbdb1973dce200a4",
+        "title": "/commit/cd833ba5589d306cb7ae3776dbdb1973dce200a4",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/fapforce5/HatMP/compare/master...AcTePuKc:HatMP:feature/localization-foundation",
+        "title": "P/compare/master...AcTePuKc:HatMP:feature/localization-foundation",
+        "uniques": 1
+      }
+    ]
   },
   "repository": "AcTePuKc/HatMP"
 }

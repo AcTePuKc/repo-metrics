@@ -1,9 +1,9 @@
 {
   "clones": 10,
-  "days_tracked": 96,
+  "days_tracked": 97,
   "last_30_days": {
-    "clones": 4,
-    "unique_cloners_daily_sum": 4,
+    "clones": 3,
+    "unique_cloners_daily_sum": 3,
     "unique_visitors_daily_sum": 2,
     "views": 2
   },
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-07",
   "unique_cloners_daily_sum": 9,
   "unique_visitors_daily_sum": 6,
-  "updated_at": "2026-11-12T12:52:29Z",
+  "updated_at": "2026-11-13T12:19:38Z",
   "views": 6
 }

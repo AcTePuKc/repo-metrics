@@ -1375,6 +1375,38 @@
         "title": "/tree/master/resources",
         "uniques": 1
       }
+    ],
+    "2026-11-13": [
+      {
+        "count": 8,
+        "path": "/AcTePuKc/FoundryL10n",
+        "title": "Overview",
+        "uniques": 8
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/FoundryL10n/blob/master/forbidden.sample.txt",
+        "title": "/blob/master/forbidden.sample.txt",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/FoundryL10n/blob/master/style.sample.md",
+        "title": "/blob/master/style.sample.md",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/FoundryL10n/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/FoundryL10n/tree/master/resources",
+        "title": "/tree/master/resources",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/FoundryL10n"

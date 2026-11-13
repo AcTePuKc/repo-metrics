@@ -1,16 +1,16 @@
 {
   "clones": 113,
-  "days_tracked": 87,
+  "days_tracked": 88,
   "last_30_days": {
-    "clones": 47,
-    "unique_cloners_daily_sum": 38,
-    "unique_visitors_daily_sum": 281,
-    "views": 536
+    "clones": 45,
+    "unique_cloners_daily_sum": 36,
+    "unique_visitors_daily_sum": 275,
+    "views": 523
   },
   "last_7_days": {
-    "clones": 17,
-    "unique_cloners_daily_sum": 14,
-    "unique_visitors_daily_sum": 60,
+    "clones": 16,
+    "unique_cloners_daily_sum": 13,
+    "unique_visitors_daily_sum": 55,
     "views": 103
   },
   "repository": "AcTePuKc/LocresStudio",
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 92,
-  "unique_visitors_daily_sum": 904,
-  "updated_at": "2026-11-12T12:52:29Z",
-  "views": 1871
+  "unique_visitors_daily_sum": 909,
+  "updated_at": "2026-11-13T12:19:38Z",
+  "views": 1885
 }
