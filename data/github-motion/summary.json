@@ -1,17 +1,17 @@
 {
   "clones": 39,
-  "days_tracked": 87,
+  "days_tracked": 88,
   "last_30_days": {
-    "clones": 13,
-    "unique_cloners_daily_sum": 12,
-    "unique_visitors_daily_sum": 4,
-    "views": 4
+    "clones": 12,
+    "unique_cloners_daily_sum": 11,
+    "unique_visitors_daily_sum": 5,
+    "views": 5
   },
   "last_7_days": {
-    "clones": 5,
-    "unique_cloners_daily_sum": 4,
-    "unique_visitors_daily_sum": 1,
-    "views": 1
+    "clones": 3,
+    "unique_cloners_daily_sum": 3,
+    "unique_visitors_daily_sum": 2,
+    "views": 2
   },
   "repository": "AcTePuKc/github-motion",
   "repository_snapshot": {
@@ -22,7 +22,7 @@
   },
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 38,
-  "unique_visitors_daily_sum": 23,
-  "updated_at": "2026-11-13T12:19:38Z",
-  "views": 36
+  "unique_visitors_daily_sum": 24,
+  "updated_at": "2026-11-14T11:34:57Z",
+  "views": 37
 }

@@ -3531,6 +3531,68 @@
         "title": "/releases/tag/v0.1.4",
         "uniques": 1
       }
+    ],
+    "2026-11-14": [
+      {
+        "count": 10,
+        "path": "/AcTePuKc/bg-text",
+        "title": "Overview",
+        "uniques": 9
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/bg-text/tree/main/skills/bg-text",
+        "title": "/tree/main/skills/bg-text",
+        "uniques": 3
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/bg-text/tree/main/skills/bg-text/agents",
+        "title": "/tree/main/skills/bg-text/agents",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/bg-text/blob/main/.agents/skills/bg-text/SKILL.md",
+        "title": "/blob/main/.agents/skills/bg-text/SKILL.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/bg-text/tree/main/.agents/skills/bg-text",
+        "title": "/tree/main/.agents/skills/bg-text",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/blob/main/.claude/skills/bg-text/SKILL.md",
+        "title": "/blob/main/.claude/skills/bg-text/SKILL.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/SKILL.md",
+        "title": "/blob/main/skills/bg-text/SKILL.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/tree/main/.agents",
+        "title": "/tree/main/.agents",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/tree/main/skills",
+        "title": "/tree/main/skills",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/releases/tag/v0.1.4",
+        "title": "/releases/tag/v0.1.4",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg-text"

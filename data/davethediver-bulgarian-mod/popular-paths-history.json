@@ -2031,6 +2031,20 @@
         "title": "/tree/main/src/DaveTheDiverTranslationMod/translations",
         "uniques": 1
       }
+    ],
+    "2026-11-14": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/tree/main/config",
+        "title": "/tree/main/config",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"

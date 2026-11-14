@@ -1,6 +1,6 @@
 {
   "clones": 67,
-  "days_tracked": 87,
+  "days_tracked": 88,
   "last_30_days": {
     "clones": 23,
     "unique_cloners_daily_sum": 20,
@@ -10,8 +10,8 @@
   "last_7_days": {
     "clones": 6,
     "unique_cloners_daily_sum": 5,
-    "unique_visitors_daily_sum": 8,
-    "views": 44
+    "unique_visitors_daily_sum": 6,
+    "views": 30
   },
   "repository": "AcTePuKc/uelockit",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-18",
   "unique_cloners_daily_sum": 63,
   "unique_visitors_daily_sum": 181,
-  "updated_at": "2026-11-13T12:19:38Z",
+  "updated_at": "2026-11-14T11:34:57Z",
   "views": 426
 }
