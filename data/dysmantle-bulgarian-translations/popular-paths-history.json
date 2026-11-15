@@ -619,6 +619,14 @@
         "title": "Overview",
         "uniques": 2
       }
+    ],
+    "2026-11-15": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations",
+        "title": "Overview",
+        "uniques": 3
+      }
     ]
   },
   "repository": "AcTePuKc/dysmantle-bulgarian-translations"
