@@ -1,16 +1,16 @@
 # Portfolio dashboard
 
-Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-11-15T12:00:31Z`.
+Automatically generated from the repository snapshots in [`data/all-repositories.json`](data/all-repositories.json). Updated: `2026-11-16T12:53:00Z`.
 
 ## At a glance
 
 | Repositories | Stars | Forks | Lifetime tracked clones | Lifetime tracked views |
 | ---: | ---: | ---: | ---: | ---: |
-| 66 | 149 | 10 | 8178 | 8484 |
+| 66 | 150 | 10 | 8178 | 8484 |
 
 | Window | Clones | Views |
 | --- | ---: | ---: |
-| Last 7 days | 481 | 565 |
+| Last 7 days | 481 | 564 |
 | Last 30 days | 2260 | 2459 |
 
 ## Most active repositories
@@ -19,7 +19,7 @@ Ranked by combined views and clones in the last 30 days.
 
 | Repository | Views (30d) | Clones (30d) | Stars | Traffic |
 | --- | ---: | ---: | ---: | --- |
-| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | 628 | 129 | 25 | [chart](charts/Chatterbox-TTS-UI/traffic.svg) |
+| [Chatterbox-TTS-UI](https://github.com/AcTePuKc/Chatterbox-TTS-UI) | 628 | 129 | 26 | [chart](charts/Chatterbox-TTS-UI/traffic.svg) |
 | [Kokoro-Local-Gui](https://github.com/AcTePuKc/Kokoro-Local-Gui) | 569 | 99 | 49 | [chart](charts/Kokoro-Local-Gui/traffic.svg) |
 | [LocresStudio](https://github.com/AcTePuKc/LocresStudio) | 497 | 47 | 12 | [chart](charts/LocresStudio/traffic.svg) |
 | [repo-metrics](https://github.com/AcTePuKc/repo-metrics) | 23 | 395 | 0 | [chart](charts/repo-metrics/traffic.svg) |
@@ -32,7 +32,7 @@ Ranked by combined views and clones in the last 30 days.
 
 ## Latest traffic sources
 
-The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-11-15`.
+The table combines the latest available GitHub popular-referrers snapshots for each repository. These are current snapshots, not lifetime totals. Snapshot date: `2026-11-16`.
 
 | Referrer | Snapshot views |
 | --- | ---: |
