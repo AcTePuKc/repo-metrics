@@ -992,6 +992,13 @@
         "referrer": "yandex.ru",
         "uniques": 1
       }
+    ],
+    "2026-11-17": [
+      {
+        "count": 3,
+        "referrer": "Google",
+        "uniques": 3
+      }
     ]
   },
   "repository": "AcTePuKc/DiveOrDie-Mods"
