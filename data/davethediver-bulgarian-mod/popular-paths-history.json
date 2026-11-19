@@ -2173,6 +2173,56 @@
         "title": "/tree/main/docs",
         "uniques": 1
       }
+    ],
+    "2026-11-19": [
+      {
+        "count": 3,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/blob/main/src/DaveTheDiverTranslationMod/translations/labels.txt",
+        "title": "/blob/main/src/DaveTheDiverTranslationMod/translations/labels.txt",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/tree/main/src/DaveTheDiverTranslationMod",
+        "title": "/tree/main/src/DaveTheDiverTranslationMod",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/tree/main/config",
+        "title": "/tree/main/config",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/tree/main/src/DaveTheDiverTranslationMod/translations",
+        "title": "/tree/main/src/DaveTheDiverTranslationMod/translations",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/blob/main/config/actepukc.davethediver.uitranslationbulgarian.cfg",
+        "title": "/blob/main/config/actepukc.davethediver.uitranslationbulgarian.cfg",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/tree/main",
+        "title": "/tree/main",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/davethediver-bulgarian-mod/tree/main/docs",
+        "title": "/tree/main/docs",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/davethediver-bulgarian-mod"

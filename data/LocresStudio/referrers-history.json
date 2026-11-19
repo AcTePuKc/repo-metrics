@@ -3607,6 +3607,48 @@
         "referrer": "nexusmods.com",
         "uniques": 1
       }
+    ],
+    "2026-11-19": [
+      {
+        "count": 56,
+        "referrer": "Google",
+        "uniques": 46
+      },
+      {
+        "count": 4,
+        "referrer": "aocr.org",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "search.brave.com",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nextgeeker.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "nexusmods.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/LocresStudio"

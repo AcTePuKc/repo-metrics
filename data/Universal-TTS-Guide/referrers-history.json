@@ -1827,6 +1827,23 @@
         "referrer": "DuckDuckGo",
         "uniques": 1
       }
+    ],
+    "2026-11-19": [
+      {
+        "count": 16,
+        "referrer": "Google",
+        "uniques": 12
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "referrer": "DuckDuckGo",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"
