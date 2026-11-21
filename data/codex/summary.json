@@ -1,17 +1,17 @@
 {
   "clones": 294,
-  "days_tracked": 94,
+  "days_tracked": 96,
   "last_30_days": {
-    "clones": 88,
-    "unique_cloners_daily_sum": 9,
+    "clones": 86,
+    "unique_cloners_daily_sum": 8,
     "unique_visitors_daily_sum": 5,
     "views": 5
   },
   "last_7_days": {
     "clones": 1,
     "unique_cloners_daily_sum": 1,
-    "unique_visitors_daily_sum": 2,
-    "views": 2
+    "unique_visitors_daily_sum": 1,
+    "views": 1
   },
   "repository": "AcTePuKc/codex",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 48,
   "unique_visitors_daily_sum": 18,
-  "updated_at": "2026-11-20T13:05:50Z",
+  "updated_at": "2026-11-21T12:46:27Z",
   "views": 20
 }

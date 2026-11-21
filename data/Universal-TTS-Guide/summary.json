@@ -1,17 +1,17 @@
 {
-  "clones": 119,
-  "days_tracked": 94,
+  "clones": 120,
+  "days_tracked": 95,
   "last_30_days": {
-    "clones": 45,
-    "unique_cloners_daily_sum": 33,
-    "unique_visitors_daily_sum": 106,
-    "views": 123
+    "clones": 42,
+    "unique_cloners_daily_sum": 30,
+    "unique_visitors_daily_sum": 107,
+    "views": 124
   },
   "last_7_days": {
-    "clones": 5,
+    "clones": 4,
     "unique_cloners_daily_sum": 4,
-    "unique_visitors_daily_sum": 25,
-    "views": 28
+    "unique_visitors_daily_sum": 24,
+    "views": 27
   },
   "repository": "AcTePuKc/Universal-TTS-Guide",
   "repository_snapshot": {
@@ -21,8 +21,8 @@
     "watchers": 1
   },
   "tracking_since": "2026-08-18",
-  "unique_cloners_daily_sum": 92,
-  "unique_visitors_daily_sum": 336,
-  "updated_at": "2026-11-20T13:05:50Z",
-  "views": 471
+  "unique_cloners_daily_sum": 93,
+  "unique_visitors_daily_sum": 338,
+  "updated_at": "2026-11-21T12:46:27Z",
+  "views": 473
 }
