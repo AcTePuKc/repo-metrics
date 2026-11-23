@@ -654,6 +654,18 @@
         "referrer": "github.com",
         "uniques": 2
       }
+    ],
+    "2026-11-23": [
+      {
+        "count": 13,
+        "referrer": "Google",
+        "uniques": 13
+      },
+      {
+        "count": 4,
+        "referrer": "github.com",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/GraveyardKeeper2-Mods"

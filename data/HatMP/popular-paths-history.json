@@ -381,6 +381,50 @@
         "title": "P/compare/master...AcTePuKc:HatMP:feature/localization-foundation",
         "uniques": 1
       }
+    ],
+    "2026-11-23": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/HatMP",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-upstream/l10n/POST_MERGE_OPTIMIZATION.md",
+        "title": "/blob/feature/localization-upstream/l10n/POST_MERGE_OPTIMIZATION.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/commit/2cc4c4016d492a0e9997577f460f2846354f5651",
+        "title": "/commit/2cc4c4016d492a0e9997577f460f2846354f5651",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/commit/c9ce235f65b53fdf3ef0c07d7994fbc072cf5887",
+        "title": "/commit/c9ce235f65b53fdf3ef0c07d7994fbc072cf5887",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/commit/cd833ba5589d306cb7ae3776dbdb1973dce200a4",
+        "title": "/commit/cd833ba5589d306cb7ae3776dbdb1973dce200a4",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/commits/master",
+        "title": "/commits/master",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/fapforce5/HatMP/compare/master...AcTePuKc:HatMP:feature/localization-foundation",
+        "title": "P/compare/master...AcTePuKc:HatMP:feature/localization-foundation",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/HatMP"
