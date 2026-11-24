@@ -5207,6 +5207,68 @@
         "title": "/blob/main/docs/guides/3-model-training.md",
         "uniques": 1
       }
+    ],
+    "2026-11-24": [
+      {
+        "count": 19,
+        "path": "/AcTePuKc/Universal-TTS-Guide",
+        "title": "Overview",
+        "uniques": 19
+      },
+      {
+        "count": 13,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/2-training-setup.md",
+        "title": "/blob/main/docs/guides/2-training-setup.md",
+        "uniques": 10
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/1-data-preparation.md",
+        "title": "/blob/main/docs/guides/1-data-preparation.md",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/3_MODEL_TRAINING.md",
+        "title": "/blob/main/guides/3_MODEL_TRAINING.md",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/4_INFERENCE.md",
+        "title": "/blob/main/guides/4_INFERENCE.md",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/docs/guides/5-packaging-and-sharing.md",
+        "title": "/blob/main/docs/guides/5-packaging-and-sharing.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/2_TRAINING_SETUP.md",
+        "title": "/blob/main/guides/2_TRAINING_SETUP.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/guides/5_PACKAGING_AND_SHARING.md",
+        "title": "/blob/main/guides/5_PACKAGING_AND_SHARING.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/blob/main/languages/es/README.md",
+        "title": "/blob/main/languages/es/README.md",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Universal-TTS-Guide/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

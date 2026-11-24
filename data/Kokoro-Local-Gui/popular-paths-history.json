@@ -5207,6 +5207,68 @@
         "title": "/actions",
         "uniques": 1
       }
+    ],
+    "2026-11-24": [
+      {
+        "count": 134,
+        "path": "/AcTePuKc/Kokoro-Local-Gui",
+        "title": "Overview",
+        "uniques": 94
+      },
+      {
+        "count": 20,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases",
+        "title": "/releases",
+        "uniques": 18
+      },
+      {
+        "count": 12,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/releases/tag/v2.0.2",
+        "title": "/releases/tag/v2.0.2",
+        "uniques": 10
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 5
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/issues",
+        "title": "/issues",
+        "uniques": 3
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/run.bat",
+        "title": "/blob/main/run.bat",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/blob/main/models.py",
+        "title": "/blob/main/models.py",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/actepukc/kokoro-local-gui",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/pulls",
+        "title": "/pulls",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Kokoro-Local-Gui/actions",
+        "title": "/actions",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

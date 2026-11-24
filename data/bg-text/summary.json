@@ -1,17 +1,17 @@
 {
   "clones": 239,
-  "days_tracked": 98,
+  "days_tracked": 99,
   "last_30_days": {
-    "clones": 111,
-    "unique_cloners_daily_sum": 84,
-    "unique_visitors_daily_sum": 28,
-    "views": 79
+    "clones": 108,
+    "unique_cloners_daily_sum": 81,
+    "unique_visitors_daily_sum": 26,
+    "views": 74
   },
   "last_7_days": {
-    "clones": 27,
-    "unique_cloners_daily_sum": 22,
-    "unique_visitors_daily_sum": 9,
-    "views": 15
+    "clones": 24,
+    "unique_cloners_daily_sum": 19,
+    "unique_visitors_daily_sum": 7,
+    "views": 13
   },
   "repository": "AcTePuKc/bg-text",
   "repository_snapshot": {
@@ -23,6 +23,6 @@
   "tracking_since": "2026-08-17",
   "unique_cloners_daily_sum": 184,
   "unique_visitors_daily_sum": 87,
-  "updated_at": "2026-11-23T14:51:32Z",
+  "updated_at": "2026-11-24T14:57:30Z",
   "views": 208
 }

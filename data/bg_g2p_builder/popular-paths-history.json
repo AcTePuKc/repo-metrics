@@ -1211,6 +1211,44 @@
         "title": "/tree/main/assets",
         "uniques": 1
       }
+    ],
+    "2026-11-24": [
+      {
+        "count": 8,
+        "path": "/AcTePuKc/bg_g2p_builder",
+        "title": "Overview",
+        "uniques": 5
+      },
+      {
+        "count": 7,
+        "path": "/AcTePuKc/bg_g2p_builder/tree/main/assets",
+        "title": "/tree/main/assets",
+        "uniques": 3
+      },
+      {
+        "count": 5,
+        "path": "/AcTePuKc/bg_g2p_builder/blob/main/assets/bulgarian.tsv",
+        "title": "/blob/main/assets/bulgarian.tsv",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/bg_g2p_builder/blob/main/assets/lexicon.tsv",
+        "title": "/blob/main/assets/lexicon.tsv",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg_g2p_builder/blob/main/DATA_LICENSE.md",
+        "title": "/blob/main/DATA_LICENSE.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg_g2p_builder/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg_g2p_builder"
