@@ -699,6 +699,26 @@
         "title": "Overview",
         "uniques": 3
       }
+    ],
+    "2026-11-25": [
+      {
+        "count": 4,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations",
+        "title": "Overview",
+        "uniques": 4
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations/compare/v0.2.1...v0.2.2",
+        "title": "/compare/v0.2.1...v0.2.2",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/dysmantle-bulgarian-translations/releases",
+        "title": "/releases",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/dysmantle-bulgarian-translations"

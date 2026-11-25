@@ -2287,6 +2287,20 @@
         "title": "/issues",
         "uniques": 1
       }
+    ],
+    "2026-11-25": [
+      {
+        "count": 2,
+        "path": "/AcTePuKc/DiveOrDie-Mods",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/DiveOrDie-Mods/issues",
+        "title": "/issues",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/DiveOrDie-Mods"

@@ -1914,6 +1914,18 @@
         "referrer": "Bing",
         "uniques": 1
       }
+    ],
+    "2026-11-25": [
+      {
+        "count": 13,
+        "referrer": "Google",
+        "uniques": 12
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"
