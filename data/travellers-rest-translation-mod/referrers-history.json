@@ -585,6 +585,13 @@
         "referrer": "Google",
         "uniques": 3
       }
+    ],
+    "2026-11-26": [
+      {
+        "count": 8,
+        "referrer": "Google",
+        "uniques": 4
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"

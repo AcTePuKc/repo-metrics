@@ -4269,6 +4269,62 @@
         "title": "/tree/main/skills/bg-text",
         "uniques": 1
       }
+    ],
+    "2026-11-26": [
+      {
+        "count": 14,
+        "path": "/AcTePuKc/bg-text",
+        "title": "Overview",
+        "uniques": 10
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/bg-text/releases/tag/v0.1.4",
+        "title": "/releases/tag/v0.1.4",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/SKILL.md",
+        "title": "/blob/main/skills/bg-text/SKILL.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/blob/main/skills/bg-text/references/sources.md",
+        "title": "/blob/main/skills/bg-text/references/sources.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/releases",
+        "title": "/releases",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/tree/main/skills",
+        "title": "/tree/main/skills",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/bg-text/tree/main/skills/bg-text",
+        "title": "/tree/main/skills/bg-text",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/bg-text"
