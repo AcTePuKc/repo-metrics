@@ -3793,6 +3793,38 @@
         "referrer": "ntp.msn.com",
         "uniques": 1
       }
+    ],
+    "2026-11-27": [
+      {
+        "count": 55,
+        "referrer": "Google",
+        "uniques": 46
+      },
+      {
+        "count": 5,
+        "referrer": "github.com",
+        "uniques": 4
+      },
+      {
+        "count": 3,
+        "referrer": "Bing",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "referrer": "chatgpt.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "ntp.msn.com",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "referrer": "search.brave.com",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Kokoro-Local-Gui"

@@ -5393,6 +5393,68 @@
         "title": "/tree/main",
         "uniques": 2
       }
+    ],
+    "2026-11-27": [
+      {
+        "count": 181,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI",
+        "title": "Overview",
+        "uniques": 129
+      },
+      {
+        "count": 34,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/releases",
+        "title": "/releases",
+        "uniques": 29
+      },
+      {
+        "count": 26,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/releases/tag/ui-v0.2.0",
+        "title": "/releases/tag/ui-v0.2.0",
+        "uniques": 22
+      },
+      {
+        "count": 10,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/Readme.md",
+        "title": "/blob/main/Readme.md",
+        "uniques": 6
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/run.bat",
+        "title": "/blob/main/run.bat",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "path": "/AcTePuKc/chatterbox-tts-ui",
+        "title": "Overview",
+        "uniques": 2
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/install_torch.py",
+        "title": "/blob/main/install_torch.py",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/screenshot_1.png",
+        "title": "/blob/main/screenshot_1.png",
+        "uniques": 3
+      },
+      {
+        "count": 3,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/issues",
+        "title": "/issues",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/Chatterbox-TTS-UI/blob/main/models.json",
+        "title": "/blob/main/models.json",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/Chatterbox-TTS-UI"

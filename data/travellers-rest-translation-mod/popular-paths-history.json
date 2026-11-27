@@ -2486,6 +2486,26 @@
         "title": "/releases/tag/v0.1.4",
         "uniques": 1
       }
+    ],
+    "2026-11-27": [
+      {
+        "count": 6,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/releases",
+        "title": "/releases",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod",
+        "title": "Overview",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/travellers-rest-translation-mod/releases/tag/v0.1.4",
+        "title": "/releases/tag/v0.1.4",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/travellers-rest-translation-mod"
