@@ -1747,6 +1747,14 @@
         "title": "/blob/main/requirements.txt",
         "uniques": 1
       }
+    ],
+    "2026-11-28": [
+      {
+        "count": 1,
+        "path": "/AcTePuKc/uv-app-starter-pack/blob/main/requirements.txt",
+        "title": "/blob/main/requirements.txt",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/uv-app-starter-pack"

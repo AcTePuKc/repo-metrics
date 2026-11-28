@@ -1950,6 +1950,23 @@
         "referrer": "Bing",
         "uniques": 1
       }
+    ],
+    "2026-11-28": [
+      {
+        "count": 17,
+        "referrer": "Google",
+        "uniques": 15
+      },
+      {
+        "count": 2,
+        "referrer": "Bing",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "referrer": "actepukc.github.io",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/Universal-TTS-Guide"

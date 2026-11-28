@@ -165,6 +165,13 @@
         "referrer": "Google",
         "uniques": 2
       }
+    ],
+    "2026-11-28": [
+      {
+        "count": 2,
+        "referrer": "Google",
+        "uniques": 2
+      }
     ]
   },
   "repository": "AcTePuKc/dysmantle-bulgarian-translations"

@@ -673,6 +673,68 @@
         "title": "/blob/feature/localization-0.28.3/scripts/room/_example.js",
         "uniques": 1
       }
+    ],
+    "2026-11-28": [
+      {
+        "count": 5,
+        "path": "/AcTePuKc/HatMP",
+        "title": "Overview",
+        "uniques": 3
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/HatMP/tree/master/scripts",
+        "title": "/tree/master/scripts",
+        "uniques": 2
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-upstream/l10n/POST_MERGE_OPTIMIZATION.md",
+        "title": "/blob/feature/localization-upstream/l10n/POST_MERGE_OPTIMIZATION.md",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "path": "/AcTePuKc/HatMP/tree/feature/localization-0.28.3",
+        "title": "/tree/feature/localization-0.28.3",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-0.28.3/index.html",
+        "title": "/blob/feature/localization-0.28.3/index.html",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-0.28.3/l10n/MERGE_INVENTORY.md",
+        "title": "/blob/feature/localization-0.28.3/l10n/MERGE_INVENTORY.md",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-0.28.3/scripts/char.js",
+        "title": "/blob/feature/localization-0.28.3/scripts/char.js",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-0.28.3/scripts/dialogue.js",
+        "title": "/blob/feature/localization-0.28.3/scripts/dialogue.js",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-0.28.3/scripts/enemy.js",
+        "title": "/blob/feature/localization-0.28.3/scripts/enemy.js",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "path": "/AcTePuKc/HatMP/blob/feature/localization-0.28.3/scripts/room/_example.js",
+        "title": "/blob/feature/localization-0.28.3/scripts/room/_example.js",
+        "uniques": 1
+      }
     ]
   },
   "repository": "AcTePuKc/HatMP"
